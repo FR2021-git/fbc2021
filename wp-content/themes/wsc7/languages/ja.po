@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WSC6 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-25 19:03+0900\n"
+"PO-Revision-Date: 2010-11-04 19:27+0900\n"
+"Last-Translator: Go Imai <go@studiobrain.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Back"
+msgstr "←前の記事へ"
+
+msgid "Next"
+msgstr "次の記事へ→"
+
+msgid "Top"
+msgstr "▲このページのTOPへ"
+
+msgid "Comments"
+msgstr "これまでのコメント"
+
+msgid " tags: "
+msgstr " タグ: "
+
+msgid "more"
+msgstr "→続きを読む"
+
+msgid "Y.n.j"
+msgstr "Y年n月j日"
+
+msgid "Y.n"
+msgstr "Y年n月"
+
+msgid "Y"
+msgstr "Y年"
+
+msgid "side-widget"
+msgstr "サイドウィジェット"
+
+msgid "footer-widget"
+msgstr "フッターウィジェット"
+
+msgid "main-menu"
+msgstr "メインメニュー"
+
+msgid "sub-menu"
+msgstr "サブメニュー"
+
+msgid "footer-menu"
+msgstr "フッターメニュー"
+

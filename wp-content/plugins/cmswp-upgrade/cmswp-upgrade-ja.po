@@ -1,0 +1,1055 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CMSWP Upgrade\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-29 02:07+0900\n"
+"PO-Revision-Date: 2016-09-29 02:07+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cmswp-upgrade.php:72
+msgid "Business Calendar"
+msgstr "営業日カレンダー"
+
+#: cmswp-upgrade.php:73
+msgid "Category Widget Ext"
+msgstr "カテゴリーウィジェットExt"
+
+#: cmswp-upgrade.php:74
+msgid "Page Widget Ext"
+msgstr "ページウィジェットExt"
+
+#: cmswp-upgrade.php:75
+msgid "CMS Admin Controller"
+msgstr "ＣＭＳ管理画面コントローラ"
+
+#: cmswp-upgrade.php:76
+msgid "What's New Maker"
+msgstr "What's New メーカー"
+
+#: cmswp-upgrade.php:77
+msgid "Custom PHP Widget Manager"
+msgstr "カスタムPHPウィジェットマネージャー"
+
+#: cmswp-upgrade.php:78
+msgid "Custom Column Maker"
+msgstr "カスタムカラムメーカー"
+
+#: cmswp-upgrade.php:79
+msgid "linkify Keywords"
+msgstr "自動キーワードリンクプラグイン"
+
+#: cmswp-upgrade.php:80
+msgid "Translation Overwriter"
+msgstr "翻訳オーバーライター"
+
+#: cmswp-upgrade.php:81
+msgid "CSV Post Manager"
+msgstr "CSV投稿マネージャー"
+
+#: cmswp-upgrade.php:82
+msgid "Twitter Joint Manager"
+msgstr "Twitter ジョイントマネージャー"
+
+#: cmswp-upgrade.php:83
+msgid "Event Attendance Manager"
+msgstr "イベント出欠管理プラグイン"
+
+#: cmswp-upgrade.php:84
+msgid "Attendance Management Timecard"
+msgstr "勤怠入退室管理タイムカードプラグイン"
+
+#: cmswp-upgrade.php:85
+msgid "Mail Magazine Newsletter"
+msgstr "メールマガジンニュースレター"
+
+#: cmswp-upgrade.php:86
+msgid "Frontend User Admin"
+msgstr "フロントエンドユーザー管理"
+
+#: cmswp-upgrade.php:87
+msgid "Net Shop Admin"
+msgstr "ネットショップ管理"
+
+#: cmswp-upgrade.php:93 cmswp-upgrade.php:133
+msgid "CMSWP Upgrade"
+msgstr "CMSWPアップグレード"
+
+#: cmswp-upgrade.php:103 cmswp-upgrade.php:113
+msgid "Options updated."
+msgstr "オプションが更新されました。"
+
+#: cmswp-upgrade.php:117
+msgid "Options deleted."
+msgstr "オプションが削除されました。"
+
+#: cmswp-upgrade.php:139
+msgid "Global Settings"
+msgstr "環境設定"
+
+#: cmswp-upgrade.php:145
+msgid "CMSWP Email"
+msgstr "CMSWP メールアドレス"
+
+#: cmswp-upgrade.php:149
+msgid "Premium Code"
+msgstr "プレミアムコード"
+
+#: cmswp-upgrade.php:151
+#, php-format
+msgid ""
+"We recommend the <a href=\"%s\" target=\"_blank\">Premium Support</a> in "
+"order to use the automatic upgrade."
+msgstr ""
+"自動アップグレードを利用する場合は、<a href=\"%s\" target=\"_blank\">プレミア"
+"ムサポート</a>がおすすめです。"
+
+#: cmswp-upgrade.php:154 cmswp-upgrade.php:181
+msgid "Update Options &raquo;"
+msgstr "オプションを更新 &raquo;"
+
+#: cmswp-upgrade.php:163
+msgid "Upgrade Options"
+msgstr "アップグレード設定"
+
+#: cmswp-upgrade.php:174
+#, php-format
+msgid "%s Upgrade Code"
+msgstr "%sアップグレードコード"
+
+#: cmswp-upgrade.php:175
+msgid "Upgrade Code was not approved."
+msgstr "アップグレードコードは承認されていません。"
+
+#: cmswp-upgrade.php:190
+msgid "Click to toggle"
+msgstr "クリックで切替"
+
+#: cmswp-upgrade.php:191
+msgid "Delete Options"
+msgstr "オプション削除"
+
+#: cmswp-upgrade.php:193
+msgid "Are you sure to delete options? Options you set will be deleted."
+msgstr ""
+"本当にオプションを削除してもよいですか？設定したオプションは削除されます。"
+
+#: cmswp-upgrade.php:197
+msgid "Delete Options &raquo;"
+msgstr "オプション削除 &raquo;"
+
+#: cmswp-upgrade.php:362
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" target=\"_blank"
+"\">View version %3$s Details</a> or <a href=\"%4$s\">Upgrade automatically</"
+"a>."
+msgstr ""
+"新しいバージョンの %1$s が利用可能です。<a href=\"%2$s\" target=\"_blank\">"
+"バージョン %3$s の詳細を見る</a>か、<a href=\"%4$s\">自動アップグレード</a>を"
+"実行してください。"
+
+#~ msgid "CMSWP Password"
+#~ msgstr "CMSWP パスワード"
+
+#~ msgid "Frontend User Admin Upgrade Code"
+#~ msgstr "フロントエンドユーザー管理アップグレードコード"
+
+#~ msgid "Strength indicator"
+#~ msgstr "強度インジケータ"
+
+#~ msgid "Very weak"
+#~ msgstr "非常に弱い"
+
+#~ msgid "Bad"
+#~ msgstr "弱い"
+
+#~ msgid "Good"
+#~ msgstr "中程度"
+
+#~ msgid "Strong"
+#~ msgstr "強力"
+
+#~ msgid "[%s] Password Reset"
+#~ msgstr "[%s] パスワードのリセット"
+
+#~ msgid ""
+#~ "Someone has asked to reset the password for the following site and "
+#~ "username."
+#~ msgstr "次のサイトとユーザー名のパスワードのリセットが要請されました。"
+
+#~ msgid "Username: %user_login%"
+#~ msgstr "ユーザー名: %user_login%"
+
+#~ msgid ""
+#~ "To reset your password visit the following address, otherwise just ignore "
+#~ "this email and nothing will happen."
+#~ msgstr ""
+#~ "パスワードをリセットするには次のアドレスを開いてください。リセットしない場"
+#~ "合はこのメールを無視してください。"
+
+#~ msgid "[%s] Your new password"
+#~ msgstr "[%s] 新しいパスワード"
+
+#~ msgid "Password: %password%"
+#~ msgstr "パスワード: %password%"
+
+#~ msgid "[%s] Password Lost/Changed"
+#~ msgstr "[%s] パスワード紛失/変更"
+
+#~ msgid "Password Lost and Changed for user: %user_login%"
+#~ msgstr "%user_login% のパスワード紛失/変更"
+
+#~ msgid "[%s] Your username and password"
+#~ msgstr "[%s] あなたのユーザー名とパスワード"
+
+#~ msgid "[%s] New User Registration"
+#~ msgstr "[%s] 新規ユーザー登録"
+
+#~ msgid "New user registration on your blog %s:"
+#~ msgstr "ブログ「 %s 」の新規ユーザー登録:"
+
+#~ msgid "E-mail: %user_email%"
+#~ msgstr "メールアドレス: %user_email%"
+
+#~ msgid "User Management"
+#~ msgstr "ユーザー管理"
+
+#~ msgid "User List"
+#~ msgstr "ユーザーリスト"
+
+#~ msgid "Add User"
+#~ msgstr "ユーザー追加"
+
+#~ msgid "User Log"
+#~ msgstr "ユーザーログ"
+
+#~ msgid "Import User"
+#~ msgstr "ユーザーインポート"
+
+#~ msgid "Options"
+#~ msgstr "オプション設定"
+
+#~ msgid "Password Lost and Found"
+#~ msgstr "パスワード紛失取り扱い"
+
+#~ msgid "Register"
+#~ msgstr "新規ユーザー登録"
+
+#~ msgid "Confirmation"
+#~ msgstr "ご入力内容の確認"
+
+#~ msgid "Profile"
+#~ msgstr "アカウント設定"
+
+#~ msgid "Log In"
+#~ msgstr "ログイン"
+
+#~ msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+#~ msgstr ""
+#~ "<strong>エラー</strong>: ユーザー名かメールアドレスを入力してください。"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: There is no user registered with that email "
+#~ "address."
+#~ msgstr ""
+#~ "<strong>エラー</strong>: そのメールアドレスのユーザーは登録されておりませ"
+#~ "ん。"
+
+#~ msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+#~ msgstr "<strong>エラー</strong>: 無効なユーザー名またはメールアドレスです。"
+
+#~ msgid "The e-mail could not be sent."
+#~ msgstr "メールを送信できませんでした。"
+
+#~ msgid "Possible reason: your host may have disabled the mail() function..."
+#~ msgstr ""
+#~ "考えられる理由: あなたのサーバーでは mail() 関数が有効になっていないのかも"
+#~ "しれません。"
+
+#~ msgid "Invalid key"
+#~ msgstr "無効なキー"
+
+#~ msgid "<strong>ERROR</strong>: Please enter a username."
+#~ msgstr "<strong>エラー</strong>: ユーザー名を入力してください。"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: This username is invalid.  Please enter a valid "
+#~ "username."
+#~ msgstr ""
+#~ "<strong>エラー</strong>: このユーザー名は無効です。有効なユーザー名を入力"
+#~ "してください。"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: This username is already registered, please "
+#~ "choose another one."
+#~ msgstr ""
+#~ "<strong>エラー</strong>: このユーザー名はすでに登録されています。別のユー"
+#~ "ザー名を選んでください。"
+
+#~ msgid "<strong>ERROR</strong>: Minimum number of letters of Username is %s."
+#~ msgstr "<strong>エラー</strong>: ユーザー名は%s文字以上で入力してください。"
+
+#~ msgid "<strong>ERROR</strong>: Maximum number of letters of Username is %s."
+#~ msgstr "<strong>エラー</strong>: ユーザー名は%s文字以下で入力してください。"
+
+#~ msgid "<strong>ERROR</strong>: Please type your e-mail address."
+#~ msgstr "<strong>エラー</strong>: メールアドレスを入力してください。"
+
+#~ msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+#~ msgstr "<strong>エラー</strong>: メールアドレスが正しくありません。"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: This email is already registered, please choose "
+#~ "another one."
+#~ msgstr ""
+#~ "<strong>エラー</strong>: このメールアドレスはすでに登録されています。別の"
+#~ "メールアドレスを選んでください。"
+
+#~ msgid "<strong>ERROR</strong>: Please enter your password."
+#~ msgstr "<strong>エラー</strong>: パスワードを入力してください。"
+
+#~ msgid "<strong>ERROR</strong>: Please enter your password twice."
+#~ msgstr "<strong>エラー</strong>: パスワードは 2 回入力してください。"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: Passwords may not contain the character \"\\\"."
+#~ msgstr ""
+#~ "<strong>エラー</strong>: パスワードに文字 \"\\\" を含めることはできませ"
+#~ "ん。"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: Please enter the same password in the two "
+#~ "password fields."
+#~ msgstr "<strong>エラー</strong>: 同じパスワードを2回入力してください。"
+
+#~ msgid "<strong>ERROR</strong>: Password require at least 4 characters."
+#~ msgstr ""
+#~ "<strong>エラー</strong>: パスワードは4文字以上の半角英数字または記号で入力"
+#~ "してください。"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: You enter the character that is unavailable for "
+#~ "the password."
+#~ msgstr ""
+#~ "<strong>エラー</strong>: パスワードに使用できない文字を入力しています。"
+
+#~ msgid "<strong>ERROR</strong>: Please enter your last name."
+#~ msgstr "<strong>エラー</strong>: 性を入力してください。"
+
+#~ msgid "<strong>ERROR</strong>: Please enter your first name."
+#~ msgstr "<strong>エラー</strong>: 名を入力してください。"
+
+#~ msgid "<strong>ERROR</strong>: Please enter your nickname."
+#~ msgstr "<strong>エラー</strong>: ニックネームを入力してください。"
+
+#~ msgid "<strong>ERROR</strong>: You need to agree to the terms of use."
+#~ msgstr "<strong>エラー</strong>: 利用規約に同意する必要があります。"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the "
+#~ "<a href=\"mailto:%s\">webmaster</a> !"
+#~ msgstr ""
+#~ "<strong>エラー</strong>: 登録できませんでした… <a href=\"mailto:%s\">管理"
+#~ "者</a>に連絡してください !"
+
+#~ msgid "<strong>ERROR</strong>: Please enter %s."
+#~ msgstr "<strong>エラー</strong>: %sを入力してください。"
+
+#~ msgid "<strong>ERROR</strong>: Use only numerics in %s."
+#~ msgstr "<strong>エラー</strong>: %sには数字しか使用できません。"
+
+#~ msgid "<strong>ERROR</strong>: Use only alphabets in %s."
+#~ msgstr "<strong>エラー</strong>: %sには半角英字しか使用できません。"
+
+#~ msgid "<strong>ERROR</strong>: Use only alphanumerics in %s."
+#~ msgstr "<strong>エラー</strong>: %sには半角英数字しか使用できません。"
+
+#~ msgid "<strong>ERROR</strong>: Use only half-width letters in %s."
+#~ msgstr "<strong>エラー</strong>: %sには半角文字しか使用できません。"
+
+#~ msgid "<strong>ERROR</strong>: Minimum number of letters in %1$s is %2$s."
+#~ msgstr "<strong>エラー</strong>: %1$sは%2$s文字以上で入力してください。"
+
+#~ msgid "<strong>ERROR</strong>: Maximum number of letters in %1$s is %2$s."
+#~ msgstr "<strong>エラー</strong>: %1$sは%2$s文字以下で入力してください。"
+
+#~ msgid "<strong>ERROR</strong>: %s does not match."
+#~ msgstr "<strong>エラー</strong>: %sが一致しませんでした。"
+
+#~ msgid "You do not have permission to edit this user."
+#~ msgstr "このユーザーを編集する権限はありません。"
+
+#~ msgid "Sorry, that key does not appear to be valid."
+#~ msgstr "そのキーは無効なもののようです。"
+
+#~ msgid ""
+#~ "Please enter your username or e-mail address. You will receive a new "
+#~ "password via e-mail."
+#~ msgstr ""
+#~ "ユーザー名かメールアドレスを入力してください。新しいパスワードをメールで送"
+#~ "信します。"
+
+#~ msgid "E-mail"
+#~ msgstr "メールアドレス"
+
+#~ msgid "Username or E-mail"
+#~ msgstr "ユーザー名またはメールアドレス:"
+
+#~ msgid "Get New Password &raquo;"
+#~ msgstr "新しいバスワードを取得 &raquo;"
+
+#~ msgid "Register For This Site"
+#~ msgstr "マイページを持つには新規会員登録（無料）する必要があります。"
+
+#~ msgid "Username"
+#~ msgstr "ユーザー名"
+
+#~ msgid "Required"
+#~ msgstr "必須"
+
+#~ msgid "Half-width alphamerics"
+#~ msgstr "半角英数字"
+
+#~ msgid "Last name"
+#~ msgstr "性"
+
+#~ msgid "First name"
+#~ msgstr "名"
+
+#~ msgid "Nickname"
+#~ msgstr "ニックネーム"
+
+#~ msgid "Website"
+#~ msgstr "ウェブサイト"
+
+#~ msgid "AIM"
+#~ msgstr "AIM"
+
+#~ msgid "Yahoo IM"
+#~ msgstr "Yahoo IM"
+
+#~ msgid "Jabber / Google Talk"
+#~ msgstr "Jabber / Google Talk"
+
+#~ msgid "Biographical Info"
+#~ msgstr "自己紹介"
+
+#~ msgid ""
+#~ "Share a little biographical information to fill out your profile. This "
+#~ "may be shown publicly."
+#~ msgstr ""
+#~ "プロフィールに添えるあなたのちょっとした自己紹介を書き入れてみましょう。こ"
+#~ "の情報はテンプレートタグを使用することによってブログに表示することができま"
+#~ "す。"
+
+#~ msgid "Type your new password again."
+#~ msgstr "もう一度新しいパスワードを入力してください。"
+
+#~ msgid "Password Strength"
+#~ msgstr "パスワード強度"
+
+#~ msgid ""
+#~ "Hint: Use upper and lower case characters, numbers and symbols like !\"?$"
+#~ "%^&amp;( in your password."
+#~ msgstr ""
+#~ "ヒント: 大文字と小文字のアルファベット、数字や !\"?$%^&amp;( などの記号を"
+#~ "組み合わせたパスワードを使いましょう。"
+
+#~ msgid "Terms of use"
+#~ msgstr "利用規約"
+
+#~ msgid "I agree to the <a href=\"%s\">terms of use</a>."
+#~ msgstr "<a href=\"%s\">利用規約</a>に同意します。"
+
+#~ msgid "I agree to the terms of use."
+#~ msgstr "利用規約に同意します。"
+
+#~ msgid "A password will be e-mailed to you."
+#~ msgstr "パスワードをあなたのメールアドレスに送信します。"
+
+#~ msgid "Confirm &raquo;"
+#~ msgstr "ご登録内容を確認する &raquo;"
+
+#~ msgid "Register &raquo;"
+#~ msgstr "新規ユーザー登録 &raquo;"
+
+#~ msgid "Lost your password?"
+#~ msgstr "パスワードをお忘れですか ?"
+
+#~ msgid "Back"
+#~ msgstr "戻る"
+
+#~ msgid "User updated."
+#~ msgstr "ユーザーが更新されました。"
+
+#~ msgid "Your username cannot be changed"
+#~ msgstr "ユーザー名は変更できません。"
+
+#~ msgid "Display name publicly&nbsp;as"
+#~ msgstr "サイト上の表示名"
+
+#~ msgid "If you change the email, you will be automatically logged off."
+#~ msgstr "メールアドレスを変更すると、自動的にログオフされます。"
+
+#~ msgid "New Password"
+#~ msgstr "新しいパスワード"
+
+#~ msgid ""
+#~ "If you would like to change the password type a new one. Otherwise leave "
+#~ "this blank."
+#~ msgstr ""
+#~ "このユーザーのパスワードを変更する場合は新しいパスワードを入力してくださ"
+#~ "い。変更しない場合は空のままにしておいてください。"
+
+#~ msgid "Update Profile &raquo;"
+#~ msgstr "アカウントを更新 &raquo;"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: Cookies are blocked or not supported by your "
+#~ "browser. You must <a href='http://www.google.com/cookies.html'>enable "
+#~ "cookies</a> to use WordPress."
+#~ msgstr ""
+#~ "<strong>エラー</strong>: お使いのブラウザーはクッキーをサポートしないかま"
+#~ "たは受け付けていません。WordPress を使うには<a href='http://www.google.co."
+#~ "jp/cookies.html'>クッキーを有効にする</a>ことが必要です。"
+
+#~ msgid "You are now logged out."
+#~ msgstr "ログアウトしました。"
+
+#~ msgid "User registration is currently not allowed."
+#~ msgstr "現在、ユーザー登録はできません"
+
+#~ msgid "Check your e-mail for the confirmation link."
+#~ msgstr "確認用のリンクをメールで送信しましたので、ご確認ください。"
+
+#~ msgid "Check your e-mail for your new password."
+#~ msgstr "新しいパスワードをメールで送信しましたので、ご確認ください。"
+
+#~ msgid "Registration complete. Please check your e-mail."
+#~ msgstr "登録を完了しました。メールを確認してください。"
+
+#~ msgid "Registration complete. Please log in."
+#~ msgstr "登録を完了しました。ログインしてください。"
+
+#~ msgid "Please log in to use the member service."
+#~ msgstr "サービスを利用するにはログインする必要があります。"
+
+#~ msgid "Remember Me"
+#~ msgstr "ログイン情報を記憶"
+
+#~ msgid "Log In &raquo;"
+#~ msgstr "ログイン &raquo;"
+
+#~ msgid "User registered."
+#~ msgstr "ユーザーが登録されました。"
+
+#~ msgid "User edited."
+#~ msgstr "ユーザーが更新されました。"
+
+#~ msgid "Options imported."
+#~ msgstr "オプションがインポートされました。"
+
+#~ msgid "Options reset."
+#~ msgstr "オプションがリセットされました。"
+
+#~ msgid "Edit User"
+#~ msgstr "ユーザー編集"
+
+#~ msgid "Settings"
+#~ msgstr "オプション設定"
+
+#~ msgid "Log In URL"
+#~ msgstr "ログインURL"
+
+#~ msgid "You need to make a page which has this permalink."
+#~ msgstr "このパーマリンクを持つページを作成する必要があります。"
+
+#~ msgid "After Log In URL"
+#~ msgstr "ログイン後URL"
+
+#~ msgid ""
+#~ "You can add %user_login% in the upper url. %user_login% will be converted "
+#~ "into the user name."
+#~ msgstr ""
+#~ "urlには、%user_login%を追加することができます。%user_login%はユーザー名に"
+#~ "置換されます。"
+
+#~ msgid "After Log In Template File"
+#~ msgstr "ログイン後テンプレートファイル名"
+
+#~ msgid ""
+#~ "If you would like to use the original template file, you need to set the "
+#~ "file in the theme directory."
+#~ msgstr ""
+#~ "オリジナルのテンプレートファイルを使用するには、テーマディレクトリにファイ"
+#~ "ルを設置する必要があります。"
+
+#~ msgid "Transfer all to the Log In URL"
+#~ msgstr "ログインURLに転送"
+
+#~ msgid "If the user is not logged in, transfer all to the Log In URL."
+#~ msgstr "ログインしていない場合、ログインURLに転送します。"
+
+#~ msgid "Show the content directly when the user logged in"
+#~ msgstr "ログイン済みは、ログインページの投稿内容を表示"
+
+#~ msgid ""
+#~ "If the user logged in, show the post content directly not the login box."
+#~ msgstr ""
+#~ "ログインしている場合、ログインボックスではなく、ログインページの投稿内容を"
+#~ "直接表示します。"
+
+#~ msgid "Number of Username"
+#~ msgstr "ユーザー名の文字数"
+
+#~ msgid "Min Letters"
+#~ msgstr "最小文字数"
+
+#~ msgid "Max Letters"
+#~ msgstr "最大文字数"
+
+#~ msgid "The email as Username"
+#~ msgstr "メールアドレスをユーザー名として"
+
+#~ msgid "Use the email as the username. "
+#~ msgstr "メールアドレスをユーザー名として使用する"
+
+#~ msgid "Password Registration"
+#~ msgstr "パスワード登録"
+
+#~ msgid "Let new users decide a password on the registration."
+#~ msgstr "ユーザー登録の際にパスワードを入力させる"
+
+#~ msgid "Use Password Strength"
+#~ msgstr "パスワード強度を使用する"
+
+#~ msgid "Use the password strength on the registration."
+#~ msgstr "ユーザー登録の際にパスワード強度を使用する"
+
+#~ msgid "Use Common Password"
+#~ msgstr "共通パスワードを使用する"
+
+#~ msgid "Use the common password to login."
+#~ msgstr "ログインに共通パスワードを使用する"
+
+#~ msgid "Set the common password."
+#~ msgstr "共通パスワードを設定する"
+
+#~ msgid "You need to set this common password when you register users."
+#~ msgstr "ユーザーを登録する際に共通パスワードを設定する必要があります。"
+
+#~ msgid "Hide `Remember me`"
+#~ msgstr "`ログイン情報を記憶`を隠す"
+
+#~ msgid "Hide `Remember me` checkbox in login."
+#~ msgstr "ログイン時の`ログイン情報を記憶`チェックボックスを隠す"
+
+#~ msgid "Confirmation Screen"
+#~ msgstr "確認画面"
+
+#~ msgid "Show the confirmation screen on the registration."
+#~ msgstr "ユーザー登録の際に確認画面を表示する"
+
+#~ msgid "Default Messages"
+#~ msgstr "デフォルトメッセージ"
+
+#~ msgid "Display default messages on the top of each page."
+#~ msgstr "デフォルトメッセージを各ページ上部に表示する"
+
+#~ msgid "Set the default user_login."
+#~ msgstr "デフォルトのuser_loginをセットする"
+
+#~ msgid ""
+#~ "The input box of Log In will be the hidden attribute, if you set the "
+#~ "default user_login."
+#~ msgstr ""
+#~ "デフォルトのuser_loginをセットすると、ログイン時のインプットボックスが"
+#~ "hidden属性になります。"
+
+#~ msgid "Use Style Sheet"
+#~ msgstr "スタイルシートの使用"
+
+#~ msgid "Load the CSS file."
+#~ msgstr "CSSファイルを読み込む"
+
+#~ msgid "Disable Profile"
+#~ msgstr "アカウント設定禁止"
+
+#~ msgid "Do not allow users to update the profile."
+#~ msgstr "ユーザーにアカウント設定をさせない。"
+
+#~ msgid "Disable Password Lost and Found"
+#~ msgstr "パスワード紛失取り扱いの禁止"
+
+#~ msgid "Do not allow users to find the password."
+#~ msgstr "ユーザーにパスワードの再設定をさせない。"
+
+#~ msgid "Disable the cookie error"
+#~ msgstr "クッキーエラーの禁止"
+
+#~ msgid "Do not allow to show the cookie error."
+#~ msgstr "クッキーエラーを表示させない。"
+
+#~ msgid "Disable the duplicate login"
+#~ msgstr "重複ログインの禁止"
+
+#~ msgid "Do not allow multiple users in the same account to login."
+#~ msgstr "同じアカウントでの複数ユーザーのログインを禁止する"
+
+#~ msgid "Start Log"
+#~ msgstr "ログ開始"
+
+#~ msgid "Start logging the user actions."
+#~ msgstr "ユーザー動作のログを開始する"
+
+#~ msgid "Log User Name"
+#~ msgstr "ログユーザー名"
+
+#~ msgid "Widget Title"
+#~ msgstr "ウィジェットタイトル"
+
+#~ msgid "Register Item and Order"
+#~ msgstr "新規ユーザー登録アイテムと並び替え"
+
+#~ msgid "(Default)"
+#~ msgstr "（デフォルト）"
+
+#~ msgid "Profile Item and Order"
+#~ msgstr "プロフィールアイテムと並び替え"
+
+#~ msgid "Set Nickname as Display Name when registering."
+#~ msgstr "登録時、ニックネームをサイト上の表示名としてセットする"
+
+#~ msgid ""
+#~ "Please check if you want users to set their nicknames as display name as "
+#~ "default. Nickname will be a necessary attribute."
+#~ msgstr ""
+#~ "デフォルトでニックネームをサイト上の表示名としてセットする場合はチェックし"
+#~ "てください。ニックネームは必須の属性となります。"
+
+#~ msgid "Let users approve the terms of use."
+#~ msgstr "利用規約を承認させる"
+
+#~ msgid "Terms of use URL"
+#~ msgstr "利用規約URL"
+
+#~ msgid "Add User Attribute"
+#~ msgstr "ユーザー属性の追加"
+
+#~ msgid "Delete"
+#~ msgstr "削除"
+
+#~ msgid "Field Label"
+#~ msgstr "フィールドラベル"
+
+#~ msgid "Field Name"
+#~ msgstr "フィールド名"
+
+#~ msgid "Field Type"
+#~ msgstr "フィールドタイプ"
+
+#~ msgid "Field Type Admin"
+#~ msgstr "フィールドタイプ管理"
+
+#~ msgid "Default Value"
+#~ msgstr "初期値"
+
+#~ msgid "Comment"
+#~ msgstr "コメント"
+
+#~ msgid "Admin"
+#~ msgstr "管理"
+
+#~ msgid "Condition"
+#~ msgstr "条件式"
+
+#~ msgid "Numeric"
+#~ msgstr "数字"
+
+#~ msgid "Alphabet"
+#~ msgstr "英字"
+
+#~ msgid "Alphanumeric"
+#~ msgstr "英数字"
+
+#~ msgid "Half width"
+#~ msgstr "半角"
+
+#~ msgid "Add Widget Menu"
+#~ msgstr "ウィジェットメニューの追加"
+
+#~ msgid "Menu Label"
+#~ msgstr "メニューラベル"
+
+#~ msgid "Menu URL"
+#~ msgstr "メニュー URL"
+
+#~ msgid "Mail Options"
+#~ msgstr "メールオプション"
+
+#~ msgid "FROM"
+#~ msgstr "FROM"
+
+#~ msgid "New User Notification Subject (For User)"
+#~ msgstr "新規ユーザー登録 （ユーザー向け） [件名]"
+
+#~ msgid "New User Notification Body (For User)"
+#~ msgstr "新規ユーザー登録 （ユーザー向け） [内容]"
+
+#~ msgid "New User Notification Subject (For Admin)"
+#~ msgstr "新規ユーザー登録 （管理者向け） [件名]"
+
+#~ msgid "New User Notification Body (For Admin)"
+#~ msgstr "新規ユーザー登録 （管理者向け） [内容]"
+
+#~ msgid "Retrieve Password Subject"
+#~ msgstr "パスワードのリセット [件名]"
+
+#~ msgid "Retrieve Password Body"
+#~ msgstr "パスワードのリセット [内容]"
+
+#~ msgid "Reset Password Subject (For User)"
+#~ msgstr "新しいパスワード （ユーザー向け） [件名]"
+
+#~ msgid "Reset Password Body (For User)"
+#~ msgstr "新しいパスワード （ユーザー向け） [内容]"
+
+#~ msgid "Reset Password Subject (For Admin)"
+#~ msgstr "新しいパスワード （管理者向け）  [件名]"
+
+#~ msgid "Reset Password Body (For Admin)"
+#~ msgstr "新しいパスワード （管理者向け） [内容]"
+
+#~ msgid "Message Options"
+#~ msgstr "メッセージオプション"
+
+#~ msgid "Login Message"
+#~ msgstr "ログインメッセージ"
+
+#~ msgid "Registration Message"
+#~ msgstr "新規ユーザー登録メッセージ"
+
+#~ msgid "Confirmation Message"
+#~ msgstr "ご登録内容の確認メッセージ"
+
+#~ msgid "Lost Password Message"
+#~ msgstr "パスワード紛失取り扱いメッセージ"
+
+#~ msgid "Profile Message"
+#~ msgstr "プロフィールメッセージ"
+
+#~ msgid "Export Options &raquo;"
+#~ msgstr "オプションをエクスポートする &raquo;"
+
+#~ msgid "Import Options"
+#~ msgstr "オプションをインポートする"
+
+#~ msgid "Import Options &raquo;"
+#~ msgstr "オプションをインポートする &raquo;"
+
+#~ msgid "Reset Options"
+#~ msgstr "オプションをリセットする"
+
+#~ msgid "Are you sure to execute?"
+#~ msgstr "本当に実行してもよろしいですか？"
+
+#~ msgid "Truncate the user log table."
+#~ msgstr "ユーザーログテーブルを初期化する"
+
+#~ msgid "Reset Options."
+#~ msgstr "オプションをリセットする"
+
+#~ msgid "Execute &raquo;"
+#~ msgstr "実行する &raquo;"
+
+#~ msgid "Drop the user log table."
+#~ msgstr "ユーザーログテーブルを削除する"
+
+#~ msgid "Delete Options."
+#~ msgstr "オプションを削除する"
+
+#~ msgid "Password Strength:"
+#~ msgstr "パスワード強度:"
+
+#~ msgid "Send email to the new user?"
+#~ msgstr "登録するユーザーにメールを送りますか？"
+
+#~ msgid "New Password:"
+#~ msgstr "新しいパスワード:"
+
+#~ msgid "&laquo; Back"
+#~ msgstr "&laquo; 戻る"
+
+#~ msgid "Update User &raquo;"
+#~ msgstr "ユーザーを更新 &raquo;"
+
+#~ msgid "&laquo;"
+#~ msgstr "&laquo;"
+
+#~ msgid "&raquo;"
+#~ msgstr "&raquo;"
+
+#~ msgid "Displaying %s&#8211;%s of %s"
+#~ msgstr "%s–%s 件 (%s 件中) を表示中"
+
+#~ msgid "Search Keywords"
+#~ msgstr "検索キーワード"
+
+#~ msgid "Change and Display &raquo;"
+#~ msgstr "変更表示 &raquo;"
+
+#~ msgid "User"
+#~ msgstr "ユーザー"
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "log"
+#~ msgstr "ログ"
+
+#~ msgid "Datetime"
+#~ msgstr "日時"
+
+#~ msgid "Not Found"
+#~ msgstr "見つかりませんでした。"
+
+#~ msgid "%d users were registered."
+#~ msgstr "%d件のユーザーが登録されました。"
+
+#~ msgid "You need to specify the user login and user password definitely."
+#~ msgstr "ユーザー名とパスワードは必ず指定する必要があります。"
+
+#~ msgid "%d users will be imported."
+#~ msgstr "%d件のユーザーがインポートされます。"
+
+#~ msgid "Import &raquo;"
+#~ msgstr "インポート &raquo;"
+
+#~ msgid "There is no user to import."
+#~ msgstr "インポートするユーザーがありません。"
+
+#~ msgid "Please upload the csv file of user list."
+#~ msgstr "ユーザーリストのcsvファイルをアップロードしてください。"
+
+#~ msgid ""
+#~ "Please specify the user attribute of columns. You need to specify the "
+#~ "user login and user password definitely."
+#~ msgstr ""
+#~ "列ごとのユーザー属性を指定してください。ユーザー名とパスワードは必ず指定す"
+#~ "る必要があります。"
+
+#~ msgid "Omit the first line."
+#~ msgstr "最初の行を省略する"
+
+#~ msgid "Upload &raquo;"
+#~ msgstr "アップロード &raquo;"
+
+#~ msgid "Display Options"
+#~ msgstr "表示項目設定"
+
+#~ msgid "Log"
+#~ msgstr "ログ"
+
+#~ msgid "Edit"
+#~ msgstr "編集"
+
+#~ msgid "The user attribute list will be exported on the current condition."
+#~ msgstr "ユーザー属性のリストが現在の条件でエクスポートされます。"
+
+#~ msgid ""
+#~ "Please specify the user attribute of columns you would like to output."
+#~ msgstr "出力したい列ごとのユーザー属性を指定してください。"
+
+#~ msgid "Export &raquo;"
+#~ msgstr "エクスポート &raquo;"
+
+#~ msgid "Howdy, %1$s!"
+#~ msgstr "こんにちは、 %1$sさん！"
+
+#~ msgid "Log Out"
+#~ msgstr "ログアウト"
+
+#~ msgid "Logged In"
+#~ msgstr "ログイン中"
+
+#~ msgid "Export User"
+#~ msgstr "ユーザーエクスポート"
+
+#~ msgid ""
+#~ "Are you sure to reset options? Options you set will be reset to the "
+#~ "default settings."
+#~ msgstr ""
+#~ "本当にオプションをリセットしてもよいですか？設定したオプションは初期化され"
+#~ "ます。"
+
+#~ msgid "Unset Options &raquo;"
+#~ msgstr "オプションリセット &raquo;"
+
+#~ msgid "Mail"
+#~ msgstr "メール"
+
+#, fuzzy
+#~ msgid "Strength Indicator"
+#~ msgstr "強度インジケータ"
+
+#~ msgid "Too short"
+#~ msgstr "短すぎます"
+
+#~ msgid "Buying History"
+#~ msgstr "ご購入履歴"
+
+#~ msgid "My page"
+#~ msgstr "マイページ"
+
+#~ msgid "Altar User Table"
+#~ msgstr "ユーザー名の文字数"
+
+#~ msgid "You can not use my page. "
+#~ msgstr "マイページは使用できません。"
+
+#~ msgid "Front User Admin"
+#~ msgstr "フロントユーザー管理"
+
+#~ msgid "Username or E-mail:"
+#~ msgstr "ユーザー名またはメールアドレス:"
+
+#~ msgid "Front User Admin Login Box"
+#~ msgstr "フロントエンドユーザー管理 ログインボックス"
+
+#~ msgid "E-mail:"
+#~ msgstr "メールアドレス"
+
+#~ msgid "Password:"
+#~ msgstr "パスワード:"
+
+#~ msgid "Username: %s"
+#~ msgstr "ユーザー名: %s"
+
+#~ msgid "Password: %s"
+#~ msgstr "パスワード: %s"
+
+#, fuzzy
+#~ msgid "Yhoo IM"
+#~ msgstr "Yahoo IM"
+
+#~ msgid "Number and Alphabet"
+#~ msgstr "英数字"
+
+#~ msgid "Full width"
+#~ msgstr "全角"
+
+#~ msgid "Reverse first name and last name"
+#~ msgstr "性と名の逆転"
+
+#~ msgid "Reverse the edit order of first name and last name."
+#~ msgstr "性と名の編集順序を逆転させる（日本式にする）"

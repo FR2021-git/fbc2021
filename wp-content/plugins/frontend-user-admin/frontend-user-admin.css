@@ -1,0 +1,44 @@
+﻿@charset "utf-8";
+
+.frontend-user-admin-login						{ padding:10px; margin:-10px auto; }
+.frontend-user-admin-login div.error			{ border:1px solid #FF0000; color:#FF0000; background:#FFCCCC;
+												  padding:5px; margin:5px auto; }
+.frontend-user-admin-login div.message			{ border:1px solid #0000FF; color:#0000FF; background:#CCCCFF;
+												  padding:5px; margin:5px auto; }
+.frontend-user-admin-login div.error p,
+.frontend-user-admin-login div.message p		{ margin:0 !important; }
+.frontend-user-admin-login .input				{ border:1px solid #CCCCCC; padding:8px 5px; width:120px; }
+.frontend-user-admin-login .textarea			{ border:1px solid #CCCCCC; padding:3px 5px; width:300px; height:100px; }
+.frontend-user-admin-login .select				{ border:1px solid #CCCCCC; padding:3px 0px; }
+.frontend-user-admin-login .submit				{ padding:3px 5px; }
+.frontend-user-admin-login #user_login			{ ime-mode:disabled; }
+.frontend-user-admin-login #ms_domain,
+.frontend-user-admin-login #user_email,
+.frontend-user-admin-login .user_email,
+.frontend-user-admin-login #user_url			{ width:240px; ime-mode:disabled; }
+.frontend-user-admin-login .form-table th		{ width:150px; text-align:right; }
+.frontend-user-admin-login .form-table td		{ padding:5px; text-align:left; }
+.frontend-user-admin-login .form-table .imedisabled { ime-mode: disabled; }
+.frontend-user-admin-login .error_attribute		{ background:#FFCCCC; }
+.frontend-user-admin-login .required			{ color:#CC0000; }
+.frontend-user-admin-login .thumbnail			{ vertical-align:middle; margin:5px 0; }
+.frontend-user-admin-user-attribute-comment		{ color:#666666; }
+
+.frontend-user-admin-widget-login				{ }
+.frontend-user-admin-widget-login .input		{ border:1px solid #CCCCCC; padding:8px 5px; width:120px; }
+
+.frontend-user-admin-login-sp dd				{ margin-bottom: 0.8em !important; }
+#wp-admin-bar-user-info .avatar					{ width:64px; }
+
+#pass-strength-result							{ border:1px solid; margin:12px 5px 5px 1px; padding:3px 5px;
+												  text-align:center; width:200px; }
+#pass-strength-result							{ background-color: #eee; border-color: #ddd !important; }
+#pass-strength-result.bad						{ background-color: #ffb78c; border-color: #ff853c !important; }
+#pass-strength-result.good						{ background-color: #ffec8b; border-color: #fc0 !important; }
+#pass-strength-result.short						{ background-color: #ffa0a0; border-color: #f04040 !important; }
+#pass-strength-result.strong					{ background-color: #c3ff88; border-color: #8dff1c !important; }
+
+::-webkit-input-placeholder						{ color: #CCC; }
+:-moz-placeholder								{ color: #CCC; }
+::-moz-placeholder								{ color: #CCC; }
+:-ms-input-placeholder							{ color: #AAA; }

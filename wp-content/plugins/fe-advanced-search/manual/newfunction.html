@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>新機能 | FE Advanced Search 使用説明書</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="syntaxhighlighter/shCore.js"></script>
+	<script type="text/javascript" src="syntaxhighlighter/shBrushPhp.js"></script>
+	<script type="text/javascript" src="syntaxhighlighter/shBrushCss.js"></script>
+	<script type="text/javascript" src="syntaxhighlighter/shBrushXml.js"></script>
+	<link type="text/css" rel="stylesheet" href="syntaxhighlighter/shCoreDefault.css"/>
+	<script type="text/javascript">
+		SyntaxHighlighter.defaults['html-script'] = true;
+		SyntaxHighlighter.defaults['tab-size'] = 2;
+		SyntaxHighlighter.all();
+	</script>
+</head>
+
+<body>
+<a name="top" id="top"></a>
+
+	<div id="header" class="clearfix">
+		<div id="title">
+		<h1>
+			WordPress用絞り込み検索プラグイン
+			<a href="index.html"><img src="images/feas_banner.gif" width="308" height="57" alt="FEAdvancedSearch" /></a>
+		</h1>
+		<p id="header-text1">version 1.6.6</p>
+		<p id="header-text2">使用説明書</p>
+		</div>
+		<p id="koushin">最終更新：2016年8月22日</p>
+	</div>
+	
+	
+	<!--グローバルメニュー--> 	
+	<div id="globalmenu">
+		<ul>
+			<li class="li-1"><a href="index.html">初めに</a></il>
+			<li class="li-1"><a href="manual.html">使用方法</a></il>
+			<li class="li-1"><a href="newfunction.html">新機能</a></il>
+			<li class="li-1"><a href="support.html">サポート</a></il>
+			<li><a href="http://www.firstelement.jp/contact/" target="_self">問い合わせ</a></il>
+		</ul>
+	</div>
+	
+	
+	<div id="tabs">
+		
+		<div class="panel">
+			
+				<h4>［version 1.6.6 機能追加］</h4>
+				<ul class="newfunction-list">
+					<li><a href="manual.html#link-new01">検索該当件数を表示する専用のfeas_count_posts関数を追加（固定ページをフロントページに設定した場合やその他不具合により検索該当件数が正しく表示されない場合があるため）</a></li>
+					<li><a href="manual.html#link-new02">同上、ショートコード[feas_count_posts]を実装</a></li>
+					<li><a href="manual.html#link-new03">検索条件の「並び順」に「ランダム」を追加</a></li>
+				</ul>
+				<h4>［version 1.6.3 機能追加］</h4>
+				<ul class="newfunction-list">
+					<li>設定データのインポート/エクスポート機能を実装</li>
+				</ul>
+				<h4>［version 1.6 機能追加］</h4>
+				<ul class="newfunction-list">
+					<li>ソート機能がメイン以外のすべての検索フォームに対応</li>
+					<li>カスタムフィールドでソート時、数値か文字列かを指定できるように</li>
+					<li>「初期設定カテゴリ」がカスタムタクソノミに対応</li>
+					<li>「検索結果の並び順」が任意のカスタムフィールド、ランダムでのソートに対応</li>
+				</ul>
+				<h4>［version 1.6 仕様変更］</h4>
+				<ul class="newfunction-list">							
+					<li>設定画面内の各所の表記を変更</li>
+					<li>カスタムフィールドをフリーワード検索時、チェックボックスを非表示に</li>
+					　従来、指定されたカスタムフィールドのキーをチェックボックスで表示しておりましたが、inputのhiddenフィールドに変更し、ユーザーが特にキーを指定しなくても特定のカスタムフィールド内を検索できるようになりました。
+					<li><span>（初期の並び順、ソートボタンともに）ソート機能の仕様が代わりましたので、再設定が必要です。</span>
+					<img src="images/feas_new_01.png" alt="feas_new_01" width="839" /><br><br>
+					<img src="images/feas_new_02.png" alt="feas_new_02" width="839" />
+					</li>
+				</ul>	
+				<h4>［その他］</h4>
+				<ul class="newfunction-list">
+					<li>テンプレートのsearch.phpなどで、検索結果の表示件数を変えるためにquery_postsを使用されている例を見かけますが、当プラグインと互換性がありませんので（かつ、WordPress公式ドキュメントでも非推奨となっていますので）使用しないようにしてください。<br><br>
+					
+					代わりに、下記のようにpre_get_postsにフックする関数を、使用されるテーマのfunctions.phpに記述してください：<br>
+					<pre class="brush: php;">
+					function change_posts_per_page( $query ) {
+						if ( isset( $_GET['fe_form_no'] ) && '2' == $_GET['fe_form_no'] ) {
+							$query->set( 'posts_per_page', 50 );
+							return;
+						}
+					}
+					add_action( 'pre_get_posts', 'change_posts_per_page' );</pre>
+					上記の例では、フォームID=2の検索フォームから検索された場合に、表示件数を50件に変更しています。
+					</li>
+					<li>検索結果ページにおいて、サイドバーの"最新の記事"など、サブループの内容が検索条件の影響を受けて書き換わってしまう場合、FEASが書き換えたクエリを除去するために、サブループの手前で remove_filter を使用してください。
+						<pre class="brush: php;">
+						remove_filter('posts_where', 'search_where_add');
+						
+						$newPosts = get_posts('cat=3&numberpost=5');
+						if($newPosts):
+						foreach($newPosts as $post){
+						・・・（省略）・・・</pre>
+					</li>
+					<li>検索結果のURLをテンプレート内のaタグ等に直接、リンクとして設定する際は、URLをesc_url関数（<a href="http://wpdocs.osdn.jp/%E9%96%A2%E6%95%B0%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/esc_url" target="_blank">WordPress Codex - 関数リファレンス/esc url</a>）で囲ってください。そのまま記述すると「&」記号等がエスケープされず、潜在的なセキュリティホールをつくることになります。
+				</ul>
+			
+			<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+		</div>
+	</div>
+	
+	
+	<!--フッター-->
+	<div id="footer" class="clearfix">
+		<div id="footer-wrap">
+			<ul id="address">
+				<li style="font-size: 120%; font-weight: bold;"><a href="http://www.firstelement.jp/" target="_blank">株式会社ファーストエレメント</a></li>
+				<li><a href="http://www.firstelement.jp/" target="_blank">http://www.firstelement.jp/</a></li>
+				<li>TEL：0265-25-1407　FAX：0265-25-9334</li>
+			</ul>
+			<ul id="footer-menu">
+				<li><a href="index.html">TOP</a></li>
+				<li><a href="manual.html">使用方法</a></li>
+				<li><a href="newfunction.html">新機能</a></li>
+				<li><a href="support.html">サポート</a></li>
+				<li><a href="http://www.firstelement.jp/contact/" target="_self">お問い合わせ</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

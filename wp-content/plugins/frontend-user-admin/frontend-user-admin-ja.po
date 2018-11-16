@@ -1,0 +1,3313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Frontend User Admin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-21 10:21+0900\n"
+"PO-Revision-Date: 2018-06-21 10:22+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: frontend-user-admin.php:612
+msgid "..."
+msgstr "..."
+
+#: frontend-user-admin.php:821 frontend-user-admin.php:7347
+#: frontend-user-admin.php:7801 steps/step-mobile_profile.php:146
+#: steps/step-mobile_register.php:156 steps/step-profile.php:174
+#: steps/step-register.php:185 steps/step-sp_profile.php:147
+#: steps/step-sp_register.php:158
+msgid "Strength indicator"
+msgstr "強度インジケータ"
+
+#: frontend-user-admin.php:822
+msgid "Very weak"
+msgstr "非常に弱い"
+
+#: frontend-user-admin.php:823
+msgid "Bad"
+msgstr "弱い"
+
+#: frontend-user-admin.php:824
+msgid "Good"
+msgstr "中程度"
+
+#: frontend-user-admin.php:825
+msgid "Strong"
+msgstr "強力"
+
+#: frontend-user-admin.php:826
+msgid "Mismatch"
+msgstr "不一致"
+
+#: frontend-user-admin.php:969 frontend-user-admin.php:1443
+#: frontend-user-admin.php:1447
+#, php-format
+msgid "[%s] Email Confirmation"
+msgstr "[%s] メールアドレスの確認"
+
+#: frontend-user-admin.php:970 frontend-user-admin.php:1444
+msgid "Please click the following address and register the site."
+msgstr "以下のアドレスをクリックして会員登録してください。"
+
+#: frontend-user-admin.php:1166
+msgid "XML-RPC services are disabled on this site."
+msgstr "このサイト上では XML-RPC サービスが無効になっています。"
+
+#: frontend-user-admin.php:1173
+msgid "Incorrect username or password."
+msgstr "ユーザー名またはパスワードが正しくありません。"
+
+#: frontend-user-admin.php:1222
+msgid "Sorry, you do not have the right to create a new user."
+msgstr "新しいユーザーを作成する権限がありません。"
+
+#: frontend-user-admin.php:1227
+msgid "Sorry, a new user could not be created. Something wrong happened."
+msgstr "新しいユーザーは作成されませんでした。何か問題が発生しました。"
+
+#: frontend-user-admin.php:1260 frontend-user-admin.php:1335
+msgid "Sorry, you do not have the right to edit the user status."
+msgstr "ユーザーステータスを編集する権限はありません。"
+
+#: frontend-user-admin.php:1282
+msgid "Sorry, the user cannot be updated."
+msgstr "そのユーザーは更新できません。"
+
+#: frontend-user-admin.php:1306
+msgid "Sorry, you do not have the right to delete users."
+msgstr "ユーザーを削除する権限はありません。"
+
+#: frontend-user-admin.php:1366
+msgid "Sorry, you do not have the right to get the user status."
+msgstr "ユーザーステータスを閲覧する権限はありません。"
+
+#: frontend-user-admin.php:1406 frontend-user-admin.php:5641
+#: frontend-user-admin.php:7549 steps/step-mobile_register.php:349
+#: steps/step-mobile_register.php:353 steps/step-register.php:382
+#: steps/step-register.php:386 steps/step-sp_register.php:351
+#: steps/step-sp_register.php:355
+msgid "Terms of use"
+msgstr "利用規約"
+
+#: frontend-user-admin.php:1407 frontend-user-admin.php:5493
+#: frontend-user-admin.php:5496 frontend-user-admin.php:5499
+#: frontend-user-admin.php:5508 frontend-user-admin.php:5511
+#: frontend-user-admin.php:5514 frontend-user-admin.php:5517
+#: frontend-user-admin.php:5520 frontend-user-admin.php:5570
+#: frontend-user-admin.php:5573 frontend-user-admin.php:5576
+#: frontend-user-admin.php:5579 frontend-user-admin.php:5585
+#: frontend-user-admin.php:5588 frontend-user-admin.php:5591
+#: frontend-user-admin.php:5594 frontend-user-admin.php:5597
+#: frontend-user-admin.php:5749 frontend-user-admin.php:7165
+#: frontend-user-admin.php:7589 steps/step-mobile_profile.php:6
+#: steps/step-mobile_register.php:48 steps/step-profile.php:6
+#: steps/step-register.php:48 steps/step-sp_profile.php:6
+#: steps/step-sp_register.php:48
+msgid "Required"
+msgstr "必須"
+
+#: frontend-user-admin.php:1418
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] パスワードのリセット"
+
+#: frontend-user-admin.php:1419
+msgid ""
+"Someone has asked to reset the password for the following site and username."
+msgstr "次のサイトとユーザー名のパスワードのリセットが要請されました。"
+
+#: frontend-user-admin.php:1421 frontend-user-admin.php:1426
+#: frontend-user-admin.php:1434 frontend-user-admin.php:1440
+#: frontend-user-admin.php:1449 frontend-user-admin.php:1454
+#: frontend-user-admin.php:1459 frontend-user-admin.php:1464
+#: frontend-user-admin.php:1469
+msgid "Username: %user_login%"
+msgstr "ユーザー名: %user_login%"
+
+#: frontend-user-admin.php:1422
+msgid ""
+"To reset your password visit the following address, otherwise just ignore "
+"this email and nothing will happen."
+msgstr ""
+"パスワードをリセットするには次のアドレスを開いてください。リセットしない場合"
+"はこのメールを無視してください。"
+
+#: frontend-user-admin.php:1425
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[%s] 新しいパスワード"
+
+#: frontend-user-admin.php:1427 frontend-user-admin.php:1435
+msgid "Password: %password%"
+msgstr "パスワード: %password%"
+
+#: frontend-user-admin.php:1430
+#, php-format
+msgid "[%s] Password Lost/Changed"
+msgstr "[%s] パスワード紛失/変更"
+
+#: frontend-user-admin.php:1431
+msgid "Password Lost and Changed for user: %user_login%"
+msgstr "%user_login% のパスワード紛失/変更"
+
+#: frontend-user-admin.php:1433
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] あなたのユーザー名とパスワード"
+
+#: frontend-user-admin.php:1438
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] 新規ユーザー登録"
+
+#: frontend-user-admin.php:1439
+#, php-format
+msgid "New user registration on your blog %s:"
+msgstr "ブログ「 %s 」の新規ユーザー登録:"
+
+#: frontend-user-admin.php:1441 frontend-user-admin.php:1455
+#: frontend-user-admin.php:1460 frontend-user-admin.php:1465
+#: frontend-user-admin.php:1470
+msgid "E-mail: %user_email%"
+msgstr "メールアドレス: %user_email%"
+
+#: frontend-user-admin.php:1448
+msgid "Registration will be done after you click the following address."
+msgstr "以下のアドレスをクリックすると、登録が完了します。"
+
+#: frontend-user-admin.php:1452 frontend-user-admin.php:1457
+#, php-format
+msgid "[%s] Under Approval Process"
+msgstr "[%s] 承認プロセス中"
+
+#: frontend-user-admin.php:1453 frontend-user-admin.php:6292
+#: steps/step-login.php:29 steps/step-mobile_login.php:29
+#: steps/step-sp_login.php:29
+msgid ""
+"Currently under approval process. Please wait for the email from the site "
+"owner."
+msgstr ""
+"現在、承認手続き中です。メールにてご連絡しますのでしばらくお待ちください。"
+
+#: frontend-user-admin.php:1458
+msgid "Please approve the following user."
+msgstr "以下のユーザーを承認してください。"
+
+#: frontend-user-admin.php:1462 frontend-user-admin.php:1467
+#, php-format
+msgid "[%s] User Withdrawal"
+msgstr "[%s] ユーザー退会"
+
+#: frontend-user-admin.php:1463 frontend-user-admin.php:6322
+#: steps/step-login.php:35 steps/step-mobile_login.php:35
+#: steps/step-sp_login.php:35
+msgid "You were resigned from the site."
+msgstr "サイトから退会いたしました。"
+
+#: frontend-user-admin.php:1468
+msgid "The following user resigned from the site."
+msgstr "以下のユーザーがサイトから退会しました。"
+
+#: frontend-user-admin.php:1515 frontend-user-admin.php:6701
+msgid "Login"
+msgstr "ログイン"
+
+#: frontend-user-admin.php:1767
+msgid "Member Page Condition"
+msgstr "会員制ページ条件"
+
+#: frontend-user-admin.php:1872 frontend-user-admin.php:4990
+#: frontend-user-admin.php:10451 frontend-user-admin.php:10452
+msgid "Frontend User Admin"
+msgstr "フロントエンドユーザー管理"
+
+#: frontend-user-admin.php:1872 frontend-user-admin.php:1875
+msgid "User Management"
+msgstr "ユーザー管理"
+
+#: frontend-user-admin.php:1875 frontend-user-admin.php:5018
+#: frontend-user-admin.php:5700
+msgid "User List"
+msgstr "ユーザーリスト"
+
+#: frontend-user-admin.php:1879 frontend-user-admin.php:4994
+#: frontend-user-admin.php:5701 frontend-user-admin.php:7177
+msgid "Add User"
+msgstr "ユーザー追加"
+
+#: frontend-user-admin.php:1883 frontend-user-admin.php:5000
+#: frontend-user-admin.php:5702 frontend-user-admin.php:8315
+msgid "User Mail"
+msgstr "ユーザーメール"
+
+#: frontend-user-admin.php:1887 frontend-user-admin.php:5006
+#: frontend-user-admin.php:5703 frontend-user-admin.php:8868
+#: frontend-user-admin.php:9148
+msgid "User Log"
+msgstr "ユーザーログ"
+
+#: frontend-user-admin.php:1891 frontend-user-admin.php:5012
+#: frontend-user-admin.php:5704 frontend-user-admin.php:9461
+msgid "Import User"
+msgstr "ユーザーインポート"
+
+#: frontend-user-admin.php:1895 frontend-user-admin.php:5705
+msgid "Options"
+msgstr "オプション設定"
+
+#: frontend-user-admin.php:2324
+msgid "<strong>ERROR</strong>: you do not have right to edit this user."
+msgstr "<strong>エラー</strong>: このユーザーを編集する権限がありません。"
+
+#: frontend-user-admin.php:2341 frontend-user-admin.php:3213
+#: frontend-user-admin.php:3488 frontend-user-admin.php:4348
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+"<strong>エラー</strong>: このメールアドレスはすでに登録されています。別のメー"
+"ルアドレスを選んでください。"
+
+#: frontend-user-admin.php:2430 frontend-user-admin.php:8162
+#: frontend-user-admin.php:8438 frontend-user-admin.php:10061
+msgid "ID"
+msgstr "ID"
+
+#: frontend-user-admin.php:2430 frontend-user-admin.php:5379
+#: frontend-user-admin.php:8021 frontend-user-admin.php:9891
+#: frontend-user-admin.php:10071
+msgid "Login Datetime"
+msgstr "ログイン日時"
+
+#: frontend-user-admin.php:2430 frontend-user-admin.php:5383
+#: frontend-user-admin.php:8030 frontend-user-admin.php:9896
+#: frontend-user-admin.php:10072 steps/step-mobile_profile.php:332
+#: steps/step-profile.php:377 steps/step-sp_profile.php:345
+msgid "Update Datetime"
+msgstr "更新日時"
+
+#: frontend-user-admin.php:2430 frontend-user-admin.php:8036
+#: frontend-user-admin.php:10073
+msgid "Registered Datetime"
+msgstr "登録日時"
+
+#: frontend-user-admin.php:2574 frontend-user-admin.php:2644
+#: frontend-user-admin.php:8560 frontend-user-admin.php:8994
+#: frontend-user-admin.php:9258
+msgid "User"
+msgstr "ユーザー"
+
+#: frontend-user-admin.php:2574 frontend-user-admin.php:8995
+msgid "IP"
+msgstr "IP"
+
+#: frontend-user-admin.php:2574 frontend-user-admin.php:5823
+#: frontend-user-admin.php:9923 frontend-user-admin.php:10008
+msgid "Log"
+msgstr "ログ"
+
+#: frontend-user-admin.php:2574 frontend-user-admin.php:8474
+#: frontend-user-admin.php:8564 frontend-user-admin.php:8997
+msgid "Datetime"
+msgstr "日時"
+
+#: frontend-user-admin.php:2660 frontend-user-admin.php:9280
+msgid "User Count"
+msgstr "ユーザー数"
+
+#: frontend-user-admin.php:2662 frontend-user-admin.php:9284
+msgid "Page Count"
+msgstr "ページ数"
+
+#: frontend-user-admin.php:2662 frontend-user-admin.php:9285
+msgid "Unique Count"
+msgstr "ユニーク数"
+
+#: frontend-user-admin.php:2775 frontend-user-admin.php:2821
+#: frontend-user-admin.php:6268 steps/step-login.php:96
+#: steps/step-login.php:103 steps/step-mobile_login.php:96
+#: steps/step-mobile_login.php:103 steps/step-sp_login.php:96
+#: steps/step-sp_login.php:103 steps/step-widget.php:87
+msgid "Password Lost and Found"
+msgstr "パスワード紛失取り扱い"
+
+#: frontend-user-admin.php:2778 frontend-user-admin.php:2824
+#: steps/step-login.php:94 steps/step-lostpassword.php:188
+#: steps/step-mobile_login.php:94 steps/step-mobile_lostpassword.php:188
+#: steps/step-sp_login.php:94 steps/step-sp_lostpassword.php:188
+#: steps/step-widget.php:81
+msgid "Register"
+msgstr "新規ユーザー登録"
+
+#: frontend-user-admin.php:2781 frontend-user-admin.php:2827
+msgid "Confirmation"
+msgstr "ご入力内容の確認"
+
+#: frontend-user-admin.php:2784 frontend-user-admin.php:2830
+#: frontend-user-admin.php:4715 steps/step-widget.php:25
+msgid "Profile"
+msgstr "アカウント設定"
+
+#: frontend-user-admin.php:2787 frontend-user-admin.php:2833
+msgid "Buying History"
+msgstr "購入履歴"
+
+#: frontend-user-admin.php:2790 frontend-user-admin.php:2836
+msgid "Affiliate"
+msgstr "アフィリエイト"
+
+#: frontend-user-admin.php:2793 frontend-user-admin.php:2839
+msgid "Wish List"
+msgstr "ウィッシュリスト"
+
+#: frontend-user-admin.php:2797 frontend-user-admin.php:2843
+msgid "Withdrawal"
+msgstr "退会"
+
+#: frontend-user-admin.php:2803 frontend-user-admin.php:2849
+msgid "My Page"
+msgstr "マイページ"
+
+#: frontend-user-admin.php:2805 frontend-user-admin.php:2851
+#: frontend-user-admin.php:9932 frontend-user-admin.php:10016
+#: frontend-user-admin.php:10475 steps/step-confirmation.php:250
+#: steps/step-lostpassword.php:187 steps/step-lostpassword.php:192
+#: steps/step-mobile_confirmation.php:230
+#: steps/step-mobile_lostpassword.php:187
+#: steps/step-mobile_lostpassword.php:192 steps/step-mobile_register.php:35
+#: steps/step-mobile_register.php:386 steps/step-register.php:35
+#: steps/step-register.php:419 steps/step-sp_confirmation.php:224
+#: steps/step-sp_lostpassword.php:187 steps/step-sp_lostpassword.php:192
+#: steps/step-sp_register.php:35 steps/step-sp_register.php:387
+msgid "Log In"
+msgstr "ログイン"
+
+#: frontend-user-admin.php:2916
+msgid "<strong>ERROR</strong>: Enter your e-mail address."
+msgstr "<strong>エラー</strong>: メールアドレスを入力してください。"
+
+#: frontend-user-admin.php:2918
+msgid "<strong>ERROR</strong>: Enter your username or e-mail address."
+msgstr ""
+"<strong>エラー</strong>: ユーザー名またはメールアドレスを入力してください。"
+
+#: frontend-user-admin.php:2925
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+"<strong>エラー</strong>: そのメールアドレスのユーザーは登録されておりません。"
+
+#: frontend-user-admin.php:2937
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>エラー</strong>: 無効なユーザー名またはメールアドレスです。"
+
+#: frontend-user-admin.php:2942
+msgid "<strong>ERROR</strong>: E-mail address has not been set."
+msgstr "<strong>エラー</strong>: メールアドレスがセットされていません。"
+
+#: frontend-user-admin.php:2961
+#, php-format
+msgid "<strong>ERROR</strong>: The value you input does not match with %s."
+msgstr "<strong>エラー</strong>: %sがご登録内容と一致しませんでした。"
+
+#: frontend-user-admin.php:3013 frontend-user-admin.php:3068
+msgid "The e-mail could not be sent."
+msgstr "メールを送信できませんでした。"
+
+#: frontend-user-admin.php:3013 frontend-user-admin.php:3068
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr ""
+"考えられる理由: あなたのサーバーでは mail() 関数が有効になっていないのかもし"
+"れません。"
+
+#: frontend-user-admin.php:3026 frontend-user-admin.php:3030
+#: frontend-user-admin.php:3093 frontend-user-admin.php:3097
+msgid "Invalid key"
+msgstr "無効なキー"
+
+#: frontend-user-admin.php:3160 frontend-user-admin.php:3443
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>エラー</strong>: ユーザー名を入力してください。"
+
+#: frontend-user-admin.php:3162 frontend-user-admin.php:3171
+msgid ""
+"<strong>ERROR</strong>: This username is invalid.  Please enter a valid "
+"username."
+msgstr ""
+"<strong>エラー</strong>: このユーザー名は無効です。有効なユーザー名を入力して"
+"ください。"
+
+#: frontend-user-admin.php:3165
+msgid ""
+"<strong>ERROR</strong>: This username is already registered, please choose "
+"another one."
+msgstr ""
+"<strong>エラー</strong>: このユーザー名はすでに登録されています。別のユーザー"
+"名を選んでください。"
+
+#: frontend-user-admin.php:3167
+#, php-format
+msgid "<strong>ERROR</strong>: Minimum number of letters of Username is %s."
+msgstr "<strong>エラー</strong>: ユーザー名は%s文字以上で入力してください。"
+
+#: frontend-user-admin.php:3169
+#, php-format
+msgid "<strong>ERROR</strong>: Maximum number of letters of Username is %s."
+msgstr "<strong>エラー</strong>: ユーザー名は%s文字以下で入力してください。"
+
+#: frontend-user-admin.php:3184 frontend-user-admin.php:3459
+msgid "<strong>ERROR</strong>: Please enter your password."
+msgstr "<strong>エラー</strong>: パスワードを入力してください。"
+
+#: frontend-user-admin.php:3186 frontend-user-admin.php:3461
+msgid "<strong>ERROR</strong>: Please enter your password twice."
+msgstr "<strong>エラー</strong>: パスワードは 2 回入力してください。"
+
+#: frontend-user-admin.php:3189 frontend-user-admin.php:3466
+msgid "<strong>ERROR</strong>: Passwords may not contain the character \"\\\"."
+msgstr ""
+"<strong>エラー</strong>: パスワードに文字 \"\\\" を含めることはできません。"
+
+#: frontend-user-admin.php:3192 frontend-user-admin.php:3470
+msgid ""
+"<strong>ERROR</strong>: Please enter the same password in the two password "
+"fields."
+msgstr "<strong>エラー</strong>: 同じパスワードを2回入力してください。"
+
+#: frontend-user-admin.php:3194
+msgid "<strong>ERROR</strong>: Password require at least 4 characters."
+msgstr ""
+"<strong>エラー</strong>: パスワードは4文字以上の半角英数字または記号で入力し"
+"てください。"
+
+#: frontend-user-admin.php:3196 frontend-user-admin.php:3454
+#, php-format
+msgid "<strong>ERROR</strong>: Minimum number of letters of Password is %s."
+msgstr "<strong>エラー</strong>: パスワードは%s文字以上で入力してください。"
+
+#: frontend-user-admin.php:3198 frontend-user-admin.php:3456
+#, php-format
+msgid "<strong>ERROR</strong>: Maximum number of letters of Password is %s."
+msgstr "<strong>エラー</strong>: パスワードは%s文字以下で入力してください。"
+
+#: frontend-user-admin.php:3208
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>エラー</strong>: メールアドレスを入力してください。"
+
+#: frontend-user-admin.php:3210
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>エラー</strong>: メールアドレスが正しくありません。"
+
+#: frontend-user-admin.php:3217 frontend-user-admin.php:3519
+msgid "<strong>ERROR</strong>: Please enter your last name."
+msgstr "<strong>エラー</strong>: 姓を入力してください。"
+
+#: frontend-user-admin.php:3221 frontend-user-admin.php:3523
+msgid "<strong>ERROR</strong>: Please enter your first name."
+msgstr "<strong>エラー</strong>: 名を入力してください。"
+
+#: frontend-user-admin.php:3226 frontend-user-admin.php:3527
+msgid "<strong>ERROR</strong>: Please enter your nickname."
+msgstr "<strong>エラー</strong>: ニックネームを入力してください。"
+
+#: frontend-user-admin.php:3233 frontend-user-admin.php:3531
+msgid "<strong>ERROR</strong>: Please enter your web site."
+msgstr "<strong>エラー</strong>: ウェブサイトを入力してください。"
+
+#: frontend-user-admin.php:3237 frontend-user-admin.php:3535
+msgid "<strong>ERROR</strong>: Please enter your AIM."
+msgstr "<strong>エラー</strong>: AIMを入力してください。"
+
+#: frontend-user-admin.php:3241 frontend-user-admin.php:3539
+msgid "<strong>ERROR</strong>: Please enter your Yahoo IM."
+msgstr "<strong>エラー</strong>: Yahoo IMを入力してください。"
+
+#: frontend-user-admin.php:3245 frontend-user-admin.php:3543
+msgid "<strong>ERROR</strong>: Please enter your Jabber / Google Talk."
+msgstr "<strong>エラー</strong>: Jabber / Google Talk を入力してください。"
+
+#: frontend-user-admin.php:3249 frontend-user-admin.php:3547
+msgid "<strong>ERROR</strong>: Please enter your description."
+msgstr "<strong>エラー</strong>: 自己紹介を入力してください。"
+
+#: frontend-user-admin.php:3256
+msgid "<strong>ERROR</strong>: You need to agree to the terms of use."
+msgstr "<strong>エラー</strong>: 利用規約に同意する必要があります。"
+
+#: frontend-user-admin.php:3285
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
+"href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+"<strong>エラー</strong>: 登録できませんでした… <a href=\"mailto:%s\">管理者</"
+"a>に連絡してください !"
+
+#: frontend-user-admin.php:3403
+msgid "You can&#8217;t give users that role."
+msgstr "ユーザーをこの権限グループに指定することはできません。 "
+
+#: frontend-user-admin.php:3450 frontend-user-admin.php:3452
+msgid "<strong>ERROR</strong>: You entered your new password only once."
+msgstr "<strong>エラー</strong>: パスワードは 2 回入力してください。"
+
+#: frontend-user-admin.php:3476
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+"<strong>エラー</strong>: このユーザー名は無効です。有効なユーザー名を入力して"
+"ください。"
+
+#: frontend-user-admin.php:3479
+msgid ""
+"<strong>ERROR</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+"<strong>エラー</strong>: このユーザー名はすでに登録されています。別のユーザー"
+"名を選んでください。"
+
+#: frontend-user-admin.php:3484
+msgid "<strong>ERROR</strong>: Please enter an e-mail address."
+msgstr "<strong>エラー</strong>: メールアドレスを入力してください。"
+
+#: frontend-user-admin.php:3486
+msgid "<strong>ERROR</strong>: The e-mail address isn&#8217;t correct."
+msgstr "<strong>エラー</strong>: メールアドレスが正しくありません。"
+
+#: frontend-user-admin.php:3873
+#, php-format
+msgid "<strong>ERROR</strong>: Please enter %s."
+msgstr "<strong>エラー</strong>: %sを入力してください。"
+
+#: frontend-user-admin.php:3880
+#, php-format
+msgid "<strong>ERROR</strong>: Use only numerics in %s."
+msgstr "<strong>エラー</strong>: %sには数字しか使用できません。"
+
+#: frontend-user-admin.php:3884
+#, php-format
+msgid "<strong>ERROR</strong>: Use only alphabets in %s."
+msgstr "<strong>エラー</strong>: %sには半角英字しか使用できません。"
+
+#: frontend-user-admin.php:3888
+#, php-format
+msgid "<strong>ERROR</strong>: Use only alphanumerics in %s."
+msgstr "<strong>エラー</strong>: %sには半角英数字しか使用できません。"
+
+#: frontend-user-admin.php:3892
+#, php-format
+msgid "<strong>ERROR</strong>: Use only half-width letters in %s."
+msgstr "<strong>エラー</strong>: %sには半角文字しか使用できません。"
+
+#: frontend-user-admin.php:3896
+#, php-format
+msgid "<strong>ERROR</strong>: Use only Hiragana in %s."
+msgstr "<strong>エラー</strong>: %sにはひらがなしか使用できません。"
+
+#: frontend-user-admin.php:3900
+#, php-format
+msgid "<strong>ERROR</strong>: Use only Katakana in %s."
+msgstr "<strong>エラー</strong>: %sにはカタカナしか使用できません。"
+
+#: frontend-user-admin.php:3904
+#, php-format
+msgid "<strong>ERROR</strong>: %s isn&#8217;t correct."
+msgstr "<strong>エラー</strong>: %sが正しくありません。"
+
+#: frontend-user-admin.php:3909
+#, php-format
+msgid "<strong>ERROR</strong>: Minimum number of letters in %1$s is %2$s."
+msgstr "<strong>エラー</strong>: %1$sは%2$s文字以上で入力してください。"
+
+#: frontend-user-admin.php:3912
+#, php-format
+msgid "<strong>ERROR</strong>: Maximum number of letters in %1$s is %2$s."
+msgstr "<strong>エラー</strong>: %1$sは%2$s文字以下で入力してください。"
+
+#: frontend-user-admin.php:3916
+#, php-format
+msgid "<strong>ERROR</strong>: %s does not match."
+msgstr "<strong>エラー</strong>: %sが一致しませんでした。"
+
+#: frontend-user-admin.php:3925
+#, php-format
+msgid "<strong>ERROR</strong>: %s is already registered, please input again."
+msgstr ""
+"<strong>エラー</strong>: %s はすでに登録されています。再入力してください。"
+
+#: frontend-user-admin.php:3944
+msgid ""
+"<strong>ERROR</strong>: a same user seems to be already registered, please "
+"input again."
+msgstr ""
+"<strong>エラー</strong>: 同一のユーザーがすでに登録されているようです。再入力"
+"してください。"
+
+#: frontend-user-admin.php:4193 frontend-user-admin.php:4199
+#: frontend-user-admin.php:4534 frontend-user-admin.php:4542
+msgid "<strong>ERROR</strong>: reCAPTCHA failed. Please try again."
+msgstr ""
+"<strong>エラー</strong>: reCAPTCHA は失敗しました。再度お試しください。"
+
+#: frontend-user-admin.php:4355
+msgid "<strong>ERROR</strong>: A new password must be different from old one."
+msgstr ""
+"<strong>エラー</strong>: 新しいパスワードは古いパスワードと異なるパスワードを"
+"入力してください。"
+
+#: frontend-user-admin.php:4517
+msgid ""
+"<strong>ERROR</strong>: The username is locked. You have to wait for a while."
+msgstr ""
+"<strong>エラー</strong>: このユーザー名はロックされています。またしばらくして"
+"からログインしてください。"
+
+#: frontend-user-admin.php:4521
+msgid ""
+"<strong>ERROR</strong>: The username is locked. E-mail to reset password has "
+"been sent to your e-mail address."
+msgstr ""
+"<strong>エラー</strong>: ユーザー名がロックされています。パスワードリセットの"
+"メールを送信しましたのでご確認ください。"
+
+#: frontend-user-admin.php:4523
+msgid ""
+"<strong>ERROR</strong>: The username is locked. Please contact the "
+"administrator."
+msgstr ""
+"<strong>エラー</strong>: このユーザー名はロックされています。管理者に連絡して"
+"ください。"
+
+#: frontend-user-admin.php:4611
+msgid "<strong>ERROR</strong>: Invalid username."
+msgstr "<strong>エラー</strong>: 無効なユーザー名です。"
+
+#: frontend-user-admin.php:4700 steps/step-widget.php:8
+#, php-format
+msgid "Howdy, %1$s!"
+msgstr "こんにちは、 %1$sさん！"
+
+#: frontend-user-admin.php:4719 steps/step-widget.php:29
+msgid "Log Out"
+msgstr "ログアウト"
+
+#: frontend-user-admin.php:4967
+msgid "Currently this is Admin Demo Mode. You can not change any settings."
+msgstr "現在、管理画面はデモモードです。いかなる設定も変更できません。"
+
+#: frontend-user-admin.php:4969
+msgid "User registered."
+msgstr "ユーザーが登録されました。"
+
+#: frontend-user-admin.php:4971
+msgid "User edited."
+msgstr "ユーザーが更新されました。"
+
+#: frontend-user-admin.php:4973
+msgid "Options updated."
+msgstr "オプションが更新されました。"
+
+#: frontend-user-admin.php:4975
+msgid "Options imported."
+msgstr "オプションがインポートされました。"
+
+#: frontend-user-admin.php:4977
+msgid "Action failed."
+msgstr "動作が失敗しました。"
+
+#: frontend-user-admin.php:4979
+msgid "Options reset."
+msgstr "オプションがリセットされました。"
+
+#: frontend-user-admin.php:4981
+msgid "Options deleted."
+msgstr "オプションが削除されました。"
+
+#: frontend-user-admin.php:4983
+msgid "Please enter FROM, TO, subject, and body."
+msgstr "FROM、TO、件名、本文を入力してください。"
+
+#: frontend-user-admin.php:4997 frontend-user-admin.php:7609
+msgid "Edit User"
+msgstr "ユーザー編集"
+
+#: frontend-user-admin.php:5003 frontend-user-admin.php:8316
+#: frontend-user-admin.php:8366
+msgid "Send Mail"
+msgstr "新規メールを送る"
+
+#: frontend-user-admin.php:5009 frontend-user-admin.php:8869
+#: frontend-user-admin.php:9149
+msgid "User Log Summary"
+msgstr "ユーザーログ集計"
+
+#: frontend-user-admin.php:5015
+msgid "Settings"
+msgstr "オプション設定"
+
+#: frontend-user-admin.php:5095 frontend-user-admin.php:5734
+#: frontend-user-admin.php:5851 frontend-user-admin.php:5902
+#: frontend-user-admin.php:6031 frontend-user-admin.php:6044
+#: frontend-user-admin.php:6080 frontend-user-admin.php:6140
+#: frontend-user-admin.php:6196 frontend-user-admin.php:6240
+#: frontend-user-admin.php:6340 frontend-user-admin.php:6433
+#: frontend-user-admin.php:6479 frontend-user-admin.php:6636
+#: frontend-user-admin.php:6648 frontend-user-admin.php:6682
+#: frontend-user-admin.php:6735 frontend-user-admin.php:6754
+#: frontend-user-admin.php:6773 frontend-user-admin.php:6794
+#: frontend-user-admin.php:6814 frontend-user-admin.php:6830
+#: frontend-user-admin.php:6846 frontend-user-admin.php:6865
+#: frontend-user-admin.php:8057 frontend-user-admin.php:8086
+#: frontend-user-admin.php:9038 frontend-user-admin.php:9381
+#: frontend-user-admin.php:10052 frontend-user-admin.php:10094
+msgid "Click to toggle"
+msgstr "クリックで切替"
+
+#: frontend-user-admin.php:5096
+msgid "Global Settings"
+msgstr "環境設定"
+
+#: frontend-user-admin.php:5102
+msgid "Log In URL"
+msgstr "ログインURL"
+
+#: frontend-user-admin.php:5104
+msgid "You need to make a page which has this permalink."
+msgstr "このパーマリンクを持つページを作成する必要があります。"
+
+#: frontend-user-admin.php:5107
+msgid "After Log In URL"
+msgstr "ログイン後URL"
+
+#: frontend-user-admin.php:5109
+msgid ""
+"You can add %user_login% in the upper url. %user_login% will be converted "
+"into the user name."
+msgstr ""
+"urlには、%user_login%を追加することができます。%user_login%はユーザー名に置換"
+"されます。"
+
+#: frontend-user-admin.php:5112
+msgid "After Log Out URL"
+msgstr "ログアウト後URL"
+
+#: frontend-user-admin.php:5116
+msgid "After Log In URL Exception URL"
+msgstr "ログイン後URLの例外URL"
+
+#: frontend-user-admin.php:5118 frontend-user-admin.php:5136
+msgid "Please specify the exception url in each line."
+msgstr "例外URLを一行ごとに入力してください。"
+
+#: frontend-user-admin.php:5121
+msgid "After Log In Template File"
+msgstr "ログイン後テンプレートファイル名"
+
+#: frontend-user-admin.php:5123
+msgid ""
+"If you would like to use the original template file, you need to set the "
+"file in the theme directory."
+msgstr ""
+"オリジナルのテンプレートファイルを使用するには、テーマディレクトリにファイル"
+"を設置する必要があります。"
+
+#: frontend-user-admin.php:5126
+msgid "Transfer all to the Log In URL"
+msgstr "ログインURLに転送"
+
+#: frontend-user-admin.php:5127
+msgid "If the user is not logged in, transfer all to the Log In URL."
+msgstr "ログインしていない場合、すべてのアクセスをログインURLに転送します。"
+
+#: frontend-user-admin.php:5130
+msgid "Alternative URL for transfer all"
+msgstr "ログインURLに転送の代替URL"
+
+#: frontend-user-admin.php:5134
+msgid "Transfer all to the Log In Exception URL"
+msgstr "ログインURLに転送の例外URL"
+
+#: frontend-user-admin.php:5139
+msgid "User Registration"
+msgstr "新規ユーザー登録"
+
+#: frontend-user-admin.php:5140
+msgid "Anyone can register."
+msgstr "誰でもユーザー登録できるようにする"
+
+#: frontend-user-admin.php:5143
+msgid "Show the content directly when the user logged in"
+msgstr "ログイン済みは、ログインページの投稿内容を表示"
+
+#: frontend-user-admin.php:5144
+msgid ""
+"If the user logged in, it shows the post content directly not the login box."
+msgstr ""
+"ログインしている場合、ログインボックスではなく、ログインページの投稿内容を直"
+"接表示します。"
+
+#: frontend-user-admin.php:5147
+msgid "Show the menu in the login page during login"
+msgstr "ログイン済みは、ログインページにメニューを表示"
+
+#: frontend-user-admin.php:5148
+msgid ""
+"If the user logged in, it shows the menu at the head of content in the login "
+"page."
+msgstr ""
+"ログインしている場合、ログインページのコンテンツ上部にメニューを表示します。"
+
+#: frontend-user-admin.php:5151
+msgid "Transfer to the After Log In URL when the user logged in"
+msgstr "ログイン済みは、ログイン後URLに転送"
+
+#: frontend-user-admin.php:5152
+msgid "If the user logged in, transfer to the After Log In URL."
+msgstr ""
+"ログインしている場合、ログインURLへのアクセスはログイン後URLに転送します。"
+
+#: frontend-user-admin.php:5155
+msgid "Number of Username"
+msgstr "ユーザー名の文字数"
+
+#: frontend-user-admin.php:5156 frontend-user-admin.php:5181
+#: frontend-user-admin.php:5751
+msgid "Min Letters"
+msgstr "最小文字数"
+
+#: frontend-user-admin.php:5167 frontend-user-admin.php:5192
+#: frontend-user-admin.php:5752
+msgid "Max Letters"
+msgstr "最大文字数"
+
+#: frontend-user-admin.php:5180
+msgid "Number of Password"
+msgstr "パスワードの文字数"
+
+#: frontend-user-admin.php:5205
+msgid "Username Regulation Expressions"
+msgstr "ユーザー名正規表現"
+
+#: frontend-user-admin.php:5209
+msgid "The email as Username"
+msgstr "メールアドレスをユーザー名として"
+
+#: frontend-user-admin.php:5210
+msgid "Use the email as the username. "
+msgstr "メールアドレスをユーザー名として使用する"
+
+#: frontend-user-admin.php:5213
+msgid "Username Automatic Generation"
+msgstr "ユーザー名自動生成"
+
+#: frontend-user-admin.php:5214
+msgid "Generate an userlogin automatically in an user registration."
+msgstr "ユーザー登録時ユーザー名を自動的に生成する"
+
+#: frontend-user-admin.php:5217
+msgid "Password Registration"
+msgstr "パスワード登録"
+
+#: frontend-user-admin.php:5218
+msgid "Let new users decide a password on the registration."
+msgstr "ユーザー登録の際にパスワードを入力させる"
+
+#: frontend-user-admin.php:5221
+msgid "Email Confirmation (before registration)"
+msgstr "メールアドレス確認（ユーザー登録前）"
+
+#: frontend-user-admin.php:5222
+msgid "Need Email confirmation before user registration."
+msgstr "ユーザー登録前にメールアドレスの確認を必要とする"
+
+#: frontend-user-admin.php:5225
+msgid "Email Confirmation (parallel registration)"
+msgstr "メールアドレス確認（ユーザー登録同時）"
+
+#: frontend-user-admin.php:5226
+msgid "Need Email confirmation in parallel with user registration."
+msgstr "ユーザー登録と同時にメールアドレスの確認を必要とする"
+
+#: frontend-user-admin.php:5229
+msgid "Email Confirmation (after registration)"
+msgstr "メールアドレス確認（ユーザー登録後）"
+
+#: frontend-user-admin.php:5230
+msgid "Need Email confirmation after user registration."
+msgstr "ユーザー登録後にメールアドレスの確認を必要とする"
+
+#: frontend-user-admin.php:5233
+msgid "Email Duplication"
+msgstr "メールアドレス重複"
+
+#: frontend-user-admin.php:5234
+msgid "Allow users to register by the email duplication."
+msgstr "メールアドレスの重複登録を許可する"
+
+#: frontend-user-admin.php:5237
+msgid "Approval Registration"
+msgstr "承認登録"
+
+#: frontend-user-admin.php:5238
+msgid "Need the site owner approval to register."
+msgstr "登録にサイトオーナーの承認を必要とする"
+
+#: frontend-user-admin.php:5241
+msgid "Password Auto Regeneration"
+msgstr "パスワード自動再生成"
+
+#: frontend-user-admin.php:5242
+msgid ""
+"Regenerate the password automatically in sending a registration email "
+"without the password registration by users."
+msgstr ""
+"ユーザーによるパスワード登録を利用しない場合で、登録メールを送信する際にパス"
+"ワードを自動的に再生成する"
+
+#: frontend-user-admin.php:5248
+msgid "Unique Registration"
+msgstr "ユニーク登録"
+
+#: frontend-user-admin.php:5248 frontend-user-admin.php:5252
+#: frontend-user-admin.php:5256 frontend-user-admin.php:5260
+#: frontend-user-admin.php:5265 frontend-user-admin.php:5538
+#: frontend-user-admin.php:5541 frontend-user-admin.php:5615
+#: frontend-user-admin.php:5618
+msgid "(Multi Site)"
+msgstr "（マルチサイト）"
+
+#: frontend-user-admin.php:5249
+msgid ""
+"Treat usernames uniquely in each site. Site ID will be added into usernames "
+"automatically."
+msgstr ""
+"ユーザー名をサイトごとにユニークとして扱う。サイトIDがユーザー名に自動的で付"
+"加されます。"
+
+#: frontend-user-admin.php:5252
+msgid "All Site Registration"
+msgstr "全サイト登録"
+
+#: frontend-user-admin.php:5253
+msgid "Register new users to all sites."
+msgstr "新規ユーザーを全サイトに登録する。"
+
+#: frontend-user-admin.php:5256
+msgid "Logout Other Sites"
+msgstr "他サイトでのログアウト"
+
+#: frontend-user-admin.php:5257
+msgid "Logout in other sites which are not associated with users."
+msgstr "関連付けられていない他サイトではログアウトする"
+
+#: frontend-user-admin.php:5260
+msgid "Exclude Admin Users"
+msgstr "管理者ユーザーを除く"
+
+#: frontend-user-admin.php:5261
+msgid "Exclude admin users from the user list."
+msgstr "ユーザーリストから管理者ユーザーを除く"
+
+#: frontend-user-admin.php:5265
+msgid "User Complete Deletion"
+msgstr "ユーザー完全削除"
+
+#: frontend-user-admin.php:5266
+msgid "Delete user data completely."
+msgstr "ユーザーデータを完全に削除する"
+
+#: frontend-user-admin.php:5273
+msgid "Use Password Strength"
+msgstr "パスワード強度を使用する"
+
+#: frontend-user-admin.php:5274
+msgid "Use the password strength on the registration."
+msgstr "ユーザー登録の際にパスワード強度を使用する"
+
+#: frontend-user-admin.php:5277
+msgid "Use Common Password"
+msgstr "共通パスワードを使用する"
+
+#: frontend-user-admin.php:5278
+msgid "Use the common password to login."
+msgstr "ログインに共通パスワードを使用する"
+
+#: frontend-user-admin.php:5281
+msgid "Set the common password."
+msgstr "共通パスワードを設定する"
+
+#: frontend-user-admin.php:5282
+msgid ""
+"You need to set this common password when you register users. In order to "
+"set up the common password automatically in registration, please check the "
+"Password Registration."
+msgstr ""
+"ユーザーを登録する際に共通パスワードを設定する必要があります。新規登録時に自"
+"動的に共通パスワードをセットするためには、パスワード登録にチェックを入れてく"
+"ださい。"
+
+#: frontend-user-admin.php:5288
+msgid "Disable the password change email."
+msgstr "パスワード変更のお知らせの無効"
+
+#: frontend-user-admin.php:5289
+msgid "Do not send the password change email"
+msgstr "パスワード変更のお知らせを送信しない"
+
+#: frontend-user-admin.php:5292
+msgid "Disable the email change email."
+msgstr "メールアドレス変更のお知らせの無効"
+
+#: frontend-user-admin.php:5293
+msgid "Do not send the email change email"
+msgstr "メールアドレス変更のお知らせを送信しない"
+
+#: frontend-user-admin.php:5299
+msgid "Hide `Remember me`"
+msgstr "`ログイン情報を記憶`を隠す"
+
+#: frontend-user-admin.php:5300
+msgid "Hide `Remember me` checkbox in login."
+msgstr "ログイン時の`ログイン情報を記憶`チェックボックスを隠す"
+
+#: frontend-user-admin.php:5303
+msgid "Login after registration"
+msgstr "登録後ログイン"
+
+#: frontend-user-admin.php:5304
+msgid "Login after registration automatically."
+msgstr "ユーザー登録後自動的にログインする"
+
+#: frontend-user-admin.php:5307
+msgid "Confirmation Screen"
+msgstr "確認画面"
+
+#: frontend-user-admin.php:5308
+msgid "Show the confirmation screen on the registration."
+msgstr "ユーザー登録の際に確認画面を表示する"
+
+#: frontend-user-admin.php:5311
+msgid "Enforcement Update"
+msgstr "強制更新"
+
+#: frontend-user-admin.php:5312
+msgid "Update user attributes regardless of required fields in the admin."
+msgstr "管理画面では必須項目に関係なくユーザー属性を更新する"
+
+#: frontend-user-admin.php:5315
+msgid "Required field check"
+msgstr "必須項目チェック"
+
+#: frontend-user-admin.php:5316
+msgid "Enforce users to input required fields in any time."
+msgstr "必須項目の入力を常に強制する"
+
+#: frontend-user-admin.php:5319
+msgid "Default Messages"
+msgstr "デフォルトメッセージ"
+
+#: frontend-user-admin.php:5320
+msgid "Display default messages on the top of each page."
+msgstr "デフォルトメッセージを各ページ上部に表示する"
+
+#: frontend-user-admin.php:5323
+msgid "Set the default user_login."
+msgstr "デフォルトのuser_loginをセットする"
+
+#: frontend-user-admin.php:5324
+msgid ""
+"The input box of Log In will be the hidden attribute, if you set the default "
+"user_login."
+msgstr ""
+"デフォルトのuser_loginをセットすると、ログイン時のインプットボックスがhidden"
+"属性になります。"
+
+#: frontend-user-admin.php:5327
+msgid "Smartphone Code"
+msgstr "スマートフォンコード"
+
+#: frontend-user-admin.php:5328
+msgid "Use Smartphone output code"
+msgstr "スマートフォン向け出力コードを使用する"
+
+#: frontend-user-admin.php:5331
+msgid "Smartphone Determination"
+msgstr "スマートフォン判定"
+
+#: frontend-user-admin.php:5332
+msgid "Exclude iPad from Smartphone"
+msgstr "iPadをスマートフォンに含めない"
+
+#: frontend-user-admin.php:5335
+msgid "Use Style Sheet"
+msgstr "スタイルシートの使用"
+
+#: frontend-user-admin.php:5336
+msgid "Load the CSS file."
+msgstr "CSSファイルを読み込む"
+
+#: frontend-user-admin.php:5339
+msgid "Use Withdrawal"
+msgstr "ユーザーの退会を使用する"
+
+#: frontend-user-admin.php:5340
+msgid "Allow users to delete the account."
+msgstr "ユーザーにアカウントの削除をさせる。"
+
+#: frontend-user-admin.php:5343
+msgid "Use the soft user deletion"
+msgstr "ソフトユーザー削除を使用する"
+
+#: frontend-user-admin.php:5344
+msgid "After the user withdrawal, user name and email will be only renamed."
+msgstr "ユーザー退会後、ユーザー名とメールアドレスのみリネームされます。"
+
+#: frontend-user-admin.php:5347
+msgid "Disable Links"
+msgstr "リンク禁止"
+
+#: frontend-user-admin.php:5348
+msgid "Do not output trailing links."
+msgstr "末尾のリンクを出力しない。"
+
+#: frontend-user-admin.php:5351
+msgid "Disable Profile"
+msgstr "アカウント設定禁止"
+
+#: frontend-user-admin.php:5352
+msgid "Do not allow users to update the profile."
+msgstr "ユーザーにアカウント設定をさせない。"
+
+#: frontend-user-admin.php:5355
+msgid "Disable Password Lost and Found"
+msgstr "パスワード紛失取り扱いの禁止"
+
+#: frontend-user-admin.php:5356
+msgid "Do not allow users to find the password."
+msgstr "ユーザーにパスワードの再設定をさせない。"
+
+#: frontend-user-admin.php:5359
+msgid "Disable the cookie error"
+msgstr "クッキーエラーの禁止"
+
+#: frontend-user-admin.php:5360
+msgid "Do not allow to show the cookie error."
+msgstr "クッキーエラーを表示させない。"
+
+#: frontend-user-admin.php:5363
+msgid "Disable the duplicate login"
+msgstr "重複ログインの禁止"
+
+#: frontend-user-admin.php:5364
+msgid "Do not allow multiple users in the same account to login."
+msgstr "同じアカウントでの複数ユーザーのログインを禁止する"
+
+#: frontend-user-admin.php:5367
+msgid "Disable the admin bar"
+msgstr "管理バーの禁止"
+
+#: frontend-user-admin.php:5368
+msgid "Do not allow users to use the admin bar."
+msgstr "ユーザーに管理バーを使用させない。"
+
+#: frontend-user-admin.php:5371
+msgid "Normal Authentication Timeout"
+msgstr "通常認証タイムアウト"
+
+#: frontend-user-admin.php:5372 frontend-user-admin.php:5376
+msgid "seconds"
+msgstr "秒"
+
+#: frontend-user-admin.php:5375
+msgid "&quot;Remember Me&quot; Authentication Timeout"
+msgstr "&quot;ログイン情報を記憶&quot;の認証タイムアウト"
+
+#: frontend-user-admin.php:5380
+msgid "Record login datetime."
+msgstr "ログイン日時を記録する"
+
+#: frontend-user-admin.php:5384
+msgid "Record update datetime."
+msgstr "更新日時を記録する"
+
+#: frontend-user-admin.php:5387
+msgid "Logout Time"
+msgstr "ログアウト時間"
+
+#: frontend-user-admin.php:5388 frontend-user-admin.php:5408
+msgid "minutes"
+msgstr "分"
+
+#: frontend-user-admin.php:5391
+msgid "Logout Time except Administrators"
+msgstr "ログアウト時間（管理者を除く）"
+
+#: frontend-user-admin.php:5392
+msgid "Do not apply Logout Time to Administrator users."
+msgstr "ログアウト時間を管理者ユーザーに適用しない"
+
+#: frontend-user-admin.php:5395
+msgid "Password Expiration Date"
+msgstr "パスワード有効期限"
+
+#: frontend-user-admin.php:5396 frontend-user-admin.php:5435
+msgid "days"
+msgstr "日"
+
+#: frontend-user-admin.php:5399 frontend-user-admin.php:8007
+msgid "Password Lock Miss Times"
+msgstr "パスワードロックミス回数"
+
+#: frontend-user-admin.php:5400 frontend-user-admin.php:8008
+msgid "times"
+msgstr "回"
+
+#: frontend-user-admin.php:5403
+msgid "Send E-mail after Password Lock"
+msgstr "パスワード ロック後にメール送信"
+
+#: frontend-user-admin.php:5404
+msgid ""
+"Send E-mail to reset password after missing password and locking the account."
+msgstr ""
+"パスワードをミスし、アカウントがロックされた際にパスワードリセット用のメール"
+"を送信する"
+
+#: frontend-user-admin.php:5407
+msgid "Password Lock Retrieval Time"
+msgstr "パスワードロック復帰時間"
+
+#: frontend-user-admin.php:5411
+msgid "Different Password"
+msgstr "異なるパスワード"
+
+#: frontend-user-admin.php:5412
+msgid "A different password from old one must be input as a new password."
+msgstr "古いパスワードと異なるパスワードを新しいパスワードとして入力させる"
+
+#: frontend-user-admin.php:5415
+msgid "Start Log"
+msgstr "ログ開始"
+
+#: frontend-user-admin.php:5416
+msgid "Start logging the user actions."
+msgstr "ユーザー動作のログを開始する"
+
+#: frontend-user-admin.php:5419
+msgid "Log User Name"
+msgstr "ログユーザー名"
+
+#: frontend-user-admin.php:5434
+msgid "Delete logs earlier than the following days automatically"
+msgstr "以下の日数以前のログを自動的に削除"
+
+#: frontend-user-admin.php:5437
+msgid "Admin Panel User Level"
+msgstr "管理画面ユーザーレベル"
+
+#: frontend-user-admin.php:5450
+msgid "Disable the widget while login"
+msgstr "ログイン中のウィジェットの禁止"
+
+#: frontend-user-admin.php:5451
+msgid "Do not show the widget while login."
+msgstr "ログイン中はウィジェットを表示しない"
+
+#: frontend-user-admin.php:5454
+msgid "Disable the widget while nologin"
+msgstr "未ログイン中のウィジェットの禁止"
+
+#: frontend-user-admin.php:5455
+msgid "Do not show the widget while nologin."
+msgstr "未ログイン中はウィジェットを表示しない"
+
+#: frontend-user-admin.php:5458
+msgid "Widget Title"
+msgstr "ウィジェットタイトル"
+
+#: frontend-user-admin.php:5462
+msgid "Widget Content"
+msgstr "ウィジェットコンテンツ"
+
+#: frontend-user-admin.php:5466
+msgid "Array Delimiter"
+msgstr "配列区切り文字"
+
+#: frontend-user-admin.php:5470
+msgid "Required Mark"
+msgstr "必須マーク"
+
+#: frontend-user-admin.php:5483
+msgid "Register Item and Order"
+msgstr "新規ユーザー登録アイテムと並び替え"
+
+#: frontend-user-admin.php:5490 frontend-user-admin.php:5567
+#: frontend-user-admin.php:6910 frontend-user-admin.php:7205
+#: frontend-user-admin.php:7637 steps/step-confirmation.php:36
+#: steps/step-login.php:62 steps/step-mobile_confirmation.php:32
+#: steps/step-mobile_login.php:62 steps/step-mobile_profile.php:49
+#: steps/step-mobile_register.php:84 steps/step-profile.php:52
+#: steps/step-register.php:91 steps/step-sp_confirmation.php:33
+#: steps/step-sp_login.php:62 steps/step-sp_profile.php:50
+#: steps/step-sp_register.php:85 steps/step-widget.php:42
+msgid "Username"
+msgstr "ユーザー名"
+
+#: frontend-user-admin.php:5490 frontend-user-admin.php:5493
+#: frontend-user-admin.php:5496 frontend-user-admin.php:5499
+#: frontend-user-admin.php:5502 frontend-user-admin.php:5505
+#: frontend-user-admin.php:5508 frontend-user-admin.php:5511
+#: frontend-user-admin.php:5514 frontend-user-admin.php:5517
+#: frontend-user-admin.php:5520 frontend-user-admin.php:5523
+#: frontend-user-admin.php:5526 frontend-user-admin.php:5529
+#: frontend-user-admin.php:5532 frontend-user-admin.php:5535
+#: frontend-user-admin.php:5567 frontend-user-admin.php:5570
+#: frontend-user-admin.php:5573 frontend-user-admin.php:5576
+#: frontend-user-admin.php:5579 frontend-user-admin.php:5582
+#: frontend-user-admin.php:5585 frontend-user-admin.php:5588
+#: frontend-user-admin.php:5591 frontend-user-admin.php:5594
+#: frontend-user-admin.php:5597 frontend-user-admin.php:5600
+#: frontend-user-admin.php:5603 frontend-user-admin.php:5606
+#: frontend-user-admin.php:5609 frontend-user-admin.php:5612
+msgid "(Default)"
+msgstr "（デフォルト）"
+
+#: frontend-user-admin.php:5493 frontend-user-admin.php:5570
+#: frontend-user-admin.php:6914 frontend-user-admin.php:7221
+#: frontend-user-admin.php:7652 steps/step-confirmation.php:52
+#: steps/step-mobile_confirmation.php:44 steps/step-mobile_profile.php:61
+#: steps/step-mobile_register.php:96 steps/step-profile.php:68
+#: steps/step-register.php:107 steps/step-sp_confirmation.php:45
+#: steps/step-sp_profile.php:62 steps/step-sp_register.php:97
+msgid "First name"
+msgstr "名"
+
+#: frontend-user-admin.php:5493 frontend-user-admin.php:5496
+#: frontend-user-admin.php:5499 frontend-user-admin.php:5826
+msgid "Composite Unique"
+msgstr "複合一意"
+
+#: frontend-user-admin.php:5496 frontend-user-admin.php:5573
+#: frontend-user-admin.php:6915 frontend-user-admin.php:7213
+#: frontend-user-admin.php:7644 steps/step-confirmation.php:44
+#: steps/step-mobile_confirmation.php:38 steps/step-mobile_profile.php:55
+#: steps/step-mobile_register.php:90 steps/step-profile.php:60
+#: steps/step-register.php:99 steps/step-sp_confirmation.php:39
+#: steps/step-sp_profile.php:56 steps/step-sp_register.php:91
+msgid "Last name"
+msgstr "姓"
+
+#: frontend-user-admin.php:5499 frontend-user-admin.php:5576
+#: frontend-user-admin.php:6916 frontend-user-admin.php:7230
+#: frontend-user-admin.php:7660 steps/step-confirmation.php:60
+#: steps/step-mobile_confirmation.php:50 steps/step-mobile_profile.php:67
+#: steps/step-mobile_register.php:102 steps/step-profile.php:76
+#: steps/step-register.php:115 steps/step-sp_confirmation.php:51
+#: steps/step-sp_profile.php:68 steps/step-sp_register.php:103
+msgid "Nickname"
+msgstr "ニックネーム"
+
+#: frontend-user-admin.php:5502 frontend-user-admin.php:5579
+#: frontend-user-admin.php:6920 frontend-user-admin.php:7668
+#: steps/step-mobile_profile.php:73 steps/step-profile.php:84
+#: steps/step-sp_profile.php:74
+msgid "Display name publicly&nbsp;as"
+msgstr "サイト上の表示名"
+
+#: frontend-user-admin.php:5505 frontend-user-admin.php:5582
+#: frontend-user-admin.php:6911 frontend-user-admin.php:7238
+#: frontend-user-admin.php:7694 steps/step-confirmation.php:68
+#: steps/step-login.php:62 steps/step-lostpassword.php:23
+#: steps/step-mobile_confirmation.php:56 steps/step-mobile_login.php:62
+#: steps/step-mobile_lostpassword.php:23 steps/step-mobile_profile.php:96
+#: steps/step-mobile_register.php:26 steps/step-mobile_register.php:108
+#: steps/step-profile.php:110 steps/step-register.php:26
+#: steps/step-register.php:123 steps/step-sp_confirmation.php:57
+#: steps/step-sp_login.php:62 steps/step-sp_lostpassword.php:23
+#: steps/step-sp_profile.php:97 steps/step-sp_register.php:26
+#: steps/step-sp_register.php:109 steps/step-widget.php:42
+msgid "E-mail"
+msgstr "メールアドレス"
+
+#: frontend-user-admin.php:5508 frontend-user-admin.php:5585
+#: frontend-user-admin.php:6913 frontend-user-admin.php:7246
+#: frontend-user-admin.php:7702 steps/step-confirmation.php:76
+#: steps/step-mobile_confirmation.php:62 steps/step-mobile_profile.php:105
+#: steps/step-mobile_register.php:114 steps/step-profile.php:121
+#: steps/step-register.php:131 steps/step-sp_confirmation.php:63
+#: steps/step-sp_profile.php:106 steps/step-sp_register.php:115
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: frontend-user-admin.php:5511 frontend-user-admin.php:5588
+#: frontend-user-admin.php:6917 frontend-user-admin.php:7254
+#: frontend-user-admin.php:7710 steps/step-confirmation.php:84
+#: steps/step-mobile_confirmation.php:68 steps/step-mobile_profile.php:111
+#: steps/step-mobile_register.php:120 steps/step-profile.php:129
+#: steps/step-register.php:139 steps/step-sp_confirmation.php:69
+#: steps/step-sp_profile.php:112 steps/step-sp_register.php:121
+msgid "AIM"
+msgstr "AIM"
+
+#: frontend-user-admin.php:5514 frontend-user-admin.php:5591
+#: frontend-user-admin.php:6918 frontend-user-admin.php:7262
+#: frontend-user-admin.php:7718 steps/step-confirmation.php:92
+#: steps/step-mobile_confirmation.php:74 steps/step-mobile_profile.php:117
+#: steps/step-mobile_register.php:126 steps/step-profile.php:137
+#: steps/step-register.php:147 steps/step-sp_confirmation.php:75
+#: steps/step-sp_profile.php:118 steps/step-sp_register.php:127
+msgid "Yahoo IM"
+msgstr "Yahoo IM"
+
+#: frontend-user-admin.php:5517 frontend-user-admin.php:5594
+#: frontend-user-admin.php:6919 frontend-user-admin.php:7270
+#: frontend-user-admin.php:7726 steps/step-confirmation.php:100
+#: steps/step-mobile_confirmation.php:80 steps/step-mobile_profile.php:123
+#: steps/step-mobile_register.php:132 steps/step-profile.php:145
+#: steps/step-register.php:155 steps/step-sp_confirmation.php:81
+#: steps/step-sp_profile.php:124 steps/step-sp_register.php:133
+msgid "Jabber / Google Talk"
+msgstr "Jabber / Google Talk"
+
+#: frontend-user-admin.php:5520 frontend-user-admin.php:5597
+#: frontend-user-admin.php:6921 frontend-user-admin.php:7278
+#: frontend-user-admin.php:7734 steps/step-confirmation.php:108
+#: steps/step-mobile_confirmation.php:86 steps/step-mobile_profile.php:129
+#: steps/step-mobile_register.php:138 steps/step-profile.php:153
+#: steps/step-register.php:163 steps/step-sp_confirmation.php:87
+#: steps/step-sp_profile.php:130 steps/step-sp_register.php:139
+msgid "Biographical Info"
+msgstr "自己紹介"
+
+#: frontend-user-admin.php:5523 frontend-user-admin.php:5600
+#: frontend-user-admin.php:6922 frontend-user-admin.php:7285
+#: frontend-user-admin.php:7742
+msgid "Role"
+msgstr "権限"
+
+#: frontend-user-admin.php:5526 frontend-user-admin.php:5603
+#: frontend-user-admin.php:6923
+msgid "User status"
+msgstr "ステータス"
+
+#: frontend-user-admin.php:5529 frontend-user-admin.php:5606
+#: frontend-user-admin.php:6924 frontend-user-admin.php:7309
+#: frontend-user-admin.php:7766 frontend-user-admin.php:9968
+msgid "No log"
+msgstr "ログしない"
+
+#: frontend-user-admin.php:5532 frontend-user-admin.php:5609
+#: frontend-user-admin.php:6925
+msgid "Duplicate login"
+msgstr "重複ログイン"
+
+#: frontend-user-admin.php:5535 frontend-user-admin.php:5612
+#: frontend-user-admin.php:7794 steps/step-mobile_profile.php:141
+#: steps/step-profile.php:167 steps/step-sp_profile.php:142
+msgid "New Password"
+msgstr "新しいパスワード"
+
+#: frontend-user-admin.php:5538 frontend-user-admin.php:5615
+#: frontend-user-admin.php:6908 frontend-user-admin.php:7189
+#: frontend-user-admin.php:7622 steps/step-confirmation.php:20
+#: steps/step-mobile_confirmation.php:20 steps/step-mobile_register.php:72
+#: steps/step-register.php:75 steps/step-sp_confirmation.php:21
+#: steps/step-sp_register.php:73
+msgid "Site Domain"
+msgstr "サイト名"
+
+#: frontend-user-admin.php:5541 frontend-user-admin.php:5618
+#: frontend-user-admin.php:6909 frontend-user-admin.php:7197
+#: frontend-user-admin.php:7630 steps/step-confirmation.php:28
+#: steps/step-mobile_confirmation.php:26 steps/step-mobile_register.php:78
+#: steps/step-register.php:83 steps/step-sp_confirmation.php:27
+#: steps/step-sp_register.php:79
+msgid "Site Title"
+msgstr "サイトタイトル"
+
+#: frontend-user-admin.php:5560
+msgid "Profile Item and Order"
+msgstr "プロフィールアイテムと並び替え"
+
+#: frontend-user-admin.php:5570 frontend-user-admin.php:5573
+#: frontend-user-admin.php:5576 frontend-user-admin.php:5579
+#: frontend-user-admin.php:5582 frontend-user-admin.php:5585
+#: frontend-user-admin.php:5588 frontend-user-admin.php:5591
+#: frontend-user-admin.php:5594 frontend-user-admin.php:5597
+#: frontend-user-admin.php:5748
+msgid "Admin"
+msgstr "管理"
+
+#: frontend-user-admin.php:5638
+msgid "Set Nickname as Display Name when registering."
+msgstr "登録時、ニックネームをサイト上の表示名としてセットする"
+
+#: frontend-user-admin.php:5639
+msgid ""
+"Please check if you want users to set their nicknames as display name as "
+"default. Nickname will be a necessary attribute."
+msgstr ""
+"デフォルトでニックネームをサイト上の表示名としてセットする場合はチェックして"
+"ください。ニックネームは必須の属性となります。"
+
+#: frontend-user-admin.php:5642
+msgid "Let users approve the terms of use."
+msgstr "利用規約を承認させる"
+
+#: frontend-user-admin.php:5644
+msgid "Terms of use URL"
+msgstr "利用規約URL"
+
+#: frontend-user-admin.php:5648
+msgid "The name of Terms"
+msgstr "利用規約代替名"
+
+#: frontend-user-admin.php:5652 frontend-user-admin.php:10095
+msgid "Bulk User Update Code"
+msgstr "一括ユーザー更新コード"
+
+#: frontend-user-admin.php:5653
+msgid "Use the bulk user update code in the user list."
+msgstr "ユーザーリストで一括ユーザー更新コードを使用する"
+
+#: frontend-user-admin.php:5656
+msgid "Admin CSS"
+msgstr "管理画面CSS"
+
+#: frontend-user-admin.php:5660
+msgid "Admin JavaScript"
+msgstr "管理画面JavaScript"
+
+#: frontend-user-admin.php:5665
+msgid "Admin Demo Mode"
+msgstr "管理画面デモモード"
+
+#: frontend-user-admin.php:5666
+msgid "Please check if you make the admin panel under the demo."
+msgstr "管理画面をデモモードにするにはチェックしてください。"
+
+#: frontend-user-admin.php:5669
+msgid "Role of this plugin"
+msgstr "プラグインの設定権限"
+
+#: frontend-user-admin.php:5683
+msgid "User Level of this plugin"
+msgstr "プラグインの設定ユーザーレベル"
+
+#: frontend-user-admin.php:5692 frontend-user-admin.php:6536
+#: frontend-user-admin.php:6594 frontend-user-admin.php:9833
+msgid "and above"
+msgstr "以上"
+
+#: frontend-user-admin.php:5698
+msgid ""
+"Please select the ability which the user role of this plugin can have. The "
+"admin user can manage everything."
+msgstr ""
+"プラグインの設定権限の内容を選択してください。管理者ユーザーは全てを管理でき"
+"ます。"
+
+#: frontend-user-admin.php:5717 frontend-user-admin.php:5835
+#: frontend-user-admin.php:5886 frontend-user-admin.php:6022
+#: frontend-user-admin.php:6064 frontend-user-admin.php:6131
+#: frontend-user-admin.php:6187 frontend-user-admin.php:6231
+#: frontend-user-admin.php:6332 frontend-user-admin.php:6424
+#: frontend-user-admin.php:6627 frontend-user-admin.php:6673
+#: frontend-user-admin.php:6726 frontend-user-admin.php:6745
+#: frontend-user-admin.php:6764 frontend-user-admin.php:6783
+msgid "Update Options &raquo;"
+msgstr "更新オプション &raquo;"
+
+#: frontend-user-admin.php:5735
+msgid "Add User Attribute"
+msgstr "ユーザー属性の追加"
+
+#: frontend-user-admin.php:5741 frontend-user-admin.php:7980
+#: frontend-user-admin.php:8063 frontend-user-admin.php:9582
+#: frontend-user-admin.php:9790 steps/step-profile.php:348
+#: steps/step-sp_profile.php:318
+msgid "Delete"
+msgstr "削除"
+
+#: frontend-user-admin.php:5742
+msgid "Field Label"
+msgstr "フィールドラベル"
+
+#: frontend-user-admin.php:5743 frontend-user-admin.php:8063
+msgid "Field Name"
+msgstr "フィールド名"
+
+#: frontend-user-admin.php:5744
+msgid "Field Type"
+msgstr "フィールドタイプ"
+
+#: frontend-user-admin.php:5745
+msgid "Field Type Admin"
+msgstr "フィールドタイプ管理"
+
+#: frontend-user-admin.php:5746
+msgid "Default Value"
+msgstr "初期値"
+
+#: frontend-user-admin.php:5747
+msgid "Comment"
+msgstr "コメント"
+
+#: frontend-user-admin.php:5750 frontend-user-admin.php:6480
+msgid "Condition"
+msgstr "条件式"
+
+#: frontend-user-admin.php:5793
+msgid "Numeric"
+msgstr "数字"
+
+#: frontend-user-admin.php:5793
+msgid "Alphabet"
+msgstr "英字"
+
+#: frontend-user-admin.php:5793
+msgid "Alphanumeric"
+msgstr "英数字"
+
+#: frontend-user-admin.php:5793
+msgid "Half width"
+msgstr "半角"
+
+#: frontend-user-admin.php:5793
+msgid "Email"
+msgstr "メールアドレス"
+
+#: frontend-user-admin.php:5795
+msgid "Hiragana"
+msgstr "ひらがな"
+
+#: frontend-user-admin.php:5796
+msgid "Katakana"
+msgstr "カタカナ"
+
+#: frontend-user-admin.php:5808
+msgid "Please input the placeholder."
+msgstr "placeholder を入力してください。"
+
+#: frontend-user-admin.php:5809
+msgid "Please input php codes overwritting the output."
+msgstr "出力を上書きするPHPコードを入力してください。"
+
+#: frontend-user-admin.php:5810
+msgid "CAST"
+msgstr "CAST"
+
+#: frontend-user-admin.php:5820
+msgid "Publicity Settings"
+msgstr "公開設定"
+
+#: frontend-user-admin.php:5821
+msgid "Pass"
+msgstr "パス"
+
+#: frontend-user-admin.php:5822
+msgid "Unique"
+msgstr "一意"
+
+#: frontend-user-admin.php:5824
+msgid "readonly"
+msgstr "readonly"
+
+#: frontend-user-admin.php:5825
+msgid "disabled"
+msgstr "disabled"
+
+#: frontend-user-admin.php:5852
+msgid "Add Widget Menu"
+msgstr "ウィジェットメニューの追加"
+
+#: frontend-user-admin.php:5863
+msgid "Menu Label"
+msgstr "メニューラベル"
+
+#: frontend-user-admin.php:5864
+msgid "Menu URL"
+msgstr "メニュー URL"
+
+#: frontend-user-admin.php:5865
+msgid "Menu target=\"_blank\""
+msgstr "メニュー target=\"_blank\""
+
+#: frontend-user-admin.php:5865
+msgid "Open a new window."
+msgstr "新しいウィンドウを開く"
+
+#: frontend-user-admin.php:5866
+msgid "User Level"
+msgstr "ユーザー権限"
+
+#: frontend-user-admin.php:5877
+msgid "Show the widget menu for non-login users"
+msgstr "ログインしていないユーザーにもウィジェットメニューを表示する"
+
+#: frontend-user-admin.php:5903
+msgid "Mail Options"
+msgstr "メールオプション"
+
+#: frontend-user-admin.php:5909 frontend-user-admin.php:8164
+#: frontend-user-admin.php:8378 frontend-user-admin.php:8446
+msgid "FROM"
+msgstr "FROM"
+
+#: frontend-user-admin.php:5913
+msgid "Signature Template"
+msgstr "署名テンプレート"
+
+#: frontend-user-admin.php:5914
+msgid "`%signature_template%` will be replaced by the following."
+msgstr "`%signature_template%`は署名テンプレートで置き換えられます。"
+
+#: frontend-user-admin.php:5918
+msgid "New User Notification Subject (For User)"
+msgstr "新規ユーザー登録 （ユーザー向け） [件名]"
+
+#: frontend-user-admin.php:5922
+msgid "New User Notification Body (For User)"
+msgstr "新規ユーザー登録 （ユーザー向け） [内容]"
+
+#: frontend-user-admin.php:5926
+msgid "New User Notification Subject (For Admin)"
+msgstr "新規ユーザー登録 （管理者向け） [件名]"
+
+#: frontend-user-admin.php:5930
+msgid "New User Notification Body (For Admin)"
+msgstr "新規ユーザー登録 （管理者向け） [内容]"
+
+#: frontend-user-admin.php:5934
+msgid "Profile Update Subject (For User)"
+msgstr "プロフィール更新 （ユーザー向け） [件名]"
+
+#: frontend-user-admin.php:5938
+msgid "Profile Update Body (For User)"
+msgstr "プロフィール更新 （ユーザー向け） [内容]"
+
+#: frontend-user-admin.php:5942
+msgid "Profile Update Subject (For Admin)"
+msgstr "プロフィール更新 （管理者向け）  [件名]"
+
+#: frontend-user-admin.php:5946
+msgid "Profile Update Body (For Admin)"
+msgstr "プロフィール更新 （管理者向け） [内容]"
+
+#: frontend-user-admin.php:5950
+msgid "Retrieve Password Subject"
+msgstr "パスワードのリセット [件名]"
+
+#: frontend-user-admin.php:5954
+msgid "Retrieve Password Body"
+msgstr "パスワードのリセット [内容]"
+
+#: frontend-user-admin.php:5958
+msgid "Reset Password Subject (For User)"
+msgstr "新しいパスワード （ユーザー向け） [件名]"
+
+#: frontend-user-admin.php:5962
+msgid "Reset Password Body (For User)"
+msgstr "新しいパスワード （ユーザー向け） [内容]"
+
+#: frontend-user-admin.php:5966
+msgid "Reset Password Subject (For Admin)"
+msgstr "新しいパスワード （管理者向け）  [件名]"
+
+#: frontend-user-admin.php:5970
+msgid "Reset Password Body (For Admin)"
+msgstr "新しいパスワード （管理者向け） [内容]"
+
+#: frontend-user-admin.php:5974
+msgid "Email Confirmation (before and parallel registration) Subject"
+msgstr "メールアドレス確認（ユーザー登録前、同時）[件名]"
+
+#: frontend-user-admin.php:5978
+msgid "Email Confirmation (before and parallel registration) Body"
+msgstr "メールアドレス確認（ユーザー登録前、同時）[内容]"
+
+#: frontend-user-admin.php:5982
+msgid "Email Confirmation (after registration) Subject"
+msgstr "メールアドレス確認（ユーザー登録後）[件名]"
+
+#: frontend-user-admin.php:5986
+msgid "Email Confirmation (after registration) Body"
+msgstr "メールアドレス確認（ユーザー登録後）[内容]"
+
+#: frontend-user-admin.php:5990
+msgid "Approval Process Subject (For User)"
+msgstr "承認プロセス （ユーザー向け） [件名]"
+
+#: frontend-user-admin.php:5994
+msgid "Approval Process Body (For User)"
+msgstr "承認プロセス （ユーザー向け） [内容]"
+
+#: frontend-user-admin.php:5998
+msgid "Approval Process Subject (For Admin)"
+msgstr "承認プロセス （管理者向け）  [件名]"
+
+#: frontend-user-admin.php:6002
+msgid "Approval Process Body (For Admin)"
+msgstr "承認プロセス （管理者向け） [内容]"
+
+#: frontend-user-admin.php:6006
+msgid "Withdrawal Subject (For User)"
+msgstr "退会 （ユーザー向け） [件名]"
+
+#: frontend-user-admin.php:6010
+msgid "Withdrawal Body (For User)"
+msgstr "退会 （ユーザー向け） [内容]"
+
+#: frontend-user-admin.php:6014
+msgid "Withdrawal Subject (For Admin)"
+msgstr "退会 （管理者向け）  [件名]"
+
+#: frontend-user-admin.php:6018
+msgid "Withdrawal Body (For Admin)"
+msgstr "退会 （管理者向け） [内容]"
+
+#: frontend-user-admin.php:6032
+msgid "Mail Template"
+msgstr "メールテンプレート"
+
+#: frontend-user-admin.php:6035
+msgid ""
+"If you delete the template name and save it, the mail template will be "
+"deleted."
+msgstr "テンプレート名を削除して保存すると、メールテンプレートは削除されます。"
+
+#: frontend-user-admin.php:6045
+msgid "Template"
+msgstr "テンプレート"
+
+#: frontend-user-admin.php:6047 frontend-user-admin.php:8168
+#: frontend-user-admin.php:8562
+msgid "Template Name"
+msgstr "テンプレート名"
+
+#: frontend-user-admin.php:6049 frontend-user-admin.php:8169
+#: frontend-user-admin.php:8410 frontend-user-admin.php:8466
+msgid "Mail Subject"
+msgstr "メール件名"
+
+#: frontend-user-admin.php:6051 frontend-user-admin.php:8170
+#: frontend-user-admin.php:8414 frontend-user-admin.php:8470
+msgid "Mail Body"
+msgstr "メール本文"
+
+#: frontend-user-admin.php:6081
+msgid "Title Options"
+msgstr "タイトルオプション"
+
+#: frontend-user-admin.php:6087
+msgid "Login Title"
+msgstr "ログインタイトル"
+
+#: frontend-user-admin.php:6091
+msgid "My Page Title"
+msgstr "マイページタイトル"
+
+#: frontend-user-admin.php:6095
+msgid "Register Title"
+msgstr "新規ユーザー登録タイトル"
+
+#: frontend-user-admin.php:6099
+msgid "Confirmation Title"
+msgstr "ご入力内容の確認タイトル"
+
+#: frontend-user-admin.php:6103
+msgid "Profile Title"
+msgstr "アカウント設定タイトル"
+
+#: frontend-user-admin.php:6107
+msgid "Lost Password Title"
+msgstr "パスワード紛失取り扱いメッセージタイトル"
+
+#: frontend-user-admin.php:6111
+msgid "Withdrawal Title"
+msgstr "退会タイトル"
+
+#: frontend-user-admin.php:6115
+msgid "History Title"
+msgstr "購入履歴タイトル"
+
+#: frontend-user-admin.php:6119
+msgid "Affiliate Title"
+msgstr "アフィリエイトタイトル"
+
+#: frontend-user-admin.php:6123
+msgid "Wish List Title"
+msgstr "ウィッシュリストタイトル"
+
+#: frontend-user-admin.php:6127
+msgid "Default Title"
+msgstr "デフォルトタイトル"
+
+#: frontend-user-admin.php:6141
+msgid "Excerpt Options"
+msgstr "抜粋オプション"
+
+#: frontend-user-admin.php:6147
+msgid "Login Excerpt"
+msgstr "ログイン抜粋"
+
+#: frontend-user-admin.php:6151
+msgid "My Page Excerpt"
+msgstr "マイページ抜粋"
+
+#: frontend-user-admin.php:6155
+msgid "Register Excerpt"
+msgstr "新規ユーザー登録抜粋"
+
+#: frontend-user-admin.php:6159
+msgid "Confirmation Excerpt"
+msgstr "ご入力内容の確認抜粋"
+
+#: frontend-user-admin.php:6163
+msgid "Profile Excerpt"
+msgstr "アカウント設定抜粋"
+
+#: frontend-user-admin.php:6167
+msgid "Lost Password Excerpt"
+msgstr "パスワード紛失取り扱いメッセージ抜粋"
+
+#: frontend-user-admin.php:6171
+msgid "Withdrawal Excerpt"
+msgstr "退会抜粋"
+
+#: frontend-user-admin.php:6175
+msgid "History Excerpt"
+msgstr "購入履歴抜粋"
+
+#: frontend-user-admin.php:6179
+msgid "Affiliate Excerpt"
+msgstr "アフィリエイト抜粋"
+
+#: frontend-user-admin.php:6183
+msgid "Wish List Excerpt"
+msgstr "ウィッシュリスト抜粋"
+
+#: frontend-user-admin.php:6197
+msgid "Message Options"
+msgstr "メッセージオプション"
+
+#: frontend-user-admin.php:6203
+msgid "Login Message"
+msgstr "ログインメッセージ"
+
+#: frontend-user-admin.php:6207
+msgid "Registration Message"
+msgstr "新規ユーザー登録メッセージ"
+
+#: frontend-user-admin.php:6211
+msgid "Confirmation Message"
+msgstr "ご登録内容の確認メッセージ"
+
+#: frontend-user-admin.php:6215
+msgid "Lost Password Message"
+msgstr "パスワード紛失取り扱いメッセージ"
+
+#: frontend-user-admin.php:6219
+msgid "Profile Message"
+msgstr "プロフィールメッセージ"
+
+#: frontend-user-admin.php:6223
+msgid "Email Confirmation (before registration) Message"
+msgstr "メールアドレス確認（ユーザー登録前）メッセージ"
+
+#: frontend-user-admin.php:6227 frontend-user-admin.php:6323
+msgid "Withdrawal Message"
+msgstr "退会メッセージ"
+
+#: frontend-user-admin.php:6241
+msgid "Notice Options"
+msgstr "通知オプション"
+
+#: frontend-user-admin.php:6247 steps/step-mobile_confirmation.php:12
+#: steps/step-mobile_register.php:56 steps/step-register.php:56
+#: steps/step-sp_confirmation.php:12 steps/step-sp_register.php:56
+msgid "Register For This Site"
+msgstr "マイページを持つには新規会員登録（無料）する必要があります。"
+
+#: frontend-user-admin.php:6248
+msgid "Register Message"
+msgstr "登録メッセージ"
+
+#: frontend-user-admin.php:6252 steps/step-login.php:15
+#: steps/step-mobile_login.php:15 steps/step-sp_login.php:15
+msgid "You are now logged out."
+msgstr "ログアウトしました。"
+
+#: frontend-user-admin.php:6253
+msgid "Logged Out Message"
+msgstr "ログアウトメッセージ"
+
+#: frontend-user-admin.php:6257 steps/step-login.php:17
+#: steps/step-mobile_login.php:17 steps/step-sp_login.php:17
+msgid "User registration is currently not allowed."
+msgstr "現在、ユーザー登録はできません"
+
+#: frontend-user-admin.php:6258
+msgid "Register Disabled Message"
+msgstr "登録無効メッセージ"
+
+#: frontend-user-admin.php:6262 steps/step-login.php:19
+#: steps/step-mobile_login.php:19 steps/step-sp_login.php:19
+msgid "Check your e-mail for the confirmation link."
+msgstr "確認用のリンクをメールで送信しましたので、ご確認ください。"
+
+#: frontend-user-admin.php:6263
+msgid "Confirm Message"
+msgstr "確認メッセージ"
+
+#: frontend-user-admin.php:6267 steps/step-lostpassword.php:13
+#: steps/step-mobile_lostpassword.php:13 steps/step-sp_lostpassword.php:13
+msgid ""
+"Please enter your username or e-mail address. You will receive a new "
+"password via e-mail."
+msgstr ""
+"ユーザー名かメールアドレスを入力してください。新しいパスワードをメールで送信"
+"します。"
+
+#: frontend-user-admin.php:6272 steps/step-login.php:21
+#: steps/step-mobile_login.php:21 steps/step-sp_login.php:21
+msgid "Check your e-mail for your new password."
+msgstr "新しいパスワードをメールで送信しましたので、ご確認ください。"
+
+#: frontend-user-admin.php:6273
+msgid "New Pass Message"
+msgstr "新しいパスワードメッセージ"
+
+#: frontend-user-admin.php:6277 steps/step-login.php:23
+#: steps/step-mobile_login.php:23 steps/step-sp_login.php:23
+msgid "Registration complete. Please check your e-mail."
+msgstr "登録を完了しました。メールを確認してください。"
+
+#: frontend-user-admin.php:6278
+msgid "Registered Message"
+msgstr "登録後メッセージ"
+
+#: frontend-user-admin.php:6282 steps/step-login.php:25
+#: steps/step-mobile_login.php:25 steps/step-sp_login.php:25
+msgid "Registration complete. Please log in."
+msgstr "登録を完了しました。ログインしてください。"
+
+#: frontend-user-admin.php:6283
+msgid "Registered Pass Message"
+msgstr "登録後パスメッセージ"
+
+#: frontend-user-admin.php:6287 steps/step-login.php:27
+#: steps/step-mobile_login.php:27 steps/step-mobile_register.php:16
+#: steps/step-register.php:16 steps/step-sp_login.php:27
+#: steps/step-sp_register.php:16
+msgid "Please check your e-mail and click the link."
+msgstr ""
+"メールアドレス確認用のリンクをメールで送信しましたので、ご確認ください。"
+
+#: frontend-user-admin.php:6288
+msgid "Email Confirmation Message"
+msgstr "メールアドレス確認メッセージ"
+
+#: frontend-user-admin.php:6293
+msgid "Approval Message"
+msgstr "承認メッセージ"
+
+#: frontend-user-admin.php:6297 steps/step-login.php:31
+#: steps/step-lostpassword.php:6 steps/step-mobile_login.php:31
+#: steps/step-mobile_lostpassword.php:6 steps/step-mobile_register.php:9
+#: steps/step-register.php:9 steps/step-sp_login.php:31
+#: steps/step-sp_lostpassword.php:6 steps/step-sp_register.php:9
+msgid "Sorry, that key does not appear to be valid."
+msgstr "そのキーは無効なもののようです。"
+
+#: frontend-user-admin.php:6298
+msgid "Invalid Key Message"
+msgstr "無効なキーメッセージ"
+
+#: frontend-user-admin.php:6302 steps/step-login.php:33
+#: steps/step-mobile_login.php:33 steps/step-sp_login.php:33
+msgid "Please log in to use the member service."
+msgstr "サービスを利用するにはログインする必要があります。"
+
+#: frontend-user-admin.php:6303
+msgid "Redirect To Message"
+msgstr "リダイレクトメッセージ"
+
+#: frontend-user-admin.php:6307 frontend-user-admin.php:7584
+#: steps/step-mobile_profile.php:13 steps/step-profile.php:13
+#: steps/step-sp_profile.php:13
+msgid "User updated."
+msgstr "ユーザーが更新されました。"
+
+#: frontend-user-admin.php:6308
+msgid "Updated Message"
+msgstr "更新メッセージ"
+
+#: frontend-user-admin.php:6312 steps/step-mobile_profile.php:19
+#: steps/step-profile.php:19 steps/step-sp_profile.php:19
+msgid "There are required fields you need to input."
+msgstr "入力すべき必須項目があります。"
+
+#: frontend-user-admin.php:6313
+msgid "Required Message"
+msgstr "必須メッセージ"
+
+#: frontend-user-admin.php:6317 steps/step-mobile_profile.php:25
+#: steps/step-profile.php:25 steps/step-sp_profile.php:25
+msgid "Your password is expired. You need to change your password."
+msgstr "パスワードの有効期限が切れました。パスワードを変更してください。"
+
+#: frontend-user-admin.php:6318
+msgid "Password Change Message"
+msgstr "パスワード変更メッセージ"
+
+#: frontend-user-admin.php:6327 steps/step-login.php:37
+#: steps/step-mobile_login.php:37 steps/step-sp_login.php:37
+msgid "You are logged out because of the duplicate login."
+msgstr "重複ログインのためログアウトされました。"
+
+#: frontend-user-admin.php:6328
+msgid "Duplicate Login Message"
+msgstr "重複ログインメッセージ"
+
+#: frontend-user-admin.php:6341
+msgid "Output Options"
+msgstr "出力オプション"
+
+#: frontend-user-admin.php:6344
+msgid "This option is experimental. Please do not set anything nomally."
+msgstr "このオプションは実験中です。通常は設定しないでください。"
+
+#: frontend-user-admin.php:6348
+msgid "Widget Code"
+msgstr "ウィジェットコード"
+
+#: frontend-user-admin.php:6348 frontend-user-admin.php:6352
+#: frontend-user-admin.php:6356 frontend-user-admin.php:6360
+#: frontend-user-admin.php:6364 frontend-user-admin.php:6368
+#: frontend-user-admin.php:6372 frontend-user-admin.php:6376
+#: frontend-user-admin.php:6380 frontend-user-admin.php:6384
+#: frontend-user-admin.php:6388 frontend-user-admin.php:6392
+#: frontend-user-admin.php:6396 frontend-user-admin.php:6400
+#: frontend-user-admin.php:6404 frontend-user-admin.php:6408
+#: frontend-user-admin.php:6412 frontend-user-admin.php:6416
+#: frontend-user-admin.php:6420
+msgid "Load the initial code"
+msgstr "初期コードの読込"
+
+#: frontend-user-admin.php:6352 frontend-user-admin.php:6356
+#: frontend-user-admin.php:6360
+msgid "Lost Password Code"
+msgstr "パスワード紛失取り扱いコード"
+
+#: frontend-user-admin.php:6356 frontend-user-admin.php:6368
+#: frontend-user-admin.php:6380 frontend-user-admin.php:6392
+#: frontend-user-admin.php:6404 frontend-user-admin.php:6416
+msgid "For Mobile"
+msgstr "携帯電話向け"
+
+#: frontend-user-admin.php:6360 frontend-user-admin.php:6372
+#: frontend-user-admin.php:6384 frontend-user-admin.php:6396
+#: frontend-user-admin.php:6408 frontend-user-admin.php:6420
+msgid "For Smartphone"
+msgstr "スマートフォン向け"
+
+#: frontend-user-admin.php:6364 frontend-user-admin.php:6368
+#: frontend-user-admin.php:6372
+msgid "Register Code"
+msgstr "新規ユーザー登録コード"
+
+#: frontend-user-admin.php:6376 frontend-user-admin.php:6380
+#: frontend-user-admin.php:6384
+msgid "Confirmation Code"
+msgstr "ご入力内容の確認コード"
+
+#: frontend-user-admin.php:6388 frontend-user-admin.php:6392
+#: frontend-user-admin.php:6396
+msgid "Profile Code"
+msgstr "アカウント設定コード"
+
+#: frontend-user-admin.php:6400 frontend-user-admin.php:6404
+#: frontend-user-admin.php:6408
+msgid "Withdrawal Code"
+msgstr "退会コード"
+
+#: frontend-user-admin.php:6412 frontend-user-admin.php:6416
+#: frontend-user-admin.php:6420
+msgid "Login Code"
+msgstr "ログインコード"
+
+#: frontend-user-admin.php:6434
+msgid "Add Member Page Condition"
+msgstr "会員制ページ条件の追加"
+
+#: frontend-user-admin.php:6443
+msgid "Member Condition Types"
+msgstr "会員制ページ条件適用タイプ"
+
+#: frontend-user-admin.php:6455
+msgid "Default Member Condition"
+msgstr "デフォルト会員制ページ条件"
+
+#: frontend-user-admin.php:6485
+msgid "Condition Name"
+msgstr "条件式名"
+
+#: frontend-user-admin.php:6488
+msgid "Redirect URL"
+msgstr "リダイレクトURL"
+
+#: frontend-user-admin.php:6491
+msgid "Alternative Title in case of the condition mismatching"
+msgstr "条件不適合時の代替タイトル"
+
+#: frontend-user-admin.php:6494
+msgid "Alternative Content in case of the condition mismatching"
+msgstr "条件不適合時の代替コンテンツ"
+
+#: frontend-user-admin.php:6497
+msgid "No output (especially for pages)"
+msgstr "出力しない（特にページ向け）"
+
+#: frontend-user-admin.php:6500
+msgid "Except clawlers from the member condition."
+msgstr "クローラーを会員制ページ条件の適用外にする"
+
+#: frontend-user-admin.php:6503
+msgid "Output until the More separation"
+msgstr "More 区切りまでは出力する"
+
+#: frontend-user-admin.php:6506
+msgid "letters are automatically excerpted from the post content."
+msgstr "文字を記事から抜粋表示する"
+
+#: frontend-user-admin.php:6511
+msgid "User Information"
+msgstr "ユーザー情報"
+
+#: frontend-user-admin.php:6514 frontend-user-admin.php:6568
+msgid "Conditional conjunction"
+msgstr "条件接続"
+
+#: frontend-user-admin.php:6526
+msgid "User Attribute Key"
+msgstr "ユーザー属性キー"
+
+#: frontend-user-admin.php:6527
+msgid "User Attribute Value"
+msgstr "ユーザー属性値"
+
+#: frontend-user-admin.php:6530
+msgid "CODE"
+msgstr "コード"
+
+#: frontend-user-admin.php:6533 frontend-user-admin.php:6591
+#: frontend-user-admin.php:8543 frontend-user-admin.php:8977
+#: frontend-user-admin.php:9831
+msgid "Match Partial"
+msgstr "部分一致"
+
+#: frontend-user-admin.php:6534 frontend-user-admin.php:6592
+#: frontend-user-admin.php:8544 frontend-user-admin.php:8978
+#: frontend-user-admin.php:9832
+msgid "Match Full"
+msgstr "完全一致"
+
+#: frontend-user-admin.php:6535 frontend-user-admin.php:6593
+msgid "No Match"
+msgstr "不一致"
+
+#: frontend-user-admin.php:6537 frontend-user-admin.php:6595
+#: frontend-user-admin.php:9834
+msgid "and below"
+msgstr "以下"
+
+#: frontend-user-admin.php:6538 frontend-user-admin.php:6596
+#: frontend-user-admin.php:9835
+msgid "more than"
+msgstr "超過"
+
+#: frontend-user-admin.php:6539 frontend-user-admin.php:6597
+#: frontend-user-admin.php:9836
+msgid "less than"
+msgstr "未満"
+
+#: frontend-user-admin.php:6557
+msgid "Conditional conjunction between User Information and Order Information"
+msgstr "ユーザー情報と注文情報の条件接続"
+
+#: frontend-user-admin.php:6565
+msgid "Order Information"
+msgstr "注文情報"
+
+#: frontend-user-admin.php:6579
+msgid "Order Key"
+msgstr "注文キー"
+
+#: frontend-user-admin.php:6589
+msgid "Order Value"
+msgstr "注文値"
+
+#: frontend-user-admin.php:6611
+msgid "Term ID (comma-deliminated) (valid only within Redirect URL)"
+msgstr "Term ID （カンマ区切り）（リダイレクトURLでのみ有効）"
+
+#: frontend-user-admin.php:6614
+msgid "Apply to subpages"
+msgstr "子ページに適用する"
+
+#: frontend-user-admin.php:6637
+msgid "[fualist] Shortcode Format"
+msgstr "[fualist] ショートコードフォーマット"
+
+#: frontend-user-admin.php:6649
+msgid "Format"
+msgstr "フォーマット"
+
+#: frontend-user-admin.php:6654
+msgid "Prefix Text"
+msgstr "前テキスト"
+
+#: frontend-user-admin.php:6657
+msgid "Main Text"
+msgstr "メインテキスト"
+
+#: frontend-user-admin.php:6660
+msgid "Suffix Text"
+msgstr "後テキスト"
+
+#: frontend-user-admin.php:6683
+msgid "reCAPTCHA Options"
+msgstr "reCAPTCHA オプション"
+
+#: frontend-user-admin.php:6689
+msgid "Site Key"
+msgstr "サイトキー"
+
+#: frontend-user-admin.php:6693
+msgid "Secret Key"
+msgstr "シークレットキー"
+
+#: frontend-user-admin.php:6697
+msgid "Registration"
+msgstr "登録"
+
+#: frontend-user-admin.php:6698 frontend-user-admin.php:6702
+msgid "Use"
+msgstr "使用する"
+
+#: frontend-user-admin.php:6705
+msgid "Theme"
+msgstr "テーマ"
+
+#: frontend-user-admin.php:6712
+msgid "Type"
+msgstr "タイプ"
+
+#: frontend-user-admin.php:6719
+msgid "Size"
+msgstr "サイズ"
+
+#: frontend-user-admin.php:6736
+msgid "PHP Code in the user registration"
+msgstr "新規ユーザー登録時のPHPコード"
+
+#: frontend-user-admin.php:6755
+msgid "PHP Code in the user update"
+msgstr "ユーザー更新時のPHPコード"
+
+#: frontend-user-admin.php:6774
+msgid "PHP Code in the login"
+msgstr "ログイン時のPHPコード"
+
+#: frontend-user-admin.php:6795
+msgid "Option Converter"
+msgstr "オプションコンバーター"
+
+#: frontend-user-admin.php:6797
+msgid ""
+"Are you sure to execute? It is recommended to export options before "
+"execution."
+msgstr ""
+"実行してもよろしいですか。実行する前にオプションをエクスポートすることをお勧"
+"めします。"
+
+#: frontend-user-admin.php:6801
+msgid "Text before conversion"
+msgstr "変換前テキスト"
+
+#: frontend-user-admin.php:6803
+msgid "Text after conversion"
+msgstr "変換後テキスト"
+
+#: frontend-user-admin.php:6805
+msgid "Convert Options &raquo;"
+msgstr "オプションをコンバートする &raquo;"
+
+#: frontend-user-admin.php:6815
+msgid "Export Options"
+msgstr "オプションをエクスポートする"
+
+#: frontend-user-admin.php:6821
+msgid "Export Options &raquo;"
+msgstr "オプションをエクスポートする &raquo;"
+
+#: frontend-user-admin.php:6831
+msgid "Import Options"
+msgstr "オプションをインポートする"
+
+#: frontend-user-admin.php:6833
+msgid "Are you sure to import options? Options you set will be overwritten."
+msgstr ""
+"本当にオプションをインポートしてもよいですか？設定したオプションは上書きされ"
+"ます。"
+
+#: frontend-user-admin.php:6837
+msgid "Import Options &raquo;"
+msgstr "オプションをインポートする &raquo;"
+
+#: frontend-user-admin.php:6847
+msgid "Reset Options"
+msgstr "オプションをリセットする"
+
+#: frontend-user-admin.php:6849 frontend-user-admin.php:6868
+msgid "Are you sure to execute?"
+msgstr "本当に実行してもよろしいですか？"
+
+#: frontend-user-admin.php:6853
+msgid "Truncate the user log table."
+msgstr "ユーザーログテーブルを初期化する"
+
+#: frontend-user-admin.php:6854
+msgid "Truncate the user mail table."
+msgstr "ユーザーメールテーブルを初期化する"
+
+#: frontend-user-admin.php:6855
+msgid "Reset Options."
+msgstr "オプションをリセットする"
+
+#: frontend-user-admin.php:6856 frontend-user-admin.php:6875
+#: frontend-user-admin.php:10100
+msgid "Execute &raquo;"
+msgstr "実行する &raquo;"
+
+#: frontend-user-admin.php:6866
+msgid "Delete Options"
+msgstr "オプション削除"
+
+#: frontend-user-admin.php:6872
+msgid "Drop the user log table."
+msgstr "ユーザーログテーブルを削除する"
+
+#: frontend-user-admin.php:6873
+msgid "Drop the user mail table."
+msgstr "ユーザーメールテーブルを削除する"
+
+#: frontend-user-admin.php:6874
+msgid "Delete Options."
+msgstr "オプションを削除する"
+
+#: frontend-user-admin.php:6912 frontend-user-admin.php:7337
+#: steps/step-confirmation.php:121 steps/step-login.php:66
+#: steps/step-mobile_confirmation.php:98 steps/step-mobile_login.php:66
+#: steps/step-mobile_register.php:150 steps/step-register.php:176
+#: steps/step-sp_confirmation.php:99 steps/step-sp_login.php:66
+#: steps/step-sp_register.php:152 steps/step-widget.php:45
+msgid "Password"
+msgstr "パスワード"
+
+#: frontend-user-admin.php:7190 frontend-user-admin.php:7206
+#: frontend-user-admin.php:7623 steps/step-mobile_register.php:73
+#: steps/step-mobile_register.php:85 steps/step-register.php:76
+#: steps/step-register.php:92 steps/step-sp_register.php:74
+#: steps/step-sp_register.php:86
+msgid "Half-width alphamerics"
+msgstr "半角英数字"
+
+#: frontend-user-admin.php:7279 frontend-user-admin.php:7735
+#: steps/step-mobile_profile.php:130 steps/step-mobile_register.php:139
+#: steps/step-profile.php:154 steps/step-register.php:164
+#: steps/step-sp_profile.php:131 steps/step-sp_register.php:141
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr ""
+"プロフィールに添えるあなたのちょっとした自己紹介を書き入れてみましょう。この"
+"情報はテンプレートタグを使用することによってブログに表示することができます。"
+
+#: frontend-user-admin.php:7298 frontend-user-admin.php:7755
+msgid "Change the user status"
+msgstr "ユーザーステータスを変更する"
+
+#: frontend-user-admin.php:7300 frontend-user-admin.php:7757
+#: frontend-user-admin.php:9840
+msgid "Active"
+msgstr "正常"
+
+#: frontend-user-admin.php:7301 frontend-user-admin.php:7758
+#: frontend-user-admin.php:9788 frontend-user-admin.php:9841
+msgid "Pending"
+msgstr "保留"
+
+#: frontend-user-admin.php:7310 frontend-user-admin.php:7767
+msgid "This is for the setting when the user log start."
+msgstr "ユーザーログが開始した状態の設定です。"
+
+#: frontend-user-admin.php:7312 frontend-user-admin.php:7769
+msgid "Do log"
+msgstr "ログする"
+
+#: frontend-user-admin.php:7313 frontend-user-admin.php:7770
+msgid "Do not log"
+msgstr "ログしない"
+
+#: frontend-user-admin.php:7321 frontend-user-admin.php:7778
+msgid "Duplicate Login"
+msgstr "重複ログイン"
+
+#: frontend-user-admin.php:7322 frontend-user-admin.php:7779
+msgid ""
+"This is for the setting only applied when the duplicate login is disabled."
+msgstr "重複ログインを禁止した時のみ適用される設定です。"
+
+#: frontend-user-admin.php:7324 frontend-user-admin.php:7781
+msgid "Apply duplicate login invalidity"
+msgstr "重複ログインの禁止を適用"
+
+#: frontend-user-admin.php:7325 frontend-user-admin.php:7782
+msgid "Enable duplicate login"
+msgstr "重複ログインを許可"
+
+#: frontend-user-admin.php:7339 frontend-user-admin.php:7796
+#: steps/step-mobile_profile.php:143 steps/step-mobile_register.php:151
+#: steps/step-profile.php:169 steps/step-register.php:178
+#: steps/step-sp_profile.php:144 steps/step-sp_register.php:153
+msgid "Type your new password again."
+msgstr "もう一度新しいパスワードを入力してください。"
+
+#: frontend-user-admin.php:7345
+msgid "Password Strength:"
+msgstr "パスワード強度:"
+
+#: frontend-user-admin.php:7348 frontend-user-admin.php:7802
+#: steps/step-mobile_profile.php:147 steps/step-mobile_register.php:157
+#: steps/step-profile.php:175 steps/step-register.php:186
+#: steps/step-sp_profile.php:148 steps/step-sp_register.php:159
+msgid ""
+"Hint: Use upper and lower case characters, numbers and symbols like !\"?$"
+"%^&amp;( in your password."
+msgstr ""
+"ヒント: 大文字と小文字のアルファベット、数字や !\"?$%^&amp;( などの記号を組み"
+"合わせたパスワードを使いましょう。"
+
+#: frontend-user-admin.php:7381 frontend-user-admin.php:7835
+msgid "Clear"
+msgstr "解除"
+
+#: frontend-user-admin.php:7552
+#, php-format
+msgid "I agree to the <a href=\"%s\" target=\"_blank\">terms of use</a>."
+msgstr "<a href=\"%s\" target=\"_blank\">利用規約</a>に同意します。"
+
+#: frontend-user-admin.php:7554 steps/step-mobile_register.php:356
+#: steps/step-register.php:389 steps/step-sp_register.php:358
+msgid "I agree to the terms of use."
+msgstr "利用規約に同意します。"
+
+#: frontend-user-admin.php:7559 frontend-user-admin.php:8014
+#: frontend-user-admin.php:9677
+msgid "Send email to the new user?"
+msgstr "登録するユーザーにメールを送りますか？"
+
+#: frontend-user-admin.php:7564 steps/step-confirmation.php:237
+#: steps/step-mobile_confirmation.php:210 steps/step-mobile_register.php:369
+#: steps/step-register.php:404 steps/step-sp_confirmation.php:211
+#: steps/step-sp_register.php:372
+msgid "Register &raquo;"
+msgstr "新規ユーザー登録 &raquo;"
+
+#: frontend-user-admin.php:7638 steps/step-mobile_profile.php:50
+#: steps/step-profile.php:53 steps/step-sp_profile.php:51
+msgid "Your username cannot be changed"
+msgstr "ユーザー名は変更できません。"
+
+#: frontend-user-admin.php:7795 steps/step-mobile_profile.php:142
+#: steps/step-profile.php:168 steps/step-sp_profile.php:143
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr ""
+"このユーザーのパスワードを変更する場合は新しいパスワードを入力してください。"
+"変更しない場合は空のままにしておいてください。"
+
+#: frontend-user-admin.php:7800 steps/step-mobile_profile.php:145
+#: steps/step-mobile_register.php:155 steps/step-profile.php:173
+#: steps/step-register.php:184 steps/step-sp_profile.php:146
+#: steps/step-sp_register.php:157
+msgid "Password Strength"
+msgstr "パスワード強度"
+
+#: frontend-user-admin.php:7988 steps/step-mobile_profile.php:313
+#: steps/step-profile.php:356 steps/step-sp_profile.php:326
+msgid "Public"
+msgstr "公開する"
+
+#: frontend-user-admin.php:7989 steps/step-mobile_profile.php:314
+#: steps/step-profile.php:357 steps/step-sp_profile.php:327
+msgid "Private"
+msgstr "公開しない"
+
+#: frontend-user-admin.php:8041
+msgid "&laquo; Back"
+msgstr "&laquo; 戻る"
+
+#: frontend-user-admin.php:8041 frontend-user-admin.php:8073
+msgid "Update User &raquo;"
+msgstr "ユーザーを更新 &raquo;"
+
+#: frontend-user-admin.php:8058
+msgid "Instant Editor"
+msgstr "インスタントエディター"
+
+#: frontend-user-admin.php:8063 frontend-user-admin.php:8065
+msgid "Load"
+msgstr "読込"
+
+#: frontend-user-admin.php:8063
+msgid "Value"
+msgstr "値"
+
+#: frontend-user-admin.php:8063
+msgid "Array"
+msgstr "配列"
+
+#: frontend-user-admin.php:8071
+msgid "Add"
+msgstr "追加"
+
+#: frontend-user-admin.php:8087
+msgid "Delete User"
+msgstr "ユーザー削除"
+
+#: frontend-user-admin.php:8096
+msgid "Delete User (soft) &raquo;"
+msgstr "ユーザーを削除（ソフト）&raquo;"
+
+#: frontend-user-admin.php:8106
+msgid "Delete User &raquo;"
+msgstr "ユーザーを削除 &raquo;"
+
+#: frontend-user-admin.php:8163 frontend-user-admin.php:8373
+#: frontend-user-admin.php:8442 frontend-user-admin.php:9226
+msgid "User ID"
+msgstr "User ID"
+
+#: frontend-user-admin.php:8165 frontend-user-admin.php:8382
+#: frontend-user-admin.php:8450 frontend-user-admin.php:8561
+msgid "TO"
+msgstr "TO"
+
+#: frontend-user-admin.php:8166 frontend-user-admin.php:8386
+#: frontend-user-admin.php:8454
+msgid "CC"
+msgstr "CC"
+
+#: frontend-user-admin.php:8167 frontend-user-admin.php:8390
+#: frontend-user-admin.php:8458
+msgid "BCC"
+msgstr "BCC"
+
+#: frontend-user-admin.php:8171
+msgid "Mailed Datetime"
+msgstr "送信日時"
+
+#: frontend-user-admin.php:8261
+msgid "<strong>ERROR</strong>: Failed to delete the mail."
+msgstr "<strong>エラー</strong>: メールの削除に失敗しました。"
+
+#: frontend-user-admin.php:8394 frontend-user-admin.php:8462
+msgid "Mail Template Name"
+msgstr "テンプレート名"
+
+#: frontend-user-admin.php:8407
+msgid "Load &raquo;"
+msgstr "読込 &raquo;"
+
+#: frontend-user-admin.php:8419
+msgid "Send &raquo;"
+msgstr "送信 &raquo;"
+
+#: frontend-user-admin.php:8433
+msgid "Read Mail"
+msgstr "メールを読む"
+
+#: frontend-user-admin.php:8492 frontend-user-admin.php:8881
+#: frontend-user-admin.php:9162 frontend-user-admin.php:9768
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: frontend-user-admin.php:8493 frontend-user-admin.php:8882
+#: frontend-user-admin.php:9163 frontend-user-admin.php:9769
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: frontend-user-admin.php:8499 frontend-user-admin.php:8598
+#: frontend-user-admin.php:8888 frontend-user-admin.php:9027
+#: frontend-user-admin.php:9170 frontend-user-admin.php:9370
+#: frontend-user-admin.php:9775 frontend-user-admin.php:10037
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "%s–%s 件 (%s 件中) を表示中"
+
+#: frontend-user-admin.php:8508
+msgid "Search"
+msgstr "検索"
+
+#: frontend-user-admin.php:8546 frontend-user-admin.php:8980
+#: frontend-user-admin.php:9240 frontend-user-admin.php:9843
+msgid "Change and Display &raquo;"
+msgstr "変更表示 &raquo;"
+
+#: frontend-user-admin.php:8563
+msgid "Subject"
+msgstr "件名"
+
+#: frontend-user-admin.php:8565 frontend-user-admin.php:8580
+#: frontend-user-admin.php:9286 frontend-user-admin.php:9345
+#: frontend-user-admin.php:9349
+msgid "Detail"
+msgstr "詳細"
+
+#: frontend-user-admin.php:8587 frontend-user-admin.php:9017
+#: frontend-user-admin.php:9359 frontend-user-admin.php:10026
+msgid "Not Found"
+msgstr "見つかりませんでした。"
+
+#: frontend-user-admin.php:8898 frontend-user-admin.php:9180
+msgid "From Date:"
+msgstr "開始日時："
+
+#: frontend-user-admin.php:8919 frontend-user-admin.php:9201
+msgid "-"
+msgstr "～"
+
+#: frontend-user-admin.php:8921 frontend-user-admin.php:9203
+msgid "To Date:"
+msgstr "終了日時："
+
+#: frontend-user-admin.php:8942 frontend-user-admin.php:9794
+msgid "Search Keywords"
+msgstr "検索キーワード"
+
+#: frontend-user-admin.php:8996
+msgid "log"
+msgstr "ログ"
+
+#: frontend-user-admin.php:9039
+msgid "Export User Log Data"
+msgstr "ユーザーログデータエクスポート"
+
+#: frontend-user-admin.php:9042
+msgid "The user log data will be exported on the current condition."
+msgstr "ユーザーログデータが現在の条件でエクスポートされます。"
+
+#: frontend-user-admin.php:9043 frontend-user-admin.php:9386
+#: frontend-user-admin.php:9671 frontend-user-admin.php:10078
+msgid "Encode"
+msgstr "エンコード"
+
+#: frontend-user-admin.php:9048 frontend-user-admin.php:9391
+#: frontend-user-admin.php:10083
+msgid "Include the item name"
+msgstr "項目名を含める"
+
+#: frontend-user-admin.php:9049 frontend-user-admin.php:9392
+#: frontend-user-admin.php:10085
+msgid "Export &raquo;"
+msgstr "エクスポート &raquo;"
+
+#: frontend-user-admin.php:9224
+msgid "Summary Condition:"
+msgstr "集計条件："
+
+#: frontend-user-admin.php:9382
+msgid "Export User Log Summary Data"
+msgstr "ユーザーログ集計データエクスポート"
+
+#: frontend-user-admin.php:9385
+msgid "The user log summary data will be exported on the current condition."
+msgstr "ユーザーログ集計データが現在の条件でエクスポートされます。"
+
+#: frontend-user-admin.php:9497
+#, php-format
+msgid "ERROR: Minimum number of letters of Password is %s."
+msgstr "エラー: パスワードは%s文字以上で入力してください。"
+
+#: frontend-user-admin.php:9499
+#, php-format
+msgid "ERROR: Maximum number of letters of Password is %s."
+msgstr "エラー: パスワードは%s文字以下で入力してください。"
+
+#: frontend-user-admin.php:9514
+#, php-format
+msgid "ERROR: ID %d does not exist."
+msgstr "エラー: ID %d が存在しません。"
+
+#: frontend-user-admin.php:9563
+#, php-format
+msgid "%d users were registered."
+msgstr "%d件のユーザーが登録されました。"
+
+#: frontend-user-admin.php:9576
+msgid ""
+"You need to specify the user login and user password definitely in the user "
+"registration."
+msgstr "ユーザー登録時にはユーザー名とパスワードは必ず指定する必要があります。"
+
+#: frontend-user-admin.php:9613
+#, php-format
+msgid "%d users will be imported."
+msgstr "%d件のユーザーがインポートされます。"
+
+#: frontend-user-admin.php:9615
+msgid "Import &raquo;"
+msgstr "インポート &raquo;"
+
+#: frontend-user-admin.php:9637 frontend-user-admin.php:9643
+msgid "There is no user to import."
+msgstr "インポートするユーザーがありません。"
+
+#: frontend-user-admin.php:9649
+msgid "Please upload the csv file of user list."
+msgstr "ユーザーリストのcsvファイルをアップロードしてください。"
+
+#: frontend-user-admin.php:9652
+msgid "Treat the first line as the item names."
+msgstr "最初の行を項目名として扱う"
+
+#: frontend-user-admin.php:9653
+msgid ""
+"Please specify the user attribute of columns. You need to specify the user "
+"login and user password definitely in user registration. If you specify ID, "
+"user data will be updated."
+msgstr ""
+"列ごとのユーザー属性を指定してください。ユーザー登録時にはユーザー名とパス"
+"ワードは必ず指定する必要があります。IDを指定するとユーザーデータは更新されま"
+"す。"
+
+#: frontend-user-admin.php:9676
+msgid "Omit the first line."
+msgstr "最初の行を省略する"
+
+#: frontend-user-admin.php:9678
+msgid "Upload &raquo;"
+msgstr "アップロード &raquo;"
+
+#: frontend-user-admin.php:9698
+msgid "Status Changed."
+msgstr "ステータスが変更されました。"
+
+#: frontend-user-admin.php:9702
+msgid "Bulk User Update Code Executed."
+msgstr "一括ユーザー更新コードが実行されました。"
+
+#: frontend-user-admin.php:9785
+msgid "Bulk Actions"
+msgstr "一括操作"
+
+#: frontend-user-admin.php:9787
+msgid "Approval"
+msgstr "承認"
+
+#: frontend-user-admin.php:9792
+msgid "Apply"
+msgstr "適用"
+
+#: frontend-user-admin.php:9844
+msgid "Display Options"
+msgstr "表示項目設定"
+
+#: frontend-user-admin.php:9904 frontend-user-admin.php:9992
+msgid "Address"
+msgstr "配送先"
+
+#: frontend-user-admin.php:9910 frontend-user-admin.php:9997
+msgid "Order"
+msgstr "注文"
+
+#: frontend-user-admin.php:9917 frontend-user-admin.php:10003
+msgid "Mail"
+msgstr "メール"
+
+#: frontend-user-admin.php:9927 frontend-user-admin.php:10012
+msgid "Edit"
+msgstr "編集"
+
+#: frontend-user-admin.php:9963
+msgid "None"
+msgstr "なし"
+
+#: frontend-user-admin.php:9965
+msgid "E-mail Confirmation"
+msgstr "メール確認"
+
+#: frontend-user-admin.php:9966
+msgid "Approval Wait"
+msgstr "承認待ち"
+
+#: frontend-user-admin.php:9969
+msgid "Valid"
+msgstr "有効"
+
+#: frontend-user-admin.php:10016
+msgid "Are you sure to log in as this user? Current user will be logged out."
+msgstr ""
+"本当にこのユーザーでログインしてもよろしいですか？現在のユーザーはログアウト"
+"されます。"
+
+#: frontend-user-admin.php:10053
+msgid "Export User Data"
+msgstr "ユーザーデータエクスポート"
+
+#: frontend-user-admin.php:10056
+msgid "The user attribute list will be exported on the current condition."
+msgstr "ユーザー属性のリストが現在の条件でエクスポートされます。"
+
+#: frontend-user-admin.php:10057
+msgid "Please specify the user attribute of columns you would like to output."
+msgstr "出力したい列ごとのユーザー属性を指定してください。"
+
+#: frontend-user-admin.php:10084
+msgid "Output the item name with the field name"
+msgstr "項目名をフィールド名で出力する"
+
+#: frontend-user-admin.php:10098
+msgid "The following code will be executed on the current condition."
+msgstr "以下のコードが現在の条件で実行されます。"
+
+#: frontend-user-admin.php:10471 frontend-user-admin.php:10473
+msgid "Logged In"
+msgstr "ログイン中"
+
+#: frontend-user-admin.php:10515
+msgid "Pre-text"
+msgstr "前テキスト"
+
+#: frontend-user-admin.php:10516
+msgid "Post-text"
+msgstr "後テキスト"
+
+#: steps/step-confirmation.php:235 steps/step-mobile_confirmation.php:208
+#: steps/step-mobile_register.php:364 steps/step-register.php:399
+#: steps/step-sp_confirmation.php:209 steps/step-sp_register.php:367
+msgid "A password will be e-mailed to you."
+msgstr "パスワードをあなたのメールアドレスに送信します。"
+
+#: steps/step-confirmation.php:237 steps/step-mobile_confirmation.php:210
+#: steps/step-sp_confirmation.php:211
+msgid "Back"
+msgstr "戻る"
+
+#: steps/step-confirmation.php:252 steps/step-login.php:96
+#: steps/step-login.php:103 steps/step-mobile_confirmation.php:232
+#: steps/step-mobile_login.php:96 steps/step-mobile_login.php:103
+#: steps/step-mobile_register.php:37 steps/step-mobile_register.php:388
+#: steps/step-register.php:37 steps/step-register.php:421
+#: steps/step-sp_confirmation.php:226 steps/step-sp_login.php:96
+#: steps/step-sp_login.php:103 steps/step-sp_register.php:37
+#: steps/step-sp_register.php:389 steps/step-widget.php:87
+msgid "Lost your password?"
+msgstr "パスワードをお忘れですか ?"
+
+#: steps/step-login.php:12 steps/step-mobile_login.php:12
+#: steps/step-sp_login.php:12
+msgid ""
+"<strong>ERROR</strong>: Cookies are blocked or not supported by your "
+"browser. You must <a href='http://www.google.com/cookies.html'>enable "
+"cookies</a> to use WordPress."
+msgstr ""
+"<strong>エラー</strong>: お使いのブラウザーはクッキーをサポートしないかまたは"
+"受け付けていません。WordPress を使うには<a href='http://www.google.co.jp/"
+"cookies.html'>クッキーを有効にする</a>ことが必要です。"
+
+#: steps/step-login.php:72 steps/step-mobile_login.php:72
+#: steps/step-sp_login.php:72 steps/step-widget.php:50
+msgid "Remember Me"
+msgstr "ログイン情報を記憶"
+
+#: steps/step-login.php:76 steps/step-mobile_login.php:76
+#: steps/step-sp_login.php:76 steps/step-widget.php:53
+msgid "Log In &raquo;"
+msgstr "ログイン &raquo;"
+
+#: steps/step-lostpassword.php:23 steps/step-mobile_lostpassword.php:23
+#: steps/step-sp_lostpassword.php:23
+msgid "Username or E-mail"
+msgstr "ユーザー名またはメールアドレス:"
+
+#: steps/step-lostpassword.php:176 steps/step-mobile_lostpassword.php:176
+#: steps/step-sp_lostpassword.php:176
+msgid "Get New Password &raquo;"
+msgstr "新しいパスワードを取得 &raquo;"
+
+#: steps/step-mobile_profile.php:98 steps/step-profile.php:112
+#: steps/step-sp_profile.php:99
+msgid "If you change the email, you will be automatically logged off."
+msgstr "メールアドレスを変更すると、自動的にログオフされます。"
+
+#: steps/step-mobile_profile.php:340 steps/step-profile.php:387
+#: steps/step-sp_profile.php:354
+msgid "Update Profile &raquo;"
+msgstr "アカウントを更新 &raquo;"
+
+#: steps/step-mobile_register.php:17 steps/step-register.php:17
+#: steps/step-sp_register.php:17
+msgid ""
+"<strong>ERROR</strong>: The email address isn&#8217;t correct or already "
+"registered."
+msgstr ""
+"<strong>エラー</strong>: メールアドレスが正しくないか、すでに登録されていま"
+"す。"
+
+#: steps/step-mobile_register.php:30 steps/step-register.php:30
+#: steps/step-sp_register.php:30
+msgid "Send Confirmation Email &raquo;"
+msgstr "確認メールを送信する &raquo;"
+
+#: steps/step-mobile_register.php:328 steps/step-register.php:360
+#: steps/step-sp_register.php:330
+msgid "Upload a file in the next page."
+msgstr "次ページでファイルをアップロードしてください。"
+
+#: steps/step-mobile_register.php:354 steps/step-register.php:387
+#: steps/step-sp_register.php:356
+#, php-format
+msgid "I agree to the <a href=\"%s\" target=\"_blank\">%s</a>."
+msgstr "<a href=\"%s\" target=\"_blank\">%s</a>に同意します。"
+
+#: steps/step-mobile_register.php:367 steps/step-register.php:402
+#: steps/step-sp_register.php:370
+msgid "Confirm &raquo;"
+msgstr "ご登録内容を確認する &raquo;"
+
+#: steps/step-mobile_withdrawal.php:10 steps/step-sp_withdrawal.php:10
+#: steps/step-withdrawal.php:10
+msgid "Delete my account &raquo;"
+msgstr "アカウントを削除する &raquo;"
+
+#: steps/step-withdrawal.php:8
+msgid "Are you sure to resign from the site? All your data will be deleted."
+msgstr "本当にサイトから退会してもよろしいですか？全てのデータが削除されます。"
+
+#~ msgid "Logout in moving to other sites."
+#~ msgstr "関連付けられていない他サイトではログアウトする"
+
+#~ msgid "API Key"
+#~ msgstr "APIキー"
+
+#~ msgid "<strong>ERROR</strong>: reCAPTCHA failed please try again."
+#~ msgstr ""
+#~ "<strong>エラー</strong>: reCAPTCHA は失敗しました。再度お試しください。"
+
+#~ msgid "reCaptcha Options"
+#~ msgstr "reCaptcha オプション"
+
+#~ msgid "Update user attributes in the admin regardless of required fields."
+#~ msgstr "必須項目に関係なく"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: a same user is already registered, please input "
+#~ "again."
+#~ msgstr ""
+#~ "<strong>エラー</strong>: 同一のユーザーがすでに登録されています。再入力し"
+#~ "てください。"
+
+#~ msgid "Duplicated"
+#~ msgstr "重複"
+
+#~ msgid "Default Excerpt"
+#~ msgstr "デフォルト抜粋"
+
+#~ msgid ""
+#~ "Treat usernames uniquely in each site. Site ID will be added into "
+#~ "usernames."
+#~ msgstr ""
+#~ "ユーザー名をサイトごとにユニークとして扱う。サイトIDがユーザー名に自動的で"
+#~ "付加されます。"
+
+#~ msgid "Email Confirmation Subject"
+#~ msgstr "メールアドレス確認 [件名]"
+
+#~ msgid "Email Confirmation Body"
+#~ msgstr "メールアドレス確認 [内容]"
+
+#~ msgid "Bad login/pass combination."
+#~ msgstr "誤ったログイン/パスワードの組み合わせ。"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: You enter the character that is unavailable for "
+#~ "the password."
+#~ msgstr ""
+#~ "<strong>エラー</strong>: パスワードに使用できない文字を入力しています。"
+
+#~ msgid "Transfer all to the alternative url"
+#~ msgstr "代替URLに転送"
+
+#~ msgid "Two-byte character"
+#~ msgstr "全角"
+
+#~ msgid "One-byte character"
+#~ msgstr "半角"
+
+#~ msgid "This is for the setting when the duplicate login is disabled."
+#~ msgstr "重複ログインを禁止した状態の設定です。"
+
+#~ msgid "Prohibit duplicate login"
+#~ msgstr "重複ログインを禁止"
+
+#~ msgid "Prohibition"
+#~ msgstr "禁止"
+
+#~ msgid "Status"
+#~ msgstr "ステータス"
+
+#~ msgid "No Log"
+#~ msgstr "ログしない"
+
+#~ msgid "Invalid"
+#~ msgstr "無効"
+
+#~ msgid "OK"
+#~ msgstr "正常"
+
+#~ msgid "delete"
+#~ msgstr "削除"
+
+#, fuzzy
+#~ msgid "List Content"
+#~ msgstr "ウィジェットコンテンツ"
+
+#~ msgid "Condition Title"
+#~ msgstr "条件式タイトル"
+
+#~ msgid "Not equal"
+#~ msgstr "不一致"
+
+#~ msgid ""
+#~ "Please check if you would like to show the contents only to logged in "
+#~ "user."
+#~ msgstr "ログインユーザー"
+
+#~ msgid "You need to set this common password when you register users."
+#~ msgstr "ユーザーを登録する際に共通パスワードを設定する必要があります。"
+
+#~ msgid "To"
+#~ msgstr "To"
+
+#, fuzzy
+#~ msgid "Body"
+#~ msgstr "メール本文"
+
+#~ msgid "Mail List"
+#~ msgstr "メールリスト"
+
+#~ msgid "Add Mail"
+#~ msgstr "メール作成"
+
+#~ msgid "User Attribute Default PHP Code"
+#~ msgstr "ユーザー属性初期値PHPコード"
+
+#~ msgid "Use Delete User"
+#~ msgstr "ユーザー削除を使用する"
+
+#~ msgid "Frontend User Admin Login Box"
+#~ msgstr "フロントエンドユーザー管理 ログインボックス"
+
+#~ msgid "User log"
+#~ msgstr "ユーザーログ"
+
+#~ msgid ""
+#~ "In order to upgrade the Frontend User Admin plugin, you need to input <a "
+#~ "href=\"%s\">Upgrade Code</a>."
+#~ msgstr ""
+#~ "フロントエンドユーザー管理プラグインをアップグレードするには、<a href=\"%s"
+#~ "\">アップグレードコード</a>を入力する必要があります。"
+
+#~ msgid "Upgrade Code"
+#~ msgstr "アップグレードコード"
+
+#~ msgid "New Password:"
+#~ msgstr "新しいパスワード:"
+
+#~ msgid "Default User Role"
+#~ msgstr "デフォルトユーザー権限"
+
+#~ msgid ""
+#~ "Are you sure to reset options? Options you set will be reset to the "
+#~ "default settings."
+#~ msgstr ""
+#~ "本当にオプションをリセットしてもよいですか？設定したオプションは初期化され"
+#~ "ます。"
+
+#~ msgid "Unset Options &raquo;"
+#~ msgstr "オプションリセット &raquo;"
+
+#, fuzzy
+#~ msgid "Strength Indicator"
+#~ msgstr "強度インジケータ"
+
+#~ msgid "Too short"
+#~ msgstr "短すぎます"
+
+#~ msgid "Altar User Table"
+#~ msgstr "ユーザー名の文字数"
+
+#~ msgid "You can not use my page. "
+#~ msgstr "マイページは使用できません。"
+
+#~ msgid "Front User Admin"
+#~ msgstr "フロントユーザー管理"
+
+#~ msgid "Username or E-mail:"
+#~ msgstr "ユーザー名またはメールアドレス:"
+
+#~ msgid " (E-mail)"
+#~ msgstr " （メールアドレス）"
+
+#~ msgid "Front User Admin Login Box"
+#~ msgstr "フロントエンドユーザー管理 ログインボックス"
+
+#~ msgid "E-mail:"
+#~ msgstr "メールアドレス"
+
+#~ msgid "Password:"
+#~ msgstr "パスワード:"
+
+#~ msgid "Username: %s"
+#~ msgstr "ユーザー名: %s"
+
+#, fuzzy
+#~ msgid "Yhoo IM"
+#~ msgstr "Yahoo IM"
+
+#~ msgid "Number and Alphabet"
+#~ msgstr "英数字"
+
+#~ msgid "Full width"
+#~ msgstr "全角"
+
+#~ msgid "Reverse first name and last name"
+#~ msgstr "性と名の逆転"
+
+#~ msgid "Reverse the edit order of first name and last name."
+#~ msgstr "性と名の編集順序を逆転させる（日本式にする）"

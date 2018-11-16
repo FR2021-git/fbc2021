@@ -1,0 +1,860 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>使用方法 | FE Advanced Search 使用説明書</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="syntaxhighlighter/shCore.js"></script>
+	<script type="text/javascript" src="syntaxhighlighter/shBrushPhp.js"></script>
+	<script type="text/javascript" src="syntaxhighlighter/shBrushCss.js"></script>
+	<script type="text/javascript" src="syntaxhighlighter/shBrushXml.js"></script>
+	<link type="text/css" rel="stylesheet" href="syntaxhighlighter/shCoreDefault.css"/>
+	<script type="text/javascript">
+		SyntaxHighlighter.defaults['html-script'] = true;
+		SyntaxHighlighter.defaults['tab-size'] = 2;
+		SyntaxHighlighter.all();
+	</script>
+</head>
+
+<body>
+<a name="top" id="top"></a>
+
+	<div id="header" class="clearfix">
+		<div id="title">
+		<h1>
+			WordPress用絞り込み検索プラグイン
+			<a href="index.html"><img src="images/feas_banner.gif" width="308" height="57" alt="FEAdvancedSearch" /></a>
+		</h1>
+		<p id="header-text1">version 1.6.6</p>
+		<p id="header-text2">使用説明書</p>
+		</div>
+		<p id="koushin">最終更新：2016年8月22日</p>
+	</div>
+	
+	
+	<!--グローバルメニュー--> 	
+	<div id="globalmenu">
+		<ul>
+			<li class="li-1"><a href="index.html">初めに</a></il>
+			<li class="li-1"><a href="manual.html">使用方法</a></il>
+			<li class="li-1"><a href="newfunction.html">新機能</a></il>
+			<li class="li-1"><a href="support.html">サポート</a></il>
+			<li><a href="http://www.firstelement.jp/contact/" target="_self">問い合わせ</a></il>
+		</ul>
+	</div>
+	
+	
+	<!-------タブ-------> 	
+	<div id="tabs">
+		<ul class="tab-list">
+			<li><a href="#tab1" class="selected">検索フォームの管理</a></li>
+			<li><a href="#tab2">ソート設定</a></li>
+			<li><a href="#tab3">検索フォームの外観</a></li>
+			<li><a href="#tab4">コンテンツ側の準備</a></li>
+			<li><a href="#tab5">検索方法と結果のソート</a></li>
+			<li><a href="#tab6">キャッシュ</a></li>
+			<li><a href="#tab7">設定データのインポート/エクスポート</a></li>
+		</ul>
+		
+		<!-------タブ1------->
+		<div class="panel" id="tab1">
+			<ul class="link-list">
+				<li><a href="#link1">プラグイン設置手順</a></il>
+				<li><a href="#link2">検索フォームを設置</a></il>
+				<li><a href="#link3">ショートコード形式で記事に挿入</a></il>
+				<li><a href="#link4">検索フォームを設置（複数対応）</a></il>
+				<li><a href="#link5">検索結果をsearch.phpに返す</a></il>
+				<li><a href="#link5-2"> 複数のフォームからの検索結果をそれぞれ別々のテンプレートに返す</a></il>
+				<li><a href="#link6">設定ページで検索フォームを作成</a></il>
+				<li><a href="#link7">検索フォームを作成する</a></il>
+				<li><a href="#link8">検索フォームを複数作成/管理</a></il>
+				<li><a href="#link9">検索フォームを削除する</a></il>
+			</ul>
+			
+			<!--タブ1-リンク1-->
+			<div class="post">
+				<h2><a name="link1">プラグインの新規設置手順</a></h2>
+				<p>　※以下はWordPress 4.3 に沿った説明です。</p>
+				<ul class="list-2">
+					<li>ダウンロードまたはメールの添付ファイルを解凍し、FTPソフトウェア等で、設置先のサーバに接続します。</li>
+					<li>「fe-advanced-search」フォルダを以下の場所にアップロードします。</li>
+					<li>WordPressを設置したフォルダ/wp-content/plugins/</li>
+					<li>WordPressの管理画面にログインします。</li>
+					<li>「プラグイン」→「インストール済みプラグイン」を開きます。</li>
+					<li>プラグイン一覧にある「FE Advanced Search」の「有効化」リンクをクリックします。</li>
+					<li>管理画面のサイドバー下方に<span>「検索」</span>という項目が現れていれば設置完了です。</li>
+				</ul>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+			<!--タブ1-リンク2--> 
+			<div class="post">
+				<h2><a name="link2">検索フォームを設置</a></h2>
+				<h3>テンプレートに、FEAS用の検索フォームを設置</h3>
+				<p>　検索フォームを設置したいテンプレートの任意の場所に下記のように記述します。</p>
+				<pre class="brush: php;">
+					&lt;?php create_searchform(); ?&gt;</pre>
+				
+				<h3>検索条件を検索結果に表示</h3>
+				<p>　検索結果のページに、検索に用いた条件（カテゴリ、キーワード等）を列記するには下記のように記述します。</p>
+				<pre class="brush: php;">
+					&lt;?php search_result(); ?&gt;</pre>
+
+				<h3><a name="link-new01"></a>該当件数を表示</h3>
+				<p>　検索条件に該当する件数を表示するには下記のように記述します。</p>
+				<pre class="brush: php;">
+					&lt;?php feas_count_posts(); ?&gt;</pre>
+									
+				<h3>記述例</h3>
+				<p>　上記の関数を用いた記述例は以下のとおりです。</p>
+				<pre class="brush: php;">
+					&lt;div id=&quot;feas&quot;&gt;
+						&lt;div id=&quot;feas-form&quot;&gt;
+							&lt;?php create_searchform(); ?&gt;
+							&lt;/div&gt;
+						&lt;div id=&quot;feas-result&quot;&gt;
+							&lt;?php if(is_search()){ ?&gt;
+								&lt;?php if($add_where !=null || $w_keyword !=null): ?&gt;
+									「&lt;?php search_result(); ?&gt;」の条件による検索結果 &lt;?php feas_count_posts(); ?&gt; 件
+								&lt;?php else: ?&gt;
+									&lt;h3&gt;検索条件が指定されていません。&lt;/h3&gt;
+								&lt;?php endif; ?&gt;
+							&lt;?php } else { ?&gt;
+								現在の登録件数：&lt;?php feas_count_posts(); ?&gt; 件
+							&lt;?php } ?&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;</pre>
+				
+				<h3>より安全な記述例（推奨）</h3>
+				<p>　下記の記述方法にすると、万が一プラグインを使用停止した場合にもエラーが出力されず、サイトの稼働に支障をきたしません。</p>
+				<pre class="brush: php;">
+					&lt;?php if(function_exists('create_searchform')){ ?&gt;
+						&lt;div id=&quot;feas&quot;&gt;
+							&lt;div id=&quot;feas-form&quot;&gt; 
+								&lt;?php create_searchform(); ?&gt;
+							&lt;/div&gt; 
+							&lt;div id=&quot;feas-result&quot;&gt; 
+								&lt;?php if(is_search()){ ?&gt;
+									&lt;?php if($add_where !=null || $w_keyword !=null): ?&gt; 
+										「&lt;?php search_result(); ?&gt;」の条件による検索結果 &lt;?php feas_count_posts(); ?&gt; 件
+									&lt;?php else: ?&gt; 
+										&lt;h3&gt;検索条件が指定されていません。&lt;/h3&gt;
+									&lt;?php endif; ?&gt; 
+								&lt;?php } else { ?&gt;
+									現在の登録件数：&lt;?php feas_count_posts(); ?&gt; 件
+								&lt;?php } ?&gt;
+							&lt;/div&gt; 
+						&lt;/div&gt;
+					&lt;?php } ?&gt;</pre>
+				
+				<h3>「Ktai Style」テーマに設置する場合</h3>
+				<p><span>※現在のFEASのバージョンでは、検索条件をリストボックス形式で設置すると下記のような警告が表示されます。リストボックス以外の形式で設置してください（Ktai Style 2.0.3にて確認）。</span><br/><br/>表示例）</p>
+				<div class="post-2">
+					<p>Warning: htmlspecialchars() expects parameter 1 to be string, array given in /home/example/example.jp/public_html/wp/wp-content/plugins/ktai-style/inc/template-tags.php on line 1430</p>
+				</div>
+				<p>　一部の変数をグローバルに設定しないと検索条件が取得できません（「検索」設定ページの最下部のテキストエリアにサンプルコードが表示されます）。</p>
+				<pre class="brush: php;">
+					&lt;?php if(function_exists('create_searchform')){ 
+						global $wp_query, $add_where, $w_keyword; ?&gt;
+						&lt;div id=&quot;feas&quot;&gt;
+							&lt;div id=&quot;feas-form&quot;&gt; 
+								&lt;?php create_searchform(); ?&gt;
+							&lt;/div&gt; 
+							&lt;div id=&quot;feas-result&quot;&gt; 
+								&lt;?php if(is_search()){ ?&gt;
+									&lt;?php if($add_where !=null || $w_keyword !=null): ?&gt; 
+										「&lt;?php search_result(); ?&gt;」の条件による検索結果 &lt;?php feas_count_posts(); ?&gt; 件
+									&lt;?php else: ?&gt; 
+										&lt;h3&gt;検索条件が指定されていません。&lt;/h3&gt;
+									&lt;?php endif; ?&gt; 
+								&lt;?php } else { ?&gt;
+									現在の登録件数：&lt;?php feas_count_posts(); ?&gt; 件
+								&lt;?php } ?&gt;
+							&lt;/div&gt; 
+						&lt;/div&gt;
+					&lt;?php } ?&gt;</pre>
+				
+				<!--タブ1-リンク3-->             
+				<h3><a name="link3" id="link3">任意の記事（投稿／ページ）に検索フォームを挿入（ショートコードAPI）</a></h3>
+				<p>
+					<ul class="list-2">
+						<li>管理画面＞投稿＞編集から、検索フォームを挿入した記事の「編集」または記事タイトルをクリック</li>
+						<li>記事本文の挿入したい箇所にカーソルを合わせ、<span>[create-searchform]</span>と記述します。</li>
+						<li>該当件数を表示する場合は<span>[feas_count_posts]</span>と記述します。</li>
+						<li>「投稿を更新」をクリックします。</li>
+						<li>以上</li>
+					</ul>
+					<br/>
+					※新規作成の場合、「固定ページ」に挿入する場合も同様の手順です。
+				</p>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+			<!--タブ1-リンク4--> 
+			<div class="post">
+				<h2>検索フォームを設置（複数対応）</h2>
+				<p>　前項の検索フォームの設置方法で、create_searchform関数の引数にフォームのidを与えます（例：フォームid=2の場合）。</p>
+				<pre class="brush: php;">
+					&lt;?php create_searchform( 2 ); ?&gt;</pre>
+				<p>
+				<p>　該当件数を表示するfeas_count_posts関数も同様にフォームのidを与えます。</p>
+				<pre class="brush: php;">
+					&lt;?php feas_count_posts( 2 ); ?&gt;</pre>
+				<p>
+
+					　idの参照は、「検索」設定ページの右上のドロップダウン内、または「フォームID」欄をご参照ください。<br/>
+					　ショートコードの場合も同様に、id属性に値を与えます。
+				</p>
+				<pre class="brush: php;">
+					[create-searchform id=1]</pre>
+				<a name="link-new02"></a>
+				<pre class="brush: php;">
+					[feas-count-posts id=1]</pre>
+				<p>　いずれの場合も、値を省略した場合はid=0（最初に作成された検索フォーム）が表示されます。</p>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+			<!--タブ1-リンク5--> 
+			<div class="post">
+				<h2><a name="link5">検索結果をsearch.phpに返す</a></h2>
+				<p>　検索結果を正常に表示させるために、使用するテーマフォルダ内に「search.php」というテンプレートを設置して、その中に記事のループを設置してください。<br/>
+				　もし、トップページ向けに「home.php」というテンプレートファイルが設置されていて、（トップページ用の専用デザインがされている等）記事一覧を表示するコードが記述されていない場合、検索にヒットした記事のリストを表示できない場合があります（検索結果は取得しますが、結果が表示されない状態）。<br/>
+				　使用中のテーマフォルダ内に「search.php」というテンプレートが設置してあると、FEASの検索フォームが設置されたどのテンプレートから検索が実行された場合でも、検索結果は search.php へ返されます。必要に応じて検索フォームのコードをsearch.php内にも設置してください（設置されていなくても検索結果は表示されます） 。それ以外の場合は、下記の優先順位で検索結果が返されます（<a href="http://wpdocs.sourceforge.jp/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E9%9A%8E%E5%B1%A4" target="_blank">WordPressのテーマ構造/テンプレート階層</a>に準じます）。</p>
+				<div class="post-2">
+					<p>search.php　＞　home.php　＞　index.php</p>
+				</div>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+			<!--タブ1-リンク5-2--> 
+			<div class="post">
+				<h2><a name="link5-2"></a>検索結果を検索フォームごとに、それぞれ別のテンプレートに返す</h2>
+				<p>　ポータルサイト等で、カテゴリ/コーナー毎にそれぞれ別の検索フォームを設置した場合、検索結果を表示するテンプレートも分けたい場合が多いと思います。その場合は、search.phpの中身を下記のように記述し【分岐専用】のファイルとします。それぞれの検索結果用のテンプレートを別途用意して読み込みます。各テンプレートの内容は通常のsearch.phpに準じた内容を記述してください。</p>
+				<pre class="brush: php;">
+					&lt;?php
+						if( $_GET['fe_form_no'] == '0') // フォームID=0の場合
+							get_template_part( 'search', 'form1' ); // search-form0.php というテンプレートを読み込みます
+						else if( $_GET['fe_form_no'] == '1') // フォームID=1の場合
+							get_template_part( 'search', 'form1' ); // search-form1.php というテンプレートを読み込みます
+						else
+							get_template_part( 'archive' ); // archive.php を読み込みます
+					?&gt;</pre>
+				<p>※「search-form0.php」等は実際のファイル名に置き換えて下さい</p>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+			<!--タブ1-リンク6--> 
+			<div class="post">
+				<h2><a name="link6">設定ページで検索フォームを作成</a></h2>
+				<p>　管理画面にログインし、「検索」ページを開くと、ページ上段に下記のような画面が表示されます。このセクションで、現在の検索フォームの全般的な設定を行います。設定はフォームIDごとに独立しています。</p>
+				<img class="img" src="images/feas_admin_form_top.png" width="838" alt="検索フォーム" />
+				
+				<h3>名称</h3>
+				<p>　現在表示されている検索フォームの名称を設定します。名称未設定の検索フォームは、右上のドロップダウン内にIDで表示されます。</p>
+				
+				<h3>フォームID</h3>
+				<p>　現在表示されている検索フォームのIDが表示されます。</p>
+				
+				<h3><a name="searchposttype"></a>検索対象の投稿タイプ</h3>
+				<p>　現在設定中の検索フォームから検索するときのターゲットとなる投稿タイプ（Post Type）を指定します。これにより、特定の投稿タイプで絞り込むことができます。<br/>
+				「attachment」を選択した場合は、記事の編集画面において「メディアを追加」ウィンドウの「タイトル」欄に入力した文字（post_name）が検索されます。</p>
+				
+				<h4>Sticky Posts について</h4>
+				<p>　投稿 > 公開 > 公開状態 > 一般公開 > <span>「この投稿を先頭に固定表示」</span>にチェックを付けた記事も検索対象に含む場合はチェックを入れます。</p>
+				
+				<h3><a name="defaultcategory">固定タクソノミ/ターム</a></h3>
+				<p>　特定のタクソノミ/タームをあらかじめ検索条件として設定できます。ポータルサイトなど、カテゴリ/コーナーごとに違う検索フォームを設置する際などに、そのカテゴリ内の記事に絞った検索を実行できます。</p>
+				
+				<h3>検索条件に件数を表示</h3>
+				<p>　「表示する」にチェックを入れると、各検索条件の右側に括弧付きの数字で、条件ごとの対象記事数を表示します。</p>
+				<img class="img" src="images/feas_site_showcnt.png" width="307" height="246" alt="検索条件に件数を併記" />
+				
+				<h3><a name="sortdefault"></a>検索結果の並び順</h3>
+				<img class="img" src="images/feas_admin_form_top_sort.png" alt="検索結果の並び順のドロップダウン類" />
+				<p>検索を実行した際の、検索結果に並ぶ記事の順序を指定できます。WordPressの標準では「投稿日の新しい順」に記事が並びますが、投稿日の他に下記の順で表示できます。</p>
+				<ul class="list-1">
+					<li>投稿日時　＝ 投稿日を基準に、次の「昇順/降順」のドロップダウンの設定に従い、投稿日の古い順/新しい順に並びます。</li>
+					<li>タイトル　＝ タイトルの文字列を基準に並びます。
+					<li>スラッグ　＝ 記事のスラッグ（URLに含まれる文字列）を基準に並びます。（スラッグを編集するには、パーマリンク設定に%postname%が含まれるように設定の上、各記事のタイトル下部にあるパーマリンクの「編集」ボタンをクリックして行います）</li>
+					<li>カスタムフィールド　＝ 次で指定したカスタムフィールドのキーの値順に並びます。</li>
+					<li>ランダム　＝ 検索を実行する度に、違った順に並びます。</li>
+				</ul>
+				
+				<h4>昇順/降順</h4>
+				
+				<ul class="list-1">
+					<li>昇順　＝ 値の小さい順（例：0〜99..、A〜Z、あ〜ん、ア〜ン）に並びます。</li>
+					<li>降順　＝ 値の大きい順（例：99..〜0、Z〜A、ん〜あ、ン〜ア）に並びます。</li>
+				</ul>
+				<h4>カスタムフィールドのキー（※カスタムフィールド選択時のみ）</h4>
+				<ul class="list-1">
+					<li>作成済みのカスタムフィールドのキーが並びます。ソートの基準になるキーを選択してください。</li>
+				</ul>
+				<h4>数値/文字（※カスタムフィールド選択時のみ）</h4>
+				<ul class="list-1">
+					<li>数値　　＝ カスタムフィールドの値を数値として扱います。価格順などでのソート時はこちらを選択してください。
+					</li>
+					<li>文字列　＝ カスタムフィールドの値を文字列として扱います。よみがな順などでのソート時はこちらを選択してください。
+					</li>
+				</ul>
+				<strong><span>※数値が保存されたカスタムフィールドは注意が必要です。</span></strong>
+				<ul class="list-1">
+					<li>「数値」の場合の並び順　　＝ 50、100、2000、10000
+					</li>
+					<li>「文字列」の場合の並び順　＝ 100、10000、2000、50
+					</li>
+				</ul>
+				<br/>
+				<p><a href="#link21">エンドユーザーによるソート機能 &raquo;</a></p>
+				
+				<h3>検索条件が指定されずに検索された場合</h3>
+				<p>検索条件がいずれも指定されない状態で検索ボタンがクリックされた場合の挙動を選択できます。</p><br/>
+				<ul class="list-1">
+					<li>0件を返す：検索結果には記事を表示しません（該当なし）。</li>
+					<li>固定タクソノミ/タームの記事の一覧を表示：前述の「<a href="#defaultcategory">固定タクソノミ/ターム</a>」で設定した記事一覧を表示します。</li>
+				</ul>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+			<!--タブ1-リンク7--> 
+			<div class="post">
+				<h2><a name="link7"></a>検索フォームを作成する</h2>
+				<p>　全体設定のセクションの下（ページ中段）には、下のようなセクションが表示されます。</p>
+				<img class="img" src="images/feas_admin_09.png" width="834" height="369" alt="検索フォームを作成する" />
+				<!--<p> 閉じが無い-->
+				<ul class="list-2">
+					<li>検索条件１組と検索ボタンが用意されます。</li>
+					<li>
+						左下の「設定を保存」をクリックします。<br/>
+						※<span>条件を一組設定するごとに「設定を保存」</span>してください。保存せずに「項目を追加」ボタンをクリックすると、直前の設定がリセットされます。</li>
+					<li>
+						「プレビュー」欄に、今追加した内容が反映されます（年月のドロップダウンと検索ボタンのみ）。<br/>
+						<img class="img" src="images/feas_admin_10.png" width="834" height="102" alt="「プレビュー」欄" />
+					</li>
+					<li>目的に合わせて、最初に保存されたドロップダウンを修正します。</li>
+				</ul>
+				<h3>ラベル</h3>
+				<p>　各検索条件に付属する文字列です。HTMLタグが使えます。（省略可能）</p>
+				
+				<h3>条件</h3>
+				<p>　検索パーツに呼び出される条件（年月/タグ/カテゴリ/カスタムタクソノミ/カスタムフィールド）を選択します。「タグ」を選択すると、記事投稿時に登録されたタグの一覧が検索フォームに表示されます。カテゴリとカスタムタクソノミは、一覧表示したいリストの親となるカテゴリ/タームを選択します。カスタムフィールドには記事投稿時に登録されたカスタムフィールドのキー一覧が表示されますので、検索対象とするキーを選択してください。</p>
+				
+				<h3>形式</h3>
+				<div class="post-2">
+					<ul class="list-1">
+						<li>ドロップダウン ＝ 省スペースですが、項目数が多い場合は使いにくくなります。</li>
+						<li>リストボックス ＝ 複数の項目を選択できます（キーボードのShift／Commandキーを使用）</li>
+						<li>チェックボックス ＝ 複数の項目を選択できます。一覧性が高いですが、スペースを取ります。</li>
+						<li>ラジオボタン ＝ １つの項目を選択できます。性別／有無など、選択肢が少ない項目に向いています。</li>
+						<li>フリーワード ＝ キーワード検索用です。検索対象を指定できます。</li>
+					</ul>
+				</div>
+				
+				<h3><a name="link-new03"></a>並び順</h3>
+				<p>
+					その検索パーツ内のカテゴリ、ターム、年月、タグの並び順を設定します。<br/>
+					ID、名称、スラッグ、年月、それぞれ昇順／降順に設定できます。「カスタム」を選択した場合は、プラグイン「<a href="http://wordpress.org/extend/plugins/my-category-order/" target="_blank">My Category Order</a>」（作者：Andrew Charlton 氏）もしくは「<a href="http://wordpress.org/extend/plugins/order-up-custom-taxonomy-order/installation/" target="_blank">Custom Taxonomy Order</a>」（作者：dgourley 氏）等のプラグインを併用して、各プラグイン内で設定した並び順で表示することもできます。「ランダム」を選択した場合は、検索フォームを表示する度に並び順がランダムに変わります。<br/>
+					<span>※「条件」においてカスタムフィールドを選択した場合は、現状ソートはできません。</span>
+				</p>
+				
+				<h3>検索方法</h3>
+				<p>複数項目の選択ができる形式（チェックボックス／リストボックス）の場合のみ使用できます。</p>
+				<div class="post-2">
+					<p>
+						OR検索　＝選択した【<span>いずれか</span>】の項目に当てはまる記事を検索<br/>
+						AND検索　＝選択した【<span>すべて</span>】の項目に当てはまる記事を検索
+					</p>
+				</div>
+				
+				<h3>前に挿入／後に挿入</h3>
+				<p>　その検索パーツの開始前／終了後に挿入するHTMLコードなどを記述します。<br/>
+				下記の例の様に記述し、使用中のテーマのスタイルシートに「.search-category」の設定を記述してください。<br/></p>
+				<div class="post-2">
+					<p>
+						前に挿入：&lt;div class=&quot;search-category&quot;&gt;<br />
+						後に挿入：&lt;/div&gt;
+					</p>
+				</div>
+				<p>　または、インラインで下記のように記述することもできます。</p>
+				<div class="post-2">
+					<p>&lt;div style=&quot;border:1px solid silver; padding:3px;&quot;&gt;</p>
+					<p class="comment">&lt;!--1ピクセルの薄いグレーの枠線で囲み、枠の内側に3pxの余白が付きます。--&gt;</p>
+				</div>
+				
+				<h3>並び順</h3>
+				<p>　検索フォーム全体の中の各条件の並び順を設定します。数字が小さい程、先に表示されます。同じ値を複数の条件に設定することはできません。</p>
+				
+				<h3>表示する</h3>
+				<p>　その検索条件の設定を残したまま、一時的に検索フォーム上に表示しない場合「表示しない」に設定します。</p>
+				
+				<h3>消去</h3>
+				<p>　その検索条件を削除したい場合、「消去」にチェックを入れて「設定を保存」をクリックします。</p>
+				
+				<h3>除外ID（カテゴリ/タクソノミ）</h3>
+				<p>
+					　検索条件としてカテゴリ/タクソノミを表示/検索する際、特定のカテゴリ/タームを表示/検索対象から外すには、<span>半角カンマ区切りでカテゴリ/タームIDを入力</span>してください。<br/>
+					<img class="img" src="images/feas_admin_11.png" width="410" height="115" alt="除外ID、階層の指定" />
+				</p>
+				
+				<h3>階層（カテゴリ/タクソノミ）</h3>
+				<p>
+					　検索条件としてカテゴリ/タクソノミを表示/検索する際、子カテゴリ/ターム以下の階層の表示/検索を制限する場合、<span>半角数字で階層を指定</span>します。0を入力の場合は、子カテゴリ/タームを表示/検索しません（選択した親カテゴリ/ターム直下の子カテゴリ/タームのみ表示/検索）。
+					1を入力の場合は、子カテゴリ/タームがある場合に1階層分、インデント表示されます。<span>未入力、または「-1」の場合は無制限</span>（下階層がある限り表示/検索）となります。<br/>
+					<img class="img" src="images/feas_site_category_child.png" width="148" height="202" alt="ドロップダウン内に子カテゴリを表示した例" />
+				</p>
+				
+				<h3>登録件数が0件のカテゴリ/タームは表示しない（カテゴリ/タクソノミ）</h3>
+				<p>　登録が1件もないカテゴリ/タームを<span>表示しない場合はチェック</span>を付けます（親カテゴリ/タームが0件の場合、子カテゴリ/ターム以下も非表示となります）。</p>
+				
+				<h3><a name="link-new02"></a>Ajaxフィルタリング（カテゴリ/タクソノミ）</h3>
+				<p>
+					　「形式」をドロップダウンに設定した場合、親カテゴリ/タームを選択すると動的に（ページをリロードせずに）子カテゴリ/タームのドロップダウンを右隣に表示します。初期状態では第一階層のみ表示されます（前述の「階層」の指定は無視されます）。都道府県から市区町村へと絞り込む場合、あるいは沿線から各駅名へと絞り込む場合など、下層カテゴリ/タームの数が膨大になる場合に特に便利です。<br />
+					<span>※各カテゴリ/タームごとの件数の表示は現在できません。</span>
+				</p>
+				
+				<h3><a name="link-new01"></a>範囲検索（アーカイブ/カスタムフィールド）</h3>
+				<p>
+					　"料金" や "期間" など、ある範囲に該当する記事を検索することができます。
+					条件にアーカイブを選択した場合は、指定した期間に投稿された記事を検索できます。
+					条件にカスタムフィールドの"キー"を選択した場合は、"値"が指定した範囲に含まれるカスタムフィールドを持つ記事を検索できます。
+					「形式」がドロップダウンとラジオボタンの場合に使用できます（自由入力で範囲検索させる場合は、形式で「フリーワード」を選択せずに、代わりに後述の「自由入力」にチェックを入れてください）。
+				</p>
+				<h4>範囲の扱い</h4>
+				<p>　「未満 」「以下」「以上」「超」から選択できます。</p>
+				<h4>単位（カスタムフィールド）</h4>
+				<p>　カスタムフィールドを範囲検索時、ドロップダウンなど検索パーツ内および検索結果ページにて検索条件を表示する際に入力した単位を値の後部に付加します。</p>
+				<h4>自由入力（カスタムフィールド）</h4>
+				<p>　エンドユーザーが入力した任意の値で範囲検索が行う場合はチェックを入れてください。チェックを入れると「形式」に関係なく、フリーワード形式になります。</p>
+				<h4>3桁ごとに半角カンマで区切る（カスタムフィールド）</h4>
+				<p>
+					　カスタムフィールドを範囲検索時、ドロップダウンなど検索パーツ内および検索結果ページにて検索条件を表示する際に、数値を3桁ごとに半角カンマで区切りを入れます。<br />
+					<span>※カスタムフィールドの値で範囲検索を行うには、投稿画面にてカスタムフィールドの"値"を入力する際に半角カンマや￥マークなど記号など付加せず、純粋に【半角数字】のみ入力してください（小数点は可能です）。上記「単位」と「3桁ごと〜」はこれらを補うためのものです。</span>
+				</p>
+				<p>範囲検索の設定例：</p>
+				<img src="images/feas_admin_16.png" alt="feas_admin_16" width="759" height="283" class="img" /><br />
+				<p>上記のように２つの検索項目を組み合わせると、下記のようなフォームが作成できます：</p>
+				<img src="images/feas_admin_17.png" alt="feas_admin_17" width="804" height="146" class="img" /><br />
+				<p>「単位」「3桁ごと〜」のオプション有効にした場合／しない場合のドロップダウンの見え方：</p>
+				<img src="images/feas_admin_18.png" alt="feas_admin_18" width="258" height="121" class="img" /><br />
+				<h3>検索対象（フリーワード）</h3>
+				<p>フリーワード検索時の検索対象を選択します。</p>
+				<img src="images/feas_admin_19.png" alt="feas_admin_19" width="279" height="261" class="img" /><br />
+				
+				<h4>検索対象</h4>
+				<ul class="list-2">
+					<li>タイトル (post_title)</li>
+					<li>本文 (post_content)</li>
+					<li>抜粋 (post_excerpt)</li>
+					<li>カスタムフィールド (meta_value)<br/>
+					　　<a name="link-new04"></a>キー（指定したキーのカスタムフィールド値のみ検索）</li>
+					<li>コメント (comment_content)</li>
+					<li>記事が属するカテゴリ/タグ名 (terms > name)</li>
+				</ul>
+				<p>　何も選択されていない場合は、1,2,4,6が検索対象となります。<span>カスタムフィールドの「キー」は、半角カンマ区切りで複数指定できます。</span></p>         
+				
+				<h4>ゆらぎ検索（フリーワード）</h4>
+				<p>
+					　英数字が入力された場合の検索方法を指定します。チェックを付けると、半角/全角の区別なく検索実行します。<br/>
+					例）全角で「ＰＨＰ」と入力<br/>
+					　チェックあり→　<span>全角</span>「ＰＨＰ」<span>半角</span>「PHP」<span>いずれも検索にヒット</span><br/>
+					　チェックなし→　全角「ＰＨＰ」はヒット、半角「PHP」は検索にヒットせず
+				</p>
+				<h3>「フォーム外観」のCSSを適用する</h3>
+				<p>
+					　「フォーム外観」に設定されているCSSを、プレビュー欄の検索フォームに適用します。<br/>
+					※設定直後にはキャッシュが残っていて画面にCSSが反映されない場合があります。その場合はページをリロードしてください。
+				</p>
+				
+				<h3>設定の保存</h3>
+				<p>
+					　設定を終えたら、左下の「設定を保存」ボタンをクリックします。プレビュー欄には、上記の各設定で保存した内容が実際のデータに基づいて表示されます。<br/>
+					必要に応じて右上の「項目を追加」ボタンで検索条件を追加して、上記の方法に従い検索フォームを作り込みます。
+				</p>
+				
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+			<!--タブ1-リンク8-->          
+			<div class="post">
+				<h2><a name="link8">検索フォームを複数作成/管理</a></h2>
+				<p>　検索フォームは複数の作成/管理ができます。ポータルサイトなど、カテゴリ/コーナーによって求められる検索条件が異なる場合に、最適な検索フォームをカテゴリ/コーナーごとに用意できるので便利です。</p>
+				<ul class="list-2">
+					<li>
+						ページ右上のドロップダウンから「新規作成」を選択し「実行」ボタンをクリックします。<br/>
+						<img src="images/feas_admin_13.png" width="120" height="74" alt="検索フォーム 新規作成" />
+					</li>
+					<li>
+						→新しく作成された検索フォームの編集画面が開きます。<br/>
+						→ドロップダウンの内容が<span>（フォームID = 1）</span>に変わっています。
+					</li>
+					<li><a href="#searchposttype">前述の方法</a>で、検索フォームを作り込みます。</li>
+				</ul>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+<!--タブ1-リンク9--> 
+			<div class="post">
+				<h2><a name="link9">検索フォームを削除する</a></h2>
+				<ul class="list-2">
+					<li>
+						ページ右上のドロップダウンから「削除」を選択し「実行」ボタンをクリックします。<br/>
+						<span>現状、最後に作成した検索フォームから順番に削除可能です。数字が一番高いid以外のフォーム選択時は「削除」メニューが表示されません。マイナーアップデートで、任意の検索フォームを削除できるようになる予定です。</span>
+					</li>
+					<img class="img" src="images/feas_admin_14.png" width="177" height="106" alt="検索フォームを削除" />
+				</ul>
+				<p></p>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div> 
+			
+		</div>
+		
+		
+		<!-------タブ2------->
+		<div class="panel" id="tab2">
+			<ul class="link-list">
+				<li><a href="#link21">検索結果のソート（並び順の指定）機能</a></il>
+				<li><a href="#link22">ソート機能の設定</a></il>
+				<li><a href="#link23">ソートメニューを設置</a></il>
+				<li><a href="#link24">ショートコード</a></il>
+			</ul>
+			
+			<!--タブ2-リンク1--> 
+			<div class="post">
+				<h2><a name="link21">検索結果のソート（並び順の指定）機能</a></h2>
+				<p>FEASは、検索結果のソートを２種類の方法で設定できます。</p>
+				<ul class="list-2">
+					<li>管理者が<a class="dlink" href="#sortdefault">設定ページにて、あらかじめ設定</a> （→リンク先を参照）</li>
+					<li>利用者がサイト上に設置されたソートボタンを使用して、任意に並べ替え</li>
+				</ul>
+				<h3>利用者がサイト上に設置されたソートボタンを使用して、任意に並べ替え</h3>
+				<h4>手順</h4>
+				<ul class="list-2">
+					<li>設定ページにて、<a href="link22">ソート機能の設定</a> をおこなう</li>
+					<li>サンプルコードを検索結果のテンプレート（search.php）に設置</li>
+					<li>利用者が、検索結果ページに表示された昇順/降順のリンクをクリックして任意に並べ替え</li>
+				</ul>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div> 
+			
+<!--タブ2-リンク2--> 
+			<div class="post">
+				<h2><a name="link22">ソート機能の設定</a></h2>
+				<h3>ソートボタンの作成</h3>
+				<ul class="list-2">
+					<li>「検索」のサブメニューの「ソート設定」をクリックします<br/>
+						→下のような画面が表示されます<br/>
+						<img class="img" src="images/feas_sort_02.png" width="835" alt="ソート設定 画面イメージ" /></li>
+					<li>→ソート条件の最初の１組が用意されます。</li>
+					<li>各項目を設定します。 </li>
+					
+					<blockquote>
+						<h4>ラベル</h4>
+						<p>ソートボタンに付属する語句を入力します。HTMLタグが使えます。（空欄可）</p>
+						
+						<h4>ターゲット</h4>
+						<p>どの項目を基準にソートを行うか指定します。</p>
+						<ul class="list-1">
+							<li>投稿日時　＝ 投稿日時を基準に並びます。</li>
+							<li>タイトル　＝ タイトルの文字列を基準に並びます。
+							<li>スラッグ　＝ 記事のスラッグ（URLに含まれる文字列）を基準に並びます。（スラッグを編集するには、パーマリンク設定に%postname%が含まれるように設定の上、各記事のタイトル下部にあるパーマリンクの「編集」ボタンをクリックして行います）</li>
+							<li>カスタムフィールド　＝ 次のドロップダウンで指定したカスタムフィールドのキーの値順に並びます。</li>
+							<li>ランダム　＝ ボタンをクリックする度に、違った順に並びます。</li>
+						</ul>
+						<h4>カスタムフィールドのキー（※カスタムフィールド選択時のみ）</h4>
+						<ul class="list-1">
+							<li>作成済みのカスタムフィールドのキーが並びます。ソートの基準になるキーを選択してください。</li>
+						</ul>
+						<h4>数値/文字（※カスタムフィールド選択時のみ）</h4>
+						<ul class="list-1">
+							<li>数値　　＝ カスタムフィールドの値を数値として扱います。価格順などでのソート時はこちらを選択してください。
+							</li>
+							<li>文字列　＝ カスタムフィールドの値を文字列として扱います。よみがな順などでのソート時はこちらを選択してください。
+							</li>
+						</ul>
+						<strong><span>※数値が保存されたカスタムフィールドは注意が必要です。</span></strong>
+						<ul class="list-1">
+							<li>「数値」の場合の並び順　　＝ 50、100、2000、10000
+							</li>
+							<li>「文字列」の場合の並び順　＝ 100、10000、2000、50
+							</li>
+						</ul>
+						<h4>昇順テキスト/画像</h4>
+						<p>昇順の<span>リンクテキスト</span>を設定します。画像を指定することもできます（あらかじめアップロードした画像をimgタグで入力）。</p>
+						
+						<h4>降順テキスト/画像</h4>
+						<p>降順の<span>リンクテキスト</span>を設定します。（同上）</p>
+						
+						<h4>前に挿入／後に挿入</h4>
+						<p>各ソートボタンセットの前後に挿入するHTMLコードなどを記述します。</p>
+						
+						<h4>並び順</h4>
+						<p>各ソートボタンの並び順を設定します。数字が小さい程、先に表示されます。</p>
+						
+						<h4>表示</h4>
+						<p>ソート条件の設定を残したまま、<span>一時的に非表示にする</span>場合「表示しない」に設定します。</p>
+						
+						<h4>消去</h4>
+						<p>そのソート条件を削除したい場合、「消去」にチェックを入れて「設定を保存」をクリックします。</p>
+					</blockquote>
+					
+					<li>
+						ひととおり設定したら、左下の「設定を保存」をクリックします。<br/>
+						<span>※条件を１行分設定するごとに「設定を保存」してください。保存せずに「項目を追加」ボタンをクリックすると、直前の設定がリセットされます。</span>
+					</li>
+					<li>→「プレビュー」欄に、今追加した内容が反映されます。</li>
+					<li>希望する出力になるように、４を調整します。</li>
+					<li>必要に応じて、「項目を追加」ボタンでソート条件を追加して、上記の方法に従いソートボタンを作り込みます。</li>
+				</ul>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div> 
+			
+			<!--タブ2-リンク3-->
+			<div class="post">
+				<h2><a name="link23">ソートボタンを設置</a></h2>
+				<p>作成したソートボタンは、検索結果を表示するテンプレート（search.php等）に設置します。<br/>
+				ソートボタンを設置したいテンプレートの任意の場所に下記のように記述します。</p>
+				<pre class="brush: php;">
+				&lt;?php feas_sort_menu(); ?&gt;
+				</pre>
+				
+				<h3>記述例</h3>
+				<p>上記の関数を用いた記述例は以下のとおりです。</p>
+					<pre class="brush: php;">
+					&lt;?php if(function_exists('feas_sort_menu')){ ?&gt;
+						&lt;h4&gt;検索結果を並べ替える&lt;/h4&gt;
+						&lt;div id=&quot;feas-sort-menu&quot;&gt;
+							&lt;?php feas_sort_menu(); ?&gt;
+						&lt;/div&gt;
+					&lt;?php } ?&gt;</pre>
+				
+				<!--タブ2-リンク4-->
+				<h3><a name="link24">任意の記事（投稿／ページ）にソートボタンを挿入（ショートコードAPI）</a></h3>
+				<ul class="list-2">
+					<li>管理画面＞投稿＞編集から、検索フォームを挿入した記事の「編集」または記事タイトルをクリック</li>
+					<li>
+						記事本文の挿入したい箇所にカーソルを合わせ、下記のように記述します。<br/>
+						<span>[feas-sort-menu]</span>
+					</li>
+					<li>「投稿を更新」をクリックします。</li>
+					<li>以上</li>
+				</ul>
+				<p>※新規作成の場合、「ページ」に挿入する場合も同様の手順です。</p>
+				
+				<h3>ソートメニューの複数作成&管理について</h3>
+				<p>作成済みの各検索フォームごとに、ソートボタンの作成が可能です。右上のドロップダウンから、対象となる検索フォームを選択し「選択」ボタンを押して切り替え、各検索フォームごとにソートボタンの設定を行ってください。</p>
+				<img src="images/feas_sort_03.png" alt="feas_sort_03" width="481" height="347" />
+				<p>ソートボタンごとにIDが割り振られますので、設置するコードの引数には割り当てられたIDを記述します。サンプルコードには自動的にIDが挿入されます。</p>
+				<img src="images/feas_sort_04.png" alt="feas_sort_04" width="316" height="143" />
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+		
+		</div>
+		
+		
+		<!-------タブ3------->      
+		<div class="panel" id="tab3">
+			
+			<!--タブ3-リンク1-->             
+			<div class="post">
+				<h2><a name="link41">検索フォームの外観（デザイン）を整える</a></h2>
+				<p>　検索フォームのデザインはスタイルシート（CSS）で行います。ご使用中のWordPressテンプレートのstyle.cssに記述していただく他に、この欄から設定していただくこともできます。テーマのCSSと分けて管理できるので分かりやすいともいえます。</p>
+				<ul class="list-2">
+					<li>
+						「検索」のサブメニューの「<span>フォーム外観</span>」をクリックします。<br/>
+						→下のような画面が表示されます。<br/>
+					</li>
+					<img class="img" src="images/feas_admin_03.png" width="520" height="305" alt="FEAS設定パネル - 設定例" />
+					<li>「<span>下記スタイルシートを使用する</span>」にチェックを入れます。</li>
+					<li>スタイルシート（CSS）欄に設定を記述してください（あらかじめ参考設定が記述されていますので、ご参考ください）。</li>
+					<li>記述が済んだら「保存」をクリックします。</li>
+					<li><a name="link-new05"></a><span>複数の検索フォームに対応しました。右上のドロップダウンから対象となる検索フォームを選択してから、スタイルシートの編集を行ってください。</span></li>
+					<li>
+						<a name="link-new06"></a><span>検索フォームの各フォームエレメントに、id/classを詳細に付与するよう改善しました。より柔軟にCSSでスタイリングいただけます。</span><br />
+						ドロップダウン内のソースコード例：<br />
+						<img src="images/feas_admin_21.png" alt="feas_admin_21.png" width="415" height="248" class="img" />
+					</li>
+				</ul>
+				
+				<h3>参考：チェックボックスやラジオボタンの各項目の垂直方向に整列させるには</h3>
+				<p>　複数のチェックボックスやラジオボタンを垂直方向にきれいに並べるには、下記のようなCSSの記述をしていただくことで整列可能です。</p> 
+				<pre class="brush: css;">
+				#feas-searchform label{
+					font-weight: normal;
+					display: inline-block;
+					width: 140px;
+				}</pre>
+				<p>※実際のCSSの記述に合わせて調整してください。</p>
+				<p>チェックボックスの垂直方向を整列させた例：</p>
+				<img src="images/feas_admin_20.png" alt="feas_admin_20" width="353" height="104" class="img" />
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+		</div>
+		
+		<!--タブ4-->
+		<div class="panel" id="tab4">
+			<ul class="link-list">
+				<li><a href="#link61">コンテンツを絞り込み検索に対応させるには</a></il>
+				<li><a href="#link62">検索結果のソートに対応させるには</a></il>
+			</ul>
+			
+			<!--タブ4-リンク1-->          
+			<div class="post">
+				<h2><a name="link61">コンテンツを絞り込み検索に対応させるには</a></h2>
+				<p>　当プラグインは、記事が持っている次の値を使用して絞り込み検索を行います。</p>
+				<ul class="list-2">
+					<li>記事が属する<span>カテゴリ／カスタムタクソノミ</span></li>
+					<li>記事が作成された<span>年月</span></li>
+					<li>記事に付けられた<span>タグ</span></li>
+					<li>記事に登録された<span>カスタムフィールドの値</span></li>
+					<li>記事の<span>タイトル・本文・抜粋・コメント・カテゴリ名・カスタムタクソノミー名・タグ名・カスタムフィールドの値（フリーワード検索時／設定による）</span></li>
+				</ul>
+				<p>　複数のカテゴリ／カスタムタクソノミで絞り込むためには、記事の編集画面において、複数の区分のカテゴリ／カスタムタクソノミに<span>重複してチェック</span>する必要があります。</p>
+				<img src="images/feas_admin_15.png" alt="feas_admin_15" width="266" height="442" />
+				<p>　上記の例では、「北九州」<span>かつ</span>「園芸サービス業」<span>かつ</span>「パート・アルバイト」という複合条件で検索した場合に、いずれのタームにもチェックが付いていますのでこの記事は検索にヒットします。<p>
+					　年月で絞り込む場合は、記事が作成された年月で絞り込まれます。<br/>
+					タグで絞り込む場合は、記事の編集画面において、「投稿のタグ」に記事に関連したキーワードを登録します。<br/>
+					フリーワード入力で絞り込む場合は、５のいずれかの場所に、入力した（スペースで区切られた複数の）すべての検索語句が記述されている必要があります。
+				</p>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+			<!--タブ4-リンク2-->
+			<div class="post">
+				<h2><a name="link62">検索結果のソートに対応させるには</a></h2>
+				<p>
+					　FEASのソート機能では、現状、記事のタイトル（post_title）、記事の投稿日（post_date）、記事のスラッグ（post_name）、特定のキーのカスタムフィールドの値（meta_value）の昇順/降順と、ランダムで並べ替えが可能です。<br/>
+					カスタムフィールドの値でソートする場合、カスタムフィールドに入力する値には半角カンマや円マークなどの記号は入力しないよう注意してください。
+				</p><br/>
+				<p>例：価格10,000円を入力する場合 </p>
+				<ul class="list-1">
+					<li>◯　10000</li>
+					<li>×　10,000</li>
+					<li>×　¥10,000</li>
+				</ul>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+		</div>
+		
+		<!-------タブ5------->
+		<div class="panel" id="tab5">
+			<ul class="link-list">
+				<li><a href="#link81">検索方法</a></il>
+				<li><a href="#link82">検索結果のソート（並べ替え）</a></il>
+			</ul>
+			
+			<!--タブ5-リンク1-->
+			<div class="post">
+				<h2><a name="link81">検索方法</a></h2>
+				<p>　設定された検索フォームはformタグで表示されます。<br/>
+				絞り込みたい条件のみ下記の方法で選択して、最後に検索ボタンをクリックします。</p>
+				<ul class="list-1">
+					<li>ドロップダウン　＝クリックして現れたサブウィンドウをスクロールして、目的の値の上で再度クリックします。複数の値を選択することはできません。</li>
+					<li>リストボックス　＝小窓の中をスクロールして、目的の値の上でクリックします。キーボードのCommandキーを押しながら値をクリックすると、複数の値を選択できます。Shiftキーを押しながら、開始位置と終了位置をクリックすると、範囲選択できます。設定ページの「検索方法」が「OR検索」に設定されている場合、選択した<span>いずれか</span>の条件に該当する記事が検索されます。「AND検索」に設定されている場合、選択された<span>すべての</span>条件に該当する記事が検索されます。</li>
+					<li>チェックボックス　＝値の前に表示された四角いボックスをクリックします。チェックマークが付きます。複数選択することができます。設定ページの「検索方法」が「OR検索」に設定されている場合、選択した<span>いずれか</span>の条件に該当する記事が検索されます。「AND検索」に設定されている場合、選択された<span>すべての</span>条件に該当する記事が検索されます。</li>
+					<li>ラジオボタン　＝値の前に表示された丸い領域をクリックします。白から黒（濃い色）に変わります。複数の値を選択することはできません。</li>
+					<li>フリーワード　＝探している内容に関連しそうな語句を入力します。複数の単語は全角または半角のスペースで区切って入力します。複数の単語を入力した場合、<span>すべての単語が</span>、<span>タイトル・本文・カテゴリ名/ターム名・タグ名・カスタムフィールドの値のいずれか</span>に含まれる記事のみが検索されます。検索範囲をより緩めるには、単語数を減らして検索してください。</li>
+				</ul>
+				<p>　検索条件を設定したら、最後に検索ボタンをクリックします。すぐに検索結果が表示されます（サーバーの性能や、登録された記事の件数、共有サーバーの場合は混み具合などによって検索結果が表示されるまでの時間は異なります）。</p>
+				<p>　検索結果には、検索に使用した条件が列記され、該当件数が表示されます（テンプレートに<a href="#link2">推奨方法</a>で記述した場合）。</p>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+			<!--タブ5-リンク2-->
+			<div class="post">
+				<h2><a name="link82">検索結果のソート（並べ替え）</a></h2>
+				<p>　ソートボタンを作成し、テンプレート/記事内に設置してある場合は、エンドユーザーが検索結果を自由に並べ替えることができます。わかりやすい文言、ボタンなどを設定してください。なお、<span>検索実行前の画面ではソートは機能しません。</span></p>
+				<img class="img" src="images/feas_site_sortsample.png" width="680" height="474" alt="ソートメニューの例" />
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+		</div>
+		
+		
+		<!-------タブ6------->
+		<div class="panel" id="tab6">
+			<ul class="link-list">
+				<li><a href="#link83">キャッシュを使用する</a></il>
+				<li><a href="#link84">キャッシュする時間を設定する</a></il>
+				<li><a href="#link85">キャッシュを削除する</a></il>
+			</ul>
+			
+			<div class="post">
+				<h2><a name="link83">キャッシュを使用する</a></h2>
+				<p>複雑な検索フォームや、大量のターム・カスタムフィールドが含まれる検索フォームを表示する際は、データベースにも負荷がかかり表示に時間がかかる場合があります。その場合にこのキャッシュ機能を使うと、一度表示した検索フォームのHTMLコードをそのままデータベースに保存し、呼び出して再利用することでデータベースの処理が軽くなり、表示されるまでの時間が早まります。</p>
+				<p>検索フォームの設定を変更した場合、キャッシュを削除して設定を反映させてください。</p>
+				<img src="images/cache.png">
+				<p>　「キャッシュを使用する」横のチェックボクスにチェックを入れ「変更」ボタンをクリックします。</p>
+				
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			<div class="post">
+				<h2><a name="link84">キャッシュする時間を設定する</a></h2>
+				<p>　「キャッシュ有効期限」横のテキストフォームに半角数字で、キャッシュしておきたい時間を秒で入力します。</p>
+				
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			<div class="post">
+				<h2><a name="link85">キャッシュを削除する</a></h2>
+				<p>　キャッシュを強制的に削除したい場合は、「キャッシュを削除する」ボタンを押して下さい。</p>
+				
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+		</div>
+
+		<!-------タブ7------->
+		<div class="panel" id="tab7">
+			<ul class="link-list">
+				<li><a href="#link83">設定データをエクスポートする</a></il>
+				<li><a href="#link84">設定データをインポートする</a></il>
+			</ul>
+			
+			<div class="post">
+				<h2><a name="link83">設定データをエクスポートする</a></h2>
+				<p>テストサイトから本番環境へ移行する際など、プラグインの設定データを簡単に移行できます。</p>
+				<p>データはCSV形式（半角カンマ区切り）です。</p>
+				<img src="images/feas_import_01.png" width="600">
+				<ol>
+					<li>「ダウンロード」ボタンをクリックするとエクスポートされます。<br>
+					　データはエクセルやテキストエディタでご確認いただけます。</li>
+				</ol>
+				
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+
+			<div class="post">
+				<h2><a name="link85">設定データをインポートする</a></h2>
+				<ol>
+					<li>事前にエクスポート機能でダウンロードされたCSV形式のファイルをご用意ください。</li>
+					<li>「ファイルを選択」ボタンをクリックして、CSVファイルを選択します</li>
+					<li>「ファイルをアップロードしてインポート」ボタンをクリックします。</li>
+				</ol>
+				
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	
+	<!--フッター-->
+	<div id="footer" class="clearfix">
+		<div id="footer-wrap">
+			<ul id="address">
+				<li style="font-size: 120%; font-weight: bold;"><a href="http://www.firstelement.jp/" target="_blank">株式会社ファーストエレメント</a></li>
+				<li><a href="http://www.firstelement.jp/" target="_blank">http://www.firstelement.jp/</a></li>
+				<li>TEL：0265-25-1407　FAX：0265-25-9334</li>
+			</ul>
+			<ul id="footer-menu">
+				<li><a href="index.html">TOP</a></li>
+				<li><a href="manual.html">使用方法</a></li>
+				<li><a href="newfunction.html">新機能</a></li>
+				<li><a href="support.html">サポート</a></li>
+				<li><a href="http://www.firstelement.jp/contact/" target="_self">お問い合わせ</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

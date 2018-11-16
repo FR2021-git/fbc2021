@@ -1,0 +1,17 @@
+/*-----------------------------------------------------------------------------
+ WordPress CMS Theme. Based on work by WSC Project: http://wsc.studiobrain.net/
+---------------------------------------------------------------------------- */
+
+* {font-family:"Meiryo","MS PGothic","Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;}
+h1{font-size:20px;line-height:22px;}
+h2{font-size:18px;line-height:20px;}
+h3{font-size:16px;line-height:18px;}
+h4{font-size:14px;line-height:16px;}
+h5{font-size:12px;line-height:14px;}
+h6{font-size:11px;line-height:13px;}
+hr{background-color:#E7E7E7;border:0;height:1px;clear:both;margin:30px auto;}
+blockquote{margin:0px 0px 15px 0px;padding:10px 20px 10px 20px;background-color:#f4f4f4;border:1px solid #e7e7e7;border-radius:5px;-moz-border-radius:5px;}
+blockquote p{padding:0px;margin:0px 0px 0px 0px}
+img.alignleft,
+.thumbnail-align img{float:left;padding:7px;margin:0 20px 20px 0;background-color:#eee;}
+img.alignright{float:right;padding:7px;margin:0 0 20px 20px;background-color:#eee;}

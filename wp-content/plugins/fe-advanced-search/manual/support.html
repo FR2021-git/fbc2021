@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>サポート | FE Advanced Search 使用説明書</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<a name="top" id="top"></a>
+
+	<div id="header" class="clearfix">
+		<div id="title">
+		<h1>
+			WordPress用絞り込み検索プラグイン
+			<a href="index.html"><img src="images/feas_banner.gif" width="308" height="57" alt="FEAdvancedSearch" /></a>
+		</h1>
+		<p id="header-text1">version 1.6.6</p>
+		<p id="header-text2">使用説明書</p>
+		</div>
+		<p id="koushin">最終更新：2016年8月22日</p>
+	</div>
+	
+<!--グローバルメニュー--> 	
+	<div id="globalmenu">
+		<ul>
+			<li class="li-1"><a href="index.html">初めに</a></il>
+			<li class="li-1"><a href="manual.html">使用方法</a></il>
+			<li class="li-1"><a href="newfunction.html">新機能</a></il>
+			<li class="li-1"><a href="support.html">サポート</a></il>
+			<li><a href="http://www.firstelement.jp/contact/" target="_self">問い合わせ</a></il>
+		</ul>
+	</div>
+	
+	
+	<!--コンテンツ--> 	
+	<div id="tabs">
+		<div class="panel">
+			<ul class="link-list">
+				<li><a href="#link1">トラブルが起きた時</a></il>
+				<li><a href="#link2">技術サポート</a></il>
+				<li><a href="#link3">保証・制限</a></il>
+				<li><a href="#link4">アップブレードについて</a></il>
+			</ul>
+			
+			<div class="post">
+				<h2><a name="link1">トラブルが起きた時の対処方法</a></h2>
+				<p>
+					もし当プラグインを使用することが原因とみられるエラー（PHPのエラーメッセージが表示される／画面が真っ白になる／Internal Server Error 500が表示される／等）が発生する場合、次の２つのいずれかの方法でプラグインの停止を行ってください。<br/>
+					<br/>
+					1. WordPressの管理画面にログインして、プラグイン＞インストール済みのプラグインへ移動し、「FE Advanced Search」の<span class="chuumoku">「停止」</span>をクリックしてください。<br/>
+					2. FTPソフト等でサーバに接続し、「FE Advanced Search」フォルダを<span class="chuumoku">「plugins」フォルダの外へ</span>出してください。強制的にプラグインが停止します。<br/><br/>
+					※テンプレート内に<span class="chuumoku">推奨方法で記述されていない場合、初めに</span>テンプレートに設置した<?php create_searchform(); ?>等の当プラグイン用関数を除去、またはコメントアウト（関数名の先頭に//を付記）してください。この手順を行わないと、PHPのエラーが出力されてサイトが正常に表示されません。
+				</p>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+			<div class="post">
+				<h2><a name="link2">技術サポート</a></h2>
+				<h3>フォーラム（掲示板）</h3>
+				<p>
+					<a href="http://forums.firstelement.jp/forum/fe-advanced-search" target="_blank" >FirstElementフォーラム - FE Advanced Search</a><br/>
+					　当プラグインの技術サポート用の掲示板とさせていただきます。公開しても差し支えのない技術的なご質問は、まずはこちらのフォーラムへのご投稿をご検討ください。当プラグインユーザーのみなさまで技術的なTips／ノウハウを共有いただける場になれば幸いです。また、プラグインへのご要望や、当プラグインをご活用されているサイトの宣伝にもご利用ください。
+				</p>
+				
+				<h3>メール／電話</h3>
+				<p>　当プラグインを当社から直接ご購入いただいたユーザー様が直接制作されるウェブサイトに限りまして、可能な限り無料で技術サポートさせていただきます。土日祝日を挟む場合は、返答が遅れる場合があります。（寄せられましたご質問と回答の概要が、上記フォーラムに匿名で掲載されることがございます）</p>
+				<h3>有料サポート</h3>
+				<p>　当プラグインの仕様の範囲を越えたカスタマイズも有料にて承ります。ご相談ください。</p>
+				<div class="post-2">
+					<ul class="list-1">
+						<li>株式会社ファーストエレメント</li>
+						<li>URL：<a href="http://www.firstelement.jp/" target="_blank">http://www.firstelement.jp/</a></li>
+						<li>Email：<a href="mailto:info@firstelement.jp" >info@firstelement.jp</a></li>
+						<li>TEL：0265-25-1407</li>
+						<li>担当：宮澤</li>
+						<li>営業時間：月曜〜金曜 AM9:00〜PM6:00 祝祭日を除く</li>
+					</ul>
+				</div>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+			<div class="post">
+				<h2><a name="link3">保証・制限</a></h2>
+				<h3>動作の保証</h3>
+				<p>
+					<a href="index.html#tab4">動作環境</a>に示したサーバ環境に、（特殊な改造などされていない）標準的なインストールがされたWordPress、および事前に申告いただいて当方にて問題なく動作が確認できているプラグイン使用時にかぎり、当プラグインが機能することを保証いたします。<br/>
+					　その他のプラグインとの併用につきましては、WordPress用のプラグインは無数にあり、そのすべてとの動作を保証することはできません。しかし、当プラグインをご購入いただく前にあらかじめご使用予定のプラグインをお知らせいただければ、当方で可能な範囲にて簡単な動作チェックを行わせていただきます。また、もし不具合が見つかった場合、将来のアップデートにおいて可能な限り対応させていただきます。
+				</p>
+				<h3>制限</h3>
+				<p>当プラグインは、一度ご購入いただけばサイトごとのライセンス料は不要で<span class="chuumoku">無制限</span>に設置していただくことができます。また、プラグイン自体の改変・拡張も自由に行っていただけますが、その場合の無料での技術サポートは、株式会社ファーストエレメントではお受けしかねます。</p>
+				<p>プラグイン設置サイトのオーナー様から直接お問合せをいただくことが稀にございますが、設置されましたご購入者様経由で当社までお問合せくださるようお願いいたします。</p>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+			
+			<div class="post">
+				<h2><a name="link4">アップグレードについて</a></h2>
+				<p>
+					当プラグインを株式会社ファーストエレメントから直接ご購入いただいたユーザー様は、今後のアップグレードをすべて<span class="chuumoku">無料</span>で受けることができます。<br/>
+					　ただし、当プラグインの本来の目的（絞り込み検索）とは離れた要望が多く寄せられた場合、他の製品がリリースされる可能性はあります。<br/>
+					　また、WordPress本体のアップグレードに伴い、データベース構造等に大幅な変更があり、当プラグインの修正にも大幅な手間がかかる場合、やむを得ず有料でのアップグレードをお願いする可能性もございます。
+				</p>
+				<p>
+					　入手方法は、WordPressの自動アップデート機能により、お使いのサイトのプラグイン管理画面から直接アップデートいただけます。自動アップデートをご利用いただけない環境の方やアップデートの通知が表示されない場合は、ご連絡いただきましたらメール等で送付させていただきます。<br/>
+					　最新版がリリースされる際は、弊社ウェブサイト（ <a href="http://www.firstelement.jp/" target="_blank">http://www.firstelement.jp</a> ）、Facebookページ（ <a href="http://www.facebook.com/firstelementjp" target="_blank">http://www.facebook.com/firstelementjp</a> ）等にてご案内させていただきます。
+				</p>
+				<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+			</div>
+		</div>
+	</div>
+	
+	<!--フッター-->
+	<div id="footer" class="clearfix">
+		<div id="footer-wrap">
+			<ul id="address">
+				<li style="font-size: 120%; font-weight: bold;"><a href="http://www.firstelement.jp/" target="_blank">株式会社ファーストエレメント</a></li>
+				<li><a href="http://www.firstelement.jp/" target="_blank">http://www.firstelement.jp/</a></li>
+				<li>TEL：0265-25-1407　FAX：0265-25-9334</li>
+			</ul>
+			<ul id="footer-menu">
+				<li><a href="index.html">TOP</a></li>
+				<li><a href="manual.html">使用方法</a></li>
+				<li><a href="newfunction.html">新機能</a></li>
+				<li><a href="support.html">サポート</a></li>
+				<li><a href="http://www.firstelement.jp/contact/" target="_self">お問い合わせ</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

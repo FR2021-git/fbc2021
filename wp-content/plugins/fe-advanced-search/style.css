@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/*
+CSS for
+[ FE Advanced Search ] ver1.0
+
+*** Under Construction ***
+
+2009-2-26
+*/
+
+#feas {
+	}
+	
+#feas-form {
+	background-color:#F8F8F8;
+	border:1px solid silver;
+	}
+
+#feas div {
+	padding:3px;
+	margin:3px;
+	}
+	
+#feas label {
+	display:block;
+	font-weight:bold;
+	font-size:120%;
+	}
+
+#feas .list,
+#feas .drop {
+	float:left;
+	}
+
+#feas .check,
+#feas .freeword {
+	clear:both;
+	}
+#feas .check input {
+	margin-left:5px;
+	}
+
+#feas .searchbutton {
+	clear:both;
+	text-align:center;
+	width:100%;
+	}
+	
+#feas-result {
+	clear:both;
+	margin:20px 0;
+	text-align:center;
+	font-weight:bold;
+	font-size:150%;
+	}

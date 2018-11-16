@@ -1,0 +1,3039 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Front User Admin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-07 03:24+0900\n"
+"PO-Revision-Date: 2015-07-15 22:02+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: frontend-user-admin.php:612
+msgid "..."
+msgstr ""
+
+#: frontend-user-admin.php:821 frontend-user-admin.php:7346
+#: frontend-user-admin.php:7800 steps/step-mobile_profile.php:146
+#: steps/step-mobile_register.php:156 steps/step-profile.php:174
+#: steps/step-register.php:185 steps/step-sp_profile.php:147
+#: steps/step-sp_register.php:158
+msgid "Strength indicator"
+msgstr ""
+
+#: frontend-user-admin.php:822
+msgid "Very weak"
+msgstr ""
+
+#: frontend-user-admin.php:823
+msgid "Bad"
+msgstr ""
+
+#: frontend-user-admin.php:824
+msgid "Good"
+msgstr ""
+
+#: frontend-user-admin.php:825
+msgid "Strong"
+msgstr ""
+
+#: frontend-user-admin.php:826
+msgid "Mismatch"
+msgstr ""
+
+#: frontend-user-admin.php:969 frontend-user-admin.php:1443
+#: frontend-user-admin.php:1447
+#, php-format
+msgid "[%s] Email Confirmation"
+msgstr ""
+
+#: frontend-user-admin.php:970 frontend-user-admin.php:1444
+msgid "Please click the following address and register the site."
+msgstr ""
+
+#: frontend-user-admin.php:1166
+msgid "XML-RPC services are disabled on this site."
+msgstr ""
+
+#: frontend-user-admin.php:1173
+msgid "Incorrect username or password."
+msgstr ""
+
+#: frontend-user-admin.php:1222
+msgid "Sorry, you do not have the right to create a new user."
+msgstr ""
+
+#: frontend-user-admin.php:1227
+msgid "Sorry, a new user could not be created. Something wrong happened."
+msgstr ""
+
+#: frontend-user-admin.php:1260 frontend-user-admin.php:1335
+msgid "Sorry, you do not have the right to edit the user status."
+msgstr ""
+
+#: frontend-user-admin.php:1282
+msgid "Sorry, the user cannot be updated."
+msgstr ""
+
+#: frontend-user-admin.php:1306
+msgid "Sorry, you do not have the right to delete users."
+msgstr ""
+
+#: frontend-user-admin.php:1366
+msgid "Sorry, you do not have the right to get the user status."
+msgstr ""
+
+#: frontend-user-admin.php:1406 frontend-user-admin.php:5640
+#: frontend-user-admin.php:7548 steps/step-mobile_register.php:349
+#: steps/step-mobile_register.php:353 steps/step-register.php:382
+#: steps/step-register.php:386 steps/step-sp_register.php:351
+#: steps/step-sp_register.php:355
+msgid "Terms of use"
+msgstr ""
+
+#: frontend-user-admin.php:1407 frontend-user-admin.php:5492
+#: frontend-user-admin.php:5495 frontend-user-admin.php:5498
+#: frontend-user-admin.php:5507 frontend-user-admin.php:5510
+#: frontend-user-admin.php:5513 frontend-user-admin.php:5516
+#: frontend-user-admin.php:5519 frontend-user-admin.php:5569
+#: frontend-user-admin.php:5572 frontend-user-admin.php:5575
+#: frontend-user-admin.php:5578 frontend-user-admin.php:5584
+#: frontend-user-admin.php:5587 frontend-user-admin.php:5590
+#: frontend-user-admin.php:5593 frontend-user-admin.php:5596
+#: frontend-user-admin.php:5748 frontend-user-admin.php:7164
+#: frontend-user-admin.php:7588 steps/step-mobile_profile.php:6
+#: steps/step-mobile_register.php:48 steps/step-profile.php:6
+#: steps/step-register.php:48 steps/step-sp_profile.php:6
+#: steps/step-sp_register.php:48
+msgid "Required"
+msgstr ""
+
+#: frontend-user-admin.php:1418
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: frontend-user-admin.php:1419
+msgid ""
+"Someone has asked to reset the password for the following site and username."
+msgstr ""
+
+#: frontend-user-admin.php:1421 frontend-user-admin.php:1426
+#: frontend-user-admin.php:1434 frontend-user-admin.php:1440
+#: frontend-user-admin.php:1449 frontend-user-admin.php:1454
+#: frontend-user-admin.php:1459 frontend-user-admin.php:1464
+#: frontend-user-admin.php:1469
+msgid "Username: %user_login%"
+msgstr ""
+
+#: frontend-user-admin.php:1422
+msgid ""
+"To reset your password visit the following address, otherwise just ignore "
+"this email and nothing will happen."
+msgstr ""
+
+#: frontend-user-admin.php:1425
+#, php-format
+msgid "[%s] Your new password"
+msgstr ""
+
+#: frontend-user-admin.php:1427 frontend-user-admin.php:1435
+msgid "Password: %password%"
+msgstr ""
+
+#: frontend-user-admin.php:1430
+#, php-format
+msgid "[%s] Password Lost/Changed"
+msgstr ""
+
+#: frontend-user-admin.php:1431
+msgid "Password Lost and Changed for user: %user_login%"
+msgstr ""
+
+#: frontend-user-admin.php:1433
+#, php-format
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: frontend-user-admin.php:1438
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: frontend-user-admin.php:1439
+#, php-format
+msgid "New user registration on your blog %s:"
+msgstr ""
+
+#: frontend-user-admin.php:1441 frontend-user-admin.php:1455
+#: frontend-user-admin.php:1460 frontend-user-admin.php:1465
+#: frontend-user-admin.php:1470
+msgid "E-mail: %user_email%"
+msgstr ""
+
+#: frontend-user-admin.php:1448
+msgid "Registration will be done after you click the following address."
+msgstr ""
+
+#: frontend-user-admin.php:1452 frontend-user-admin.php:1457
+#, php-format
+msgid "[%s] Under Approval Process"
+msgstr ""
+
+#: frontend-user-admin.php:1453 frontend-user-admin.php:6291
+#: steps/step-login.php:29 steps/step-mobile_login.php:29
+#: steps/step-sp_login.php:29
+msgid ""
+"Currently under approval process. Please wait for the email from the site "
+"owner."
+msgstr ""
+
+#: frontend-user-admin.php:1458
+msgid "Please approve the following user."
+msgstr ""
+
+#: frontend-user-admin.php:1462 frontend-user-admin.php:1467
+#, php-format
+msgid "[%s] User Withdrawal"
+msgstr ""
+
+#: frontend-user-admin.php:1463 frontend-user-admin.php:6321
+#: steps/step-login.php:35 steps/step-mobile_login.php:35
+#: steps/step-sp_login.php:35
+msgid "You were resigned from the site."
+msgstr ""
+
+#: frontend-user-admin.php:1468
+msgid "The following user resigned from the site."
+msgstr ""
+
+#: frontend-user-admin.php:1515 frontend-user-admin.php:6700
+msgid "Login"
+msgstr ""
+
+#: frontend-user-admin.php:1767
+msgid "Member Page Condition"
+msgstr ""
+
+#: frontend-user-admin.php:1872 frontend-user-admin.php:4989
+#: frontend-user-admin.php:10450 frontend-user-admin.php:10451
+msgid "Frontend User Admin"
+msgstr ""
+
+#: frontend-user-admin.php:1872 frontend-user-admin.php:1875
+msgid "User Management"
+msgstr ""
+
+#: frontend-user-admin.php:1875 frontend-user-admin.php:5017
+#: frontend-user-admin.php:5699
+msgid "User List"
+msgstr ""
+
+#: frontend-user-admin.php:1879 frontend-user-admin.php:4993
+#: frontend-user-admin.php:5700 frontend-user-admin.php:7176
+msgid "Add User"
+msgstr ""
+
+#: frontend-user-admin.php:1883 frontend-user-admin.php:4999
+#: frontend-user-admin.php:5701 frontend-user-admin.php:8314
+msgid "User Mail"
+msgstr ""
+
+#: frontend-user-admin.php:1887 frontend-user-admin.php:5005
+#: frontend-user-admin.php:5702 frontend-user-admin.php:8867
+#: frontend-user-admin.php:9147
+msgid "User Log"
+msgstr ""
+
+#: frontend-user-admin.php:1891 frontend-user-admin.php:5011
+#: frontend-user-admin.php:5703 frontend-user-admin.php:9460
+msgid "Import User"
+msgstr ""
+
+#: frontend-user-admin.php:1895 frontend-user-admin.php:5704
+msgid "Options"
+msgstr ""
+
+#: frontend-user-admin.php:2324
+msgid "<strong>ERROR</strong>: you do not have right to edit this user."
+msgstr ""
+
+#: frontend-user-admin.php:2341 frontend-user-admin.php:3212
+#: frontend-user-admin.php:3487 frontend-user-admin.php:4347
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+
+#: frontend-user-admin.php:2430 frontend-user-admin.php:8161
+#: frontend-user-admin.php:8437 frontend-user-admin.php:10060
+msgid "ID"
+msgstr ""
+
+#: frontend-user-admin.php:2430 frontend-user-admin.php:5378
+#: frontend-user-admin.php:8020 frontend-user-admin.php:9890
+#: frontend-user-admin.php:10070
+msgid "Login Datetime"
+msgstr ""
+
+#: frontend-user-admin.php:2430 frontend-user-admin.php:5382
+#: frontend-user-admin.php:8029 frontend-user-admin.php:9895
+#: frontend-user-admin.php:10071 steps/step-mobile_profile.php:332
+#: steps/step-profile.php:377 steps/step-sp_profile.php:345
+msgid "Update Datetime"
+msgstr ""
+
+#: frontend-user-admin.php:2430 frontend-user-admin.php:8035
+#: frontend-user-admin.php:10072
+msgid "Registered Datetime"
+msgstr ""
+
+#: frontend-user-admin.php:2574 frontend-user-admin.php:2644
+#: frontend-user-admin.php:8559 frontend-user-admin.php:8993
+#: frontend-user-admin.php:9257
+msgid "User"
+msgstr ""
+
+#: frontend-user-admin.php:2574 frontend-user-admin.php:8994
+msgid "IP"
+msgstr ""
+
+#: frontend-user-admin.php:2574 frontend-user-admin.php:5822
+#: frontend-user-admin.php:9922 frontend-user-admin.php:10007
+msgid "Log"
+msgstr ""
+
+#: frontend-user-admin.php:2574 frontend-user-admin.php:8473
+#: frontend-user-admin.php:8563 frontend-user-admin.php:8996
+msgid "Datetime"
+msgstr ""
+
+#: frontend-user-admin.php:2660 frontend-user-admin.php:9279
+msgid "User Count"
+msgstr ""
+
+#: frontend-user-admin.php:2662 frontend-user-admin.php:9283
+msgid "Page Count"
+msgstr ""
+
+#: frontend-user-admin.php:2662 frontend-user-admin.php:9284
+msgid "Unique Count"
+msgstr ""
+
+#: frontend-user-admin.php:2774 frontend-user-admin.php:2820
+#: frontend-user-admin.php:6267 steps/step-login.php:96
+#: steps/step-login.php:103 steps/step-mobile_login.php:96
+#: steps/step-mobile_login.php:103 steps/step-sp_login.php:96
+#: steps/step-sp_login.php:103 steps/step-widget.php:87
+msgid "Password Lost and Found"
+msgstr ""
+
+#: frontend-user-admin.php:2777 frontend-user-admin.php:2823
+#: steps/step-login.php:94 steps/step-lostpassword.php:188
+#: steps/step-mobile_login.php:94 steps/step-mobile_lostpassword.php:188
+#: steps/step-sp_login.php:94 steps/step-sp_lostpassword.php:188
+#: steps/step-widget.php:81
+msgid "Register"
+msgstr ""
+
+#: frontend-user-admin.php:2780 frontend-user-admin.php:2826
+msgid "Confirmation"
+msgstr ""
+
+#: frontend-user-admin.php:2783 frontend-user-admin.php:2829
+#: frontend-user-admin.php:4714 steps/step-widget.php:25
+msgid "Profile"
+msgstr ""
+
+#: frontend-user-admin.php:2786 frontend-user-admin.php:2832
+msgid "Buying History"
+msgstr ""
+
+#: frontend-user-admin.php:2789 frontend-user-admin.php:2835
+msgid "Affiliate"
+msgstr ""
+
+#: frontend-user-admin.php:2792 frontend-user-admin.php:2838
+msgid "Wish List"
+msgstr ""
+
+#: frontend-user-admin.php:2796 frontend-user-admin.php:2842
+msgid "Withdrawal"
+msgstr ""
+
+#: frontend-user-admin.php:2802 frontend-user-admin.php:2848
+msgid "My Page"
+msgstr ""
+
+#: frontend-user-admin.php:2804 frontend-user-admin.php:2850
+#: frontend-user-admin.php:9931 frontend-user-admin.php:10015
+#: frontend-user-admin.php:10474 steps/step-confirmation.php:250
+#: steps/step-lostpassword.php:187 steps/step-lostpassword.php:192
+#: steps/step-mobile_confirmation.php:230
+#: steps/step-mobile_lostpassword.php:187
+#: steps/step-mobile_lostpassword.php:192 steps/step-mobile_register.php:35
+#: steps/step-mobile_register.php:386 steps/step-register.php:35
+#: steps/step-register.php:419 steps/step-sp_confirmation.php:224
+#: steps/step-sp_lostpassword.php:187 steps/step-sp_lostpassword.php:192
+#: steps/step-sp_register.php:35 steps/step-sp_register.php:387
+msgid "Log In"
+msgstr ""
+
+#: frontend-user-admin.php:2915
+msgid "<strong>ERROR</strong>: Enter your e-mail address."
+msgstr ""
+
+#: frontend-user-admin.php:2917
+msgid "<strong>ERROR</strong>: Enter your username or e-mail address."
+msgstr ""
+
+#: frontend-user-admin.php:2924
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: frontend-user-admin.php:2936
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr ""
+
+#: frontend-user-admin.php:2941
+msgid "<strong>ERROR</strong>: E-mail address has not been set."
+msgstr ""
+
+#: frontend-user-admin.php:2960
+#, php-format
+msgid "<strong>ERROR</strong>: The value you input does not match with %s."
+msgstr ""
+
+#: frontend-user-admin.php:3012 frontend-user-admin.php:3067
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: frontend-user-admin.php:3012 frontend-user-admin.php:3067
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr ""
+
+#: frontend-user-admin.php:3025 frontend-user-admin.php:3029
+#: frontend-user-admin.php:3092 frontend-user-admin.php:3096
+msgid "Invalid key"
+msgstr ""
+
+#: frontend-user-admin.php:3159 frontend-user-admin.php:3442
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: frontend-user-admin.php:3161 frontend-user-admin.php:3170
+msgid ""
+"<strong>ERROR</strong>: This username is invalid.  Please enter a valid "
+"username."
+msgstr ""
+
+#: frontend-user-admin.php:3164
+msgid ""
+"<strong>ERROR</strong>: This username is already registered, please choose "
+"another one."
+msgstr ""
+
+#: frontend-user-admin.php:3166
+#, php-format
+msgid "<strong>ERROR</strong>: Minimum number of letters of Username is %s."
+msgstr ""
+
+#: frontend-user-admin.php:3168
+#, php-format
+msgid "<strong>ERROR</strong>: Maximum number of letters of Username is %s."
+msgstr ""
+
+#: frontend-user-admin.php:3183 frontend-user-admin.php:3458
+msgid "<strong>ERROR</strong>: Please enter your password."
+msgstr ""
+
+#: frontend-user-admin.php:3185 frontend-user-admin.php:3460
+msgid "<strong>ERROR</strong>: Please enter your password twice."
+msgstr ""
+
+#: frontend-user-admin.php:3188 frontend-user-admin.php:3465
+msgid "<strong>ERROR</strong>: Passwords may not contain the character \"\\\"."
+msgstr ""
+
+#: frontend-user-admin.php:3191 frontend-user-admin.php:3469
+msgid ""
+"<strong>ERROR</strong>: Please enter the same password in the two password "
+"fields."
+msgstr ""
+
+#: frontend-user-admin.php:3193
+msgid "<strong>ERROR</strong>: Password require at least 4 characters."
+msgstr ""
+
+#: frontend-user-admin.php:3195 frontend-user-admin.php:3453
+#, php-format
+msgid "<strong>ERROR</strong>: Minimum number of letters of Password is %s."
+msgstr ""
+
+#: frontend-user-admin.php:3197 frontend-user-admin.php:3455
+#, php-format
+msgid "<strong>ERROR</strong>: Maximum number of letters of Password is %s."
+msgstr ""
+
+#: frontend-user-admin.php:3207
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: frontend-user-admin.php:3209
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: frontend-user-admin.php:3216 frontend-user-admin.php:3518
+msgid "<strong>ERROR</strong>: Please enter your last name."
+msgstr ""
+
+#: frontend-user-admin.php:3220 frontend-user-admin.php:3522
+msgid "<strong>ERROR</strong>: Please enter your first name."
+msgstr ""
+
+#: frontend-user-admin.php:3225 frontend-user-admin.php:3526
+msgid "<strong>ERROR</strong>: Please enter your nickname."
+msgstr ""
+
+#: frontend-user-admin.php:3232 frontend-user-admin.php:3530
+msgid "<strong>ERROR</strong>: Please enter your web site."
+msgstr ""
+
+#: frontend-user-admin.php:3236 frontend-user-admin.php:3534
+msgid "<strong>ERROR</strong>: Please enter your AIM."
+msgstr ""
+
+#: frontend-user-admin.php:3240 frontend-user-admin.php:3538
+msgid "<strong>ERROR</strong>: Please enter your Yahoo IM."
+msgstr ""
+
+#: frontend-user-admin.php:3244 frontend-user-admin.php:3542
+msgid "<strong>ERROR</strong>: Please enter your Jabber / Google Talk."
+msgstr ""
+
+#: frontend-user-admin.php:3248 frontend-user-admin.php:3546
+msgid "<strong>ERROR</strong>: Please enter your description."
+msgstr ""
+
+#: frontend-user-admin.php:3255
+msgid "<strong>ERROR</strong>: You need to agree to the terms of use."
+msgstr ""
+
+#: frontend-user-admin.php:3284
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
+"href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: frontend-user-admin.php:3402
+msgid "You can&#8217;t give users that role."
+msgstr ""
+
+#: frontend-user-admin.php:3449 frontend-user-admin.php:3451
+msgid "<strong>ERROR</strong>: You entered your new password only once."
+msgstr ""
+
+#: frontend-user-admin.php:3475
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+
+#: frontend-user-admin.php:3478
+msgid ""
+"<strong>ERROR</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+
+#: frontend-user-admin.php:3483
+msgid "<strong>ERROR</strong>: Please enter an e-mail address."
+msgstr ""
+
+#: frontend-user-admin.php:3485
+msgid "<strong>ERROR</strong>: The e-mail address isn&#8217;t correct."
+msgstr ""
+
+#: frontend-user-admin.php:3872
+#, php-format
+msgid "<strong>ERROR</strong>: Please enter %s."
+msgstr ""
+
+#: frontend-user-admin.php:3879
+#, php-format
+msgid "<strong>ERROR</strong>: Use only numerics in %s."
+msgstr ""
+
+#: frontend-user-admin.php:3883
+#, php-format
+msgid "<strong>ERROR</strong>: Use only alphabets in %s."
+msgstr ""
+
+#: frontend-user-admin.php:3887
+#, php-format
+msgid "<strong>ERROR</strong>: Use only alphanumerics in %s."
+msgstr ""
+
+#: frontend-user-admin.php:3891
+#, php-format
+msgid "<strong>ERROR</strong>: Use only half-width letters in %s."
+msgstr ""
+
+#: frontend-user-admin.php:3895
+#, php-format
+msgid "<strong>ERROR</strong>: Use only Hiragana in %s."
+msgstr ""
+
+#: frontend-user-admin.php:3899
+#, php-format
+msgid "<strong>ERROR</strong>: Use only Katakana in %s."
+msgstr ""
+
+#: frontend-user-admin.php:3903
+#, php-format
+msgid "<strong>ERROR</strong>: %s isn&#8217;t correct."
+msgstr ""
+
+#: frontend-user-admin.php:3908
+#, php-format
+msgid "<strong>ERROR</strong>: Minimum number of letters in %1$s is %2$s."
+msgstr ""
+
+#: frontend-user-admin.php:3911
+#, php-format
+msgid "<strong>ERROR</strong>: Maximum number of letters in %1$s is %2$s."
+msgstr ""
+
+#: frontend-user-admin.php:3915
+#, php-format
+msgid "<strong>ERROR</strong>: %s does not match."
+msgstr ""
+
+#: frontend-user-admin.php:3924
+#, php-format
+msgid "<strong>ERROR</strong>: %s is already registered, please input again."
+msgstr ""
+
+#: frontend-user-admin.php:3943
+msgid ""
+"<strong>ERROR</strong>: a same user seems to be already registered, please "
+"input again."
+msgstr ""
+
+#: frontend-user-admin.php:4192 frontend-user-admin.php:4198
+#: frontend-user-admin.php:4533 frontend-user-admin.php:4541
+msgid "<strong>ERROR</strong>: reCAPTCHA failed. Please try again."
+msgstr ""
+
+#: frontend-user-admin.php:4354
+msgid "<strong>ERROR</strong>: A new password must be different from old one."
+msgstr ""
+
+#: frontend-user-admin.php:4516
+msgid ""
+"<strong>ERROR</strong>: The username is locked. You have to wait for a while."
+msgstr ""
+
+#: frontend-user-admin.php:4520
+msgid ""
+"<strong>ERROR</strong>: The username is locked. E-mail to reset password has "
+"been sent to your e-mail address."
+msgstr ""
+
+#: frontend-user-admin.php:4522
+msgid ""
+"<strong>ERROR</strong>: The username is locked. Please contact the "
+"administrator."
+msgstr ""
+
+#: frontend-user-admin.php:4610
+msgid "<strong>ERROR</strong>: Invalid username."
+msgstr ""
+
+#: frontend-user-admin.php:4699 steps/step-widget.php:8
+#, php-format
+msgid "Howdy, %1$s!"
+msgstr ""
+
+#: frontend-user-admin.php:4718 steps/step-widget.php:29
+msgid "Log Out"
+msgstr ""
+
+#: frontend-user-admin.php:4966
+msgid "Currently this is Admin Demo Mode. You can not change any settings."
+msgstr ""
+
+#: frontend-user-admin.php:4968
+msgid "User registered."
+msgstr ""
+
+#: frontend-user-admin.php:4970
+msgid "User edited."
+msgstr ""
+
+#: frontend-user-admin.php:4972
+msgid "Options updated."
+msgstr ""
+
+#: frontend-user-admin.php:4974
+msgid "Options imported."
+msgstr ""
+
+#: frontend-user-admin.php:4976
+msgid "Action failed."
+msgstr ""
+
+#: frontend-user-admin.php:4978
+msgid "Options reset."
+msgstr ""
+
+#: frontend-user-admin.php:4980
+msgid "Options deleted."
+msgstr ""
+
+#: frontend-user-admin.php:4982
+msgid "Please enter FROM, TO, subject, and body."
+msgstr ""
+
+#: frontend-user-admin.php:4996 frontend-user-admin.php:7608
+msgid "Edit User"
+msgstr ""
+
+#: frontend-user-admin.php:5002 frontend-user-admin.php:8315
+#: frontend-user-admin.php:8365
+msgid "Send Mail"
+msgstr ""
+
+#: frontend-user-admin.php:5008 frontend-user-admin.php:8868
+#: frontend-user-admin.php:9148
+msgid "User Log Summary"
+msgstr ""
+
+#: frontend-user-admin.php:5014
+msgid "Settings"
+msgstr ""
+
+#: frontend-user-admin.php:5094 frontend-user-admin.php:5733
+#: frontend-user-admin.php:5850 frontend-user-admin.php:5901
+#: frontend-user-admin.php:6030 frontend-user-admin.php:6043
+#: frontend-user-admin.php:6079 frontend-user-admin.php:6139
+#: frontend-user-admin.php:6195 frontend-user-admin.php:6239
+#: frontend-user-admin.php:6339 frontend-user-admin.php:6432
+#: frontend-user-admin.php:6478 frontend-user-admin.php:6635
+#: frontend-user-admin.php:6647 frontend-user-admin.php:6681
+#: frontend-user-admin.php:6734 frontend-user-admin.php:6753
+#: frontend-user-admin.php:6772 frontend-user-admin.php:6793
+#: frontend-user-admin.php:6813 frontend-user-admin.php:6829
+#: frontend-user-admin.php:6845 frontend-user-admin.php:6864
+#: frontend-user-admin.php:8056 frontend-user-admin.php:8085
+#: frontend-user-admin.php:9037 frontend-user-admin.php:9380
+#: frontend-user-admin.php:10051 frontend-user-admin.php:10093
+msgid "Click to toggle"
+msgstr ""
+
+#: frontend-user-admin.php:5095
+msgid "Global Settings"
+msgstr ""
+
+#: frontend-user-admin.php:5101
+msgid "Log In URL"
+msgstr ""
+
+#: frontend-user-admin.php:5103
+msgid "You need to make a page which has this permalink."
+msgstr ""
+
+#: frontend-user-admin.php:5106
+msgid "After Log In URL"
+msgstr ""
+
+#: frontend-user-admin.php:5108
+msgid ""
+"You can add %user_login% in the upper url. %user_login% will be converted "
+"into the user name."
+msgstr ""
+
+#: frontend-user-admin.php:5111
+msgid "After Log Out URL"
+msgstr ""
+
+#: frontend-user-admin.php:5115
+msgid "After Log In URL Exception URL"
+msgstr ""
+
+#: frontend-user-admin.php:5117 frontend-user-admin.php:5135
+msgid "Please specify the exception url in each line."
+msgstr ""
+
+#: frontend-user-admin.php:5120
+msgid "After Log In Template File"
+msgstr ""
+
+#: frontend-user-admin.php:5122
+msgid ""
+"If you would like to use the original template file, you need to set the "
+"file in the theme directory."
+msgstr ""
+
+#: frontend-user-admin.php:5125
+msgid "Transfer all to the Log In URL"
+msgstr ""
+
+#: frontend-user-admin.php:5126
+msgid "If the user is not logged in, transfer all to the Log In URL."
+msgstr ""
+
+#: frontend-user-admin.php:5129
+msgid "Alternative URL for transfer all"
+msgstr ""
+
+#: frontend-user-admin.php:5133
+msgid "Transfer all to the Log In Exception URL"
+msgstr ""
+
+#: frontend-user-admin.php:5138
+msgid "User Registration"
+msgstr ""
+
+#: frontend-user-admin.php:5139
+msgid "Anyone can register."
+msgstr ""
+
+#: frontend-user-admin.php:5142
+msgid "Show the content directly when the user logged in"
+msgstr ""
+
+#: frontend-user-admin.php:5143
+msgid ""
+"If the user logged in, it shows the post content directly not the login box."
+msgstr ""
+
+#: frontend-user-admin.php:5146
+msgid "Show the menu in the login page during login"
+msgstr ""
+
+#: frontend-user-admin.php:5147
+msgid ""
+"If the user logged in, it shows the menu at the head of content in the login "
+"page."
+msgstr ""
+
+#: frontend-user-admin.php:5150
+msgid "Transfer to the After Log In URL when the user logged in"
+msgstr ""
+
+#: frontend-user-admin.php:5151
+msgid "If the user logged in, transfer to the After Log In URL."
+msgstr ""
+
+#: frontend-user-admin.php:5154
+msgid "Number of Username"
+msgstr ""
+
+#: frontend-user-admin.php:5155 frontend-user-admin.php:5180
+#: frontend-user-admin.php:5750
+msgid "Min Letters"
+msgstr ""
+
+#: frontend-user-admin.php:5166 frontend-user-admin.php:5191
+#: frontend-user-admin.php:5751
+msgid "Max Letters"
+msgstr ""
+
+#: frontend-user-admin.php:5179
+msgid "Number of Password"
+msgstr ""
+
+#: frontend-user-admin.php:5204
+msgid "Username Regulation Expressions"
+msgstr ""
+
+#: frontend-user-admin.php:5208
+msgid "The email as Username"
+msgstr ""
+
+#: frontend-user-admin.php:5209
+msgid "Use the email as the username. "
+msgstr ""
+
+#: frontend-user-admin.php:5212
+msgid "Username Automatic Generation"
+msgstr ""
+
+#: frontend-user-admin.php:5213
+msgid "Generate an userlogin automatically in an user registration."
+msgstr ""
+
+#: frontend-user-admin.php:5216
+msgid "Password Registration"
+msgstr ""
+
+#: frontend-user-admin.php:5217
+msgid "Let new users decide a password on the registration."
+msgstr ""
+
+#: frontend-user-admin.php:5220
+msgid "Email Confirmation (before registration)"
+msgstr ""
+
+#: frontend-user-admin.php:5221
+msgid "Need Email confirmation before user registration."
+msgstr ""
+
+#: frontend-user-admin.php:5224
+msgid "Email Confirmation (parallel registration)"
+msgstr ""
+
+#: frontend-user-admin.php:5225
+msgid "Need Email confirmation in parallel with user registration."
+msgstr ""
+
+#: frontend-user-admin.php:5228
+msgid "Email Confirmation (after registration)"
+msgstr ""
+
+#: frontend-user-admin.php:5229
+msgid "Need Email confirmation after user registration."
+msgstr ""
+
+#: frontend-user-admin.php:5232
+msgid "Email Duplication"
+msgstr ""
+
+#: frontend-user-admin.php:5233
+msgid "Allow users to register by the email duplication."
+msgstr ""
+
+#: frontend-user-admin.php:5236
+msgid "Approval Registration"
+msgstr ""
+
+#: frontend-user-admin.php:5237
+msgid "Need the site owner approval to register."
+msgstr ""
+
+#: frontend-user-admin.php:5240
+msgid "Password Auto Regeneration"
+msgstr ""
+
+#: frontend-user-admin.php:5241
+msgid ""
+"Regenerate the password automatically in sending a registration email "
+"without the password registration by users."
+msgstr ""
+
+#: frontend-user-admin.php:5247
+msgid "Unique Registration"
+msgstr ""
+
+#: frontend-user-admin.php:5247 frontend-user-admin.php:5251
+#: frontend-user-admin.php:5255 frontend-user-admin.php:5259
+#: frontend-user-admin.php:5264 frontend-user-admin.php:5537
+#: frontend-user-admin.php:5540 frontend-user-admin.php:5614
+#: frontend-user-admin.php:5617
+msgid "(Multi Site)"
+msgstr ""
+
+#: frontend-user-admin.php:5248
+msgid ""
+"Treat usernames uniquely in each site. Site ID will be added into usernames "
+"automatically."
+msgstr ""
+
+#: frontend-user-admin.php:5251
+msgid "All Site Registration"
+msgstr ""
+
+#: frontend-user-admin.php:5252
+msgid "Register new users to all sites."
+msgstr ""
+
+#: frontend-user-admin.php:5255
+msgid "Logout Other Sites"
+msgstr ""
+
+#: frontend-user-admin.php:5256
+msgid "Logout in other sites which are not associated with users."
+msgstr ""
+
+#: frontend-user-admin.php:5259
+msgid "Exclude Admin Users"
+msgstr ""
+
+#: frontend-user-admin.php:5260
+msgid "Exclude admin users from the user list."
+msgstr ""
+
+#: frontend-user-admin.php:5264
+msgid "User Complete Deletion"
+msgstr ""
+
+#: frontend-user-admin.php:5265
+msgid "Delete user data completely."
+msgstr ""
+
+#: frontend-user-admin.php:5272
+msgid "Use Password Strength"
+msgstr ""
+
+#: frontend-user-admin.php:5273
+msgid "Use the password strength on the registration."
+msgstr ""
+
+#: frontend-user-admin.php:5276
+msgid "Use Common Password"
+msgstr ""
+
+#: frontend-user-admin.php:5277
+msgid "Use the common password to login."
+msgstr ""
+
+#: frontend-user-admin.php:5280
+msgid "Set the common password."
+msgstr ""
+
+#: frontend-user-admin.php:5281
+msgid ""
+"You need to set this common password when you register users. In order to "
+"set up the common password automatically in registration, please check the "
+"Password Registration."
+msgstr ""
+
+#: frontend-user-admin.php:5287
+msgid "Disable the password change email."
+msgstr ""
+
+#: frontend-user-admin.php:5288
+msgid "Do not send the password change email"
+msgstr ""
+
+#: frontend-user-admin.php:5291
+msgid "Disable the email change email."
+msgstr ""
+
+#: frontend-user-admin.php:5292
+msgid "Do not send the email change email"
+msgstr ""
+
+#: frontend-user-admin.php:5298
+msgid "Hide `Remember me`"
+msgstr ""
+
+#: frontend-user-admin.php:5299
+msgid "Hide `Remember me` checkbox in login."
+msgstr ""
+
+#: frontend-user-admin.php:5302
+msgid "Login after registration"
+msgstr ""
+
+#: frontend-user-admin.php:5303
+msgid "Login after registration automatically."
+msgstr ""
+
+#: frontend-user-admin.php:5306
+msgid "Confirmation Screen"
+msgstr ""
+
+#: frontend-user-admin.php:5307
+msgid "Show the confirmation screen on the registration."
+msgstr ""
+
+#: frontend-user-admin.php:5310
+msgid "Enforcement Update"
+msgstr ""
+
+#: frontend-user-admin.php:5311
+msgid "Update user attributes regardless of required fields in the admin."
+msgstr ""
+
+#: frontend-user-admin.php:5314
+msgid "Required field check"
+msgstr ""
+
+#: frontend-user-admin.php:5315
+msgid "Enforce users to input required fields in any time."
+msgstr ""
+
+#: frontend-user-admin.php:5318
+msgid "Default Messages"
+msgstr ""
+
+#: frontend-user-admin.php:5319
+msgid "Display default messages on the top of each page."
+msgstr ""
+
+#: frontend-user-admin.php:5322
+msgid "Set the default user_login."
+msgstr ""
+
+#: frontend-user-admin.php:5323
+msgid ""
+"The input box of Log In will be the hidden attribute, if you set the default "
+"user_login."
+msgstr ""
+
+#: frontend-user-admin.php:5326
+msgid "Smartphone Code"
+msgstr ""
+
+#: frontend-user-admin.php:5327
+msgid "Use Smartphone output code"
+msgstr ""
+
+#: frontend-user-admin.php:5330
+msgid "Smartphone Determination"
+msgstr ""
+
+#: frontend-user-admin.php:5331
+msgid "Exclude iPad from Smartphone"
+msgstr ""
+
+#: frontend-user-admin.php:5334
+msgid "Use Style Sheet"
+msgstr ""
+
+#: frontend-user-admin.php:5335
+msgid "Load the CSS file."
+msgstr ""
+
+#: frontend-user-admin.php:5338
+msgid "Use Withdrawal"
+msgstr ""
+
+#: frontend-user-admin.php:5339
+msgid "Allow users to delete the account."
+msgstr ""
+
+#: frontend-user-admin.php:5342
+msgid "Use the soft user deletion"
+msgstr ""
+
+#: frontend-user-admin.php:5343
+msgid "After the user withdrawal, user name and email will be only renamed."
+msgstr ""
+
+#: frontend-user-admin.php:5346
+msgid "Disable Links"
+msgstr ""
+
+#: frontend-user-admin.php:5347
+msgid "Do not output trailing links."
+msgstr ""
+
+#: frontend-user-admin.php:5350
+msgid "Disable Profile"
+msgstr ""
+
+#: frontend-user-admin.php:5351
+msgid "Do not allow users to update the profile."
+msgstr ""
+
+#: frontend-user-admin.php:5354
+msgid "Disable Password Lost and Found"
+msgstr ""
+
+#: frontend-user-admin.php:5355
+msgid "Do not allow users to find the password."
+msgstr ""
+
+#: frontend-user-admin.php:5358
+msgid "Disable the cookie error"
+msgstr ""
+
+#: frontend-user-admin.php:5359
+msgid "Do not allow to show the cookie error."
+msgstr ""
+
+#: frontend-user-admin.php:5362
+msgid "Disable the duplicate login"
+msgstr ""
+
+#: frontend-user-admin.php:5363
+msgid "Do not allow multiple users in the same account to login."
+msgstr ""
+
+#: frontend-user-admin.php:5366
+msgid "Disable the admin bar"
+msgstr ""
+
+#: frontend-user-admin.php:5367
+msgid "Do not allow users to use the admin bar."
+msgstr ""
+
+#: frontend-user-admin.php:5370
+msgid "Normal Authentication Timeout"
+msgstr ""
+
+#: frontend-user-admin.php:5371 frontend-user-admin.php:5375
+msgid "seconds"
+msgstr ""
+
+#: frontend-user-admin.php:5374
+msgid "&quot;Remember Me&quot; Authentication Timeout"
+msgstr ""
+
+#: frontend-user-admin.php:5379
+msgid "Record login datetime."
+msgstr ""
+
+#: frontend-user-admin.php:5383
+msgid "Record update datetime."
+msgstr ""
+
+#: frontend-user-admin.php:5386
+msgid "Logout Time"
+msgstr ""
+
+#: frontend-user-admin.php:5387 frontend-user-admin.php:5407
+msgid "minutes"
+msgstr ""
+
+#: frontend-user-admin.php:5390
+msgid "Logout Time except Administrators"
+msgstr ""
+
+#: frontend-user-admin.php:5391
+msgid "Do not apply Logout Time to Administrator users."
+msgstr ""
+
+#: frontend-user-admin.php:5394
+msgid "Password Expiration Date"
+msgstr ""
+
+#: frontend-user-admin.php:5395 frontend-user-admin.php:5434
+msgid "days"
+msgstr ""
+
+#: frontend-user-admin.php:5398 frontend-user-admin.php:8006
+msgid "Password Lock Miss Times"
+msgstr ""
+
+#: frontend-user-admin.php:5399 frontend-user-admin.php:8007
+msgid "times"
+msgstr ""
+
+#: frontend-user-admin.php:5402
+msgid "Send E-mail after Password Lock"
+msgstr ""
+
+#: frontend-user-admin.php:5403
+msgid ""
+"Send E-mail to reset password after missing password and locking the account."
+msgstr ""
+
+#: frontend-user-admin.php:5406
+msgid "Password Lock Retrieval Time"
+msgstr ""
+
+#: frontend-user-admin.php:5410
+msgid "Different Password"
+msgstr ""
+
+#: frontend-user-admin.php:5411
+msgid "A different password from old one must be input as a new password."
+msgstr ""
+
+#: frontend-user-admin.php:5414
+msgid "Start Log"
+msgstr ""
+
+#: frontend-user-admin.php:5415
+msgid "Start logging the user actions."
+msgstr ""
+
+#: frontend-user-admin.php:5418
+msgid "Log User Name"
+msgstr ""
+
+#: frontend-user-admin.php:5433
+msgid "Delete logs earlier than the following days automatically"
+msgstr ""
+
+#: frontend-user-admin.php:5436
+msgid "Admin Panel User Level"
+msgstr ""
+
+#: frontend-user-admin.php:5449
+msgid "Disable the widget while login"
+msgstr ""
+
+#: frontend-user-admin.php:5450
+msgid "Do not show the widget while login."
+msgstr ""
+
+#: frontend-user-admin.php:5453
+msgid "Disable the widget while nologin"
+msgstr ""
+
+#: frontend-user-admin.php:5454
+msgid "Do not show the widget while nologin."
+msgstr ""
+
+#: frontend-user-admin.php:5457
+msgid "Widget Title"
+msgstr ""
+
+#: frontend-user-admin.php:5461
+msgid "Widget Content"
+msgstr ""
+
+#: frontend-user-admin.php:5465
+msgid "Array Delimiter"
+msgstr ""
+
+#: frontend-user-admin.php:5469
+msgid "Required Mark"
+msgstr ""
+
+#: frontend-user-admin.php:5482
+msgid "Register Item and Order"
+msgstr ""
+
+#: frontend-user-admin.php:5489 frontend-user-admin.php:5566
+#: frontend-user-admin.php:6909 frontend-user-admin.php:7204
+#: frontend-user-admin.php:7636 steps/step-confirmation.php:36
+#: steps/step-login.php:62 steps/step-mobile_confirmation.php:32
+#: steps/step-mobile_login.php:62 steps/step-mobile_profile.php:49
+#: steps/step-mobile_register.php:84 steps/step-profile.php:52
+#: steps/step-register.php:91 steps/step-sp_confirmation.php:33
+#: steps/step-sp_login.php:62 steps/step-sp_profile.php:50
+#: steps/step-sp_register.php:85 steps/step-widget.php:42
+msgid "Username"
+msgstr ""
+
+#: frontend-user-admin.php:5489 frontend-user-admin.php:5492
+#: frontend-user-admin.php:5495 frontend-user-admin.php:5498
+#: frontend-user-admin.php:5501 frontend-user-admin.php:5504
+#: frontend-user-admin.php:5507 frontend-user-admin.php:5510
+#: frontend-user-admin.php:5513 frontend-user-admin.php:5516
+#: frontend-user-admin.php:5519 frontend-user-admin.php:5522
+#: frontend-user-admin.php:5525 frontend-user-admin.php:5528
+#: frontend-user-admin.php:5531 frontend-user-admin.php:5534
+#: frontend-user-admin.php:5566 frontend-user-admin.php:5569
+#: frontend-user-admin.php:5572 frontend-user-admin.php:5575
+#: frontend-user-admin.php:5578 frontend-user-admin.php:5581
+#: frontend-user-admin.php:5584 frontend-user-admin.php:5587
+#: frontend-user-admin.php:5590 frontend-user-admin.php:5593
+#: frontend-user-admin.php:5596 frontend-user-admin.php:5599
+#: frontend-user-admin.php:5602 frontend-user-admin.php:5605
+#: frontend-user-admin.php:5608 frontend-user-admin.php:5611
+msgid "(Default)"
+msgstr ""
+
+#: frontend-user-admin.php:5492 frontend-user-admin.php:5569
+#: frontend-user-admin.php:6913 frontend-user-admin.php:7220
+#: frontend-user-admin.php:7651 steps/step-confirmation.php:52
+#: steps/step-mobile_confirmation.php:44 steps/step-mobile_profile.php:61
+#: steps/step-mobile_register.php:96 steps/step-profile.php:68
+#: steps/step-register.php:107 steps/step-sp_confirmation.php:45
+#: steps/step-sp_profile.php:62 steps/step-sp_register.php:97
+msgid "First name"
+msgstr ""
+
+#: frontend-user-admin.php:5492 frontend-user-admin.php:5495
+#: frontend-user-admin.php:5498 frontend-user-admin.php:5825
+msgid "Composite Unique"
+msgstr ""
+
+#: frontend-user-admin.php:5495 frontend-user-admin.php:5572
+#: frontend-user-admin.php:6914 frontend-user-admin.php:7212
+#: frontend-user-admin.php:7643 steps/step-confirmation.php:44
+#: steps/step-mobile_confirmation.php:38 steps/step-mobile_profile.php:55
+#: steps/step-mobile_register.php:90 steps/step-profile.php:60
+#: steps/step-register.php:99 steps/step-sp_confirmation.php:39
+#: steps/step-sp_profile.php:56 steps/step-sp_register.php:91
+msgid "Last name"
+msgstr ""
+
+#: frontend-user-admin.php:5498 frontend-user-admin.php:5575
+#: frontend-user-admin.php:6915 frontend-user-admin.php:7229
+#: frontend-user-admin.php:7659 steps/step-confirmation.php:60
+#: steps/step-mobile_confirmation.php:50 steps/step-mobile_profile.php:67
+#: steps/step-mobile_register.php:102 steps/step-profile.php:76
+#: steps/step-register.php:115 steps/step-sp_confirmation.php:51
+#: steps/step-sp_profile.php:68 steps/step-sp_register.php:103
+msgid "Nickname"
+msgstr ""
+
+#: frontend-user-admin.php:5501 frontend-user-admin.php:5578
+#: frontend-user-admin.php:6919 frontend-user-admin.php:7667
+#: steps/step-mobile_profile.php:73 steps/step-profile.php:84
+#: steps/step-sp_profile.php:74
+msgid "Display name publicly&nbsp;as"
+msgstr ""
+
+#: frontend-user-admin.php:5504 frontend-user-admin.php:5581
+#: frontend-user-admin.php:6910 frontend-user-admin.php:7237
+#: frontend-user-admin.php:7693 steps/step-confirmation.php:68
+#: steps/step-login.php:62 steps/step-lostpassword.php:23
+#: steps/step-mobile_confirmation.php:56 steps/step-mobile_login.php:62
+#: steps/step-mobile_lostpassword.php:23 steps/step-mobile_profile.php:96
+#: steps/step-mobile_register.php:26 steps/step-mobile_register.php:108
+#: steps/step-profile.php:110 steps/step-register.php:26
+#: steps/step-register.php:123 steps/step-sp_confirmation.php:57
+#: steps/step-sp_login.php:62 steps/step-sp_lostpassword.php:23
+#: steps/step-sp_profile.php:97 steps/step-sp_register.php:26
+#: steps/step-sp_register.php:109 steps/step-widget.php:42
+msgid "E-mail"
+msgstr ""
+
+#: frontend-user-admin.php:5507 frontend-user-admin.php:5584
+#: frontend-user-admin.php:6912 frontend-user-admin.php:7245
+#: frontend-user-admin.php:7701 steps/step-confirmation.php:76
+#: steps/step-mobile_confirmation.php:62 steps/step-mobile_profile.php:105
+#: steps/step-mobile_register.php:114 steps/step-profile.php:121
+#: steps/step-register.php:131 steps/step-sp_confirmation.php:63
+#: steps/step-sp_profile.php:106 steps/step-sp_register.php:115
+msgid "Website"
+msgstr ""
+
+#: frontend-user-admin.php:5510 frontend-user-admin.php:5587
+#: frontend-user-admin.php:6916 frontend-user-admin.php:7253
+#: frontend-user-admin.php:7709 steps/step-confirmation.php:84
+#: steps/step-mobile_confirmation.php:68 steps/step-mobile_profile.php:111
+#: steps/step-mobile_register.php:120 steps/step-profile.php:129
+#: steps/step-register.php:139 steps/step-sp_confirmation.php:69
+#: steps/step-sp_profile.php:112 steps/step-sp_register.php:121
+msgid "AIM"
+msgstr ""
+
+#: frontend-user-admin.php:5513 frontend-user-admin.php:5590
+#: frontend-user-admin.php:6917 frontend-user-admin.php:7261
+#: frontend-user-admin.php:7717 steps/step-confirmation.php:92
+#: steps/step-mobile_confirmation.php:74 steps/step-mobile_profile.php:117
+#: steps/step-mobile_register.php:126 steps/step-profile.php:137
+#: steps/step-register.php:147 steps/step-sp_confirmation.php:75
+#: steps/step-sp_profile.php:118 steps/step-sp_register.php:127
+msgid "Yahoo IM"
+msgstr ""
+
+#: frontend-user-admin.php:5516 frontend-user-admin.php:5593
+#: frontend-user-admin.php:6918 frontend-user-admin.php:7269
+#: frontend-user-admin.php:7725 steps/step-confirmation.php:100
+#: steps/step-mobile_confirmation.php:80 steps/step-mobile_profile.php:123
+#: steps/step-mobile_register.php:132 steps/step-profile.php:145
+#: steps/step-register.php:155 steps/step-sp_confirmation.php:81
+#: steps/step-sp_profile.php:124 steps/step-sp_register.php:133
+msgid "Jabber / Google Talk"
+msgstr ""
+
+#: frontend-user-admin.php:5519 frontend-user-admin.php:5596
+#: frontend-user-admin.php:6920 frontend-user-admin.php:7277
+#: frontend-user-admin.php:7733 steps/step-confirmation.php:108
+#: steps/step-mobile_confirmation.php:86 steps/step-mobile_profile.php:129
+#: steps/step-mobile_register.php:138 steps/step-profile.php:153
+#: steps/step-register.php:163 steps/step-sp_confirmation.php:87
+#: steps/step-sp_profile.php:130 steps/step-sp_register.php:139
+msgid "Biographical Info"
+msgstr ""
+
+#: frontend-user-admin.php:5522 frontend-user-admin.php:5599
+#: frontend-user-admin.php:6921 frontend-user-admin.php:7284
+#: frontend-user-admin.php:7741
+msgid "Role"
+msgstr ""
+
+#: frontend-user-admin.php:5525 frontend-user-admin.php:5602
+#: frontend-user-admin.php:6922
+msgid "User status"
+msgstr ""
+
+#: frontend-user-admin.php:5528 frontend-user-admin.php:5605
+#: frontend-user-admin.php:6923 frontend-user-admin.php:7308
+#: frontend-user-admin.php:7765 frontend-user-admin.php:9967
+msgid "No log"
+msgstr ""
+
+#: frontend-user-admin.php:5531 frontend-user-admin.php:5608
+#: frontend-user-admin.php:6924
+msgid "Duplicate login"
+msgstr ""
+
+#: frontend-user-admin.php:5534 frontend-user-admin.php:5611
+#: frontend-user-admin.php:7793 steps/step-mobile_profile.php:141
+#: steps/step-profile.php:167 steps/step-sp_profile.php:142
+msgid "New Password"
+msgstr ""
+
+#: frontend-user-admin.php:5537 frontend-user-admin.php:5614
+#: frontend-user-admin.php:6907 frontend-user-admin.php:7188
+#: frontend-user-admin.php:7621 steps/step-confirmation.php:20
+#: steps/step-mobile_confirmation.php:20 steps/step-mobile_register.php:72
+#: steps/step-register.php:75 steps/step-sp_confirmation.php:21
+#: steps/step-sp_register.php:73
+msgid "Site Domain"
+msgstr ""
+
+#: frontend-user-admin.php:5540 frontend-user-admin.php:5617
+#: frontend-user-admin.php:6908 frontend-user-admin.php:7196
+#: frontend-user-admin.php:7629 steps/step-confirmation.php:28
+#: steps/step-mobile_confirmation.php:26 steps/step-mobile_register.php:78
+#: steps/step-register.php:83 steps/step-sp_confirmation.php:27
+#: steps/step-sp_register.php:79
+msgid "Site Title"
+msgstr ""
+
+#: frontend-user-admin.php:5559
+msgid "Profile Item and Order"
+msgstr ""
+
+#: frontend-user-admin.php:5569 frontend-user-admin.php:5572
+#: frontend-user-admin.php:5575 frontend-user-admin.php:5578
+#: frontend-user-admin.php:5581 frontend-user-admin.php:5584
+#: frontend-user-admin.php:5587 frontend-user-admin.php:5590
+#: frontend-user-admin.php:5593 frontend-user-admin.php:5596
+#: frontend-user-admin.php:5747
+msgid "Admin"
+msgstr ""
+
+#: frontend-user-admin.php:5637
+msgid "Set Nickname as Display Name when registering."
+msgstr ""
+
+#: frontend-user-admin.php:5638
+msgid ""
+"Please check if you want users to set their nicknames as display name as "
+"default. Nickname will be a necessary attribute."
+msgstr ""
+
+#: frontend-user-admin.php:5641
+msgid "Let users approve the terms of use."
+msgstr ""
+
+#: frontend-user-admin.php:5643
+msgid "Terms of use URL"
+msgstr ""
+
+#: frontend-user-admin.php:5647
+msgid "The name of Terms"
+msgstr ""
+
+#: frontend-user-admin.php:5651 frontend-user-admin.php:10094
+msgid "Bulk User Update Code"
+msgstr ""
+
+#: frontend-user-admin.php:5652
+msgid "Use the bulk user update code in the user list."
+msgstr ""
+
+#: frontend-user-admin.php:5655
+msgid "Admin CSS"
+msgstr ""
+
+#: frontend-user-admin.php:5659
+msgid "Admin JavaScript"
+msgstr ""
+
+#: frontend-user-admin.php:5664
+msgid "Admin Demo Mode"
+msgstr ""
+
+#: frontend-user-admin.php:5665
+msgid "Please check if you make the admin panel under the demo."
+msgstr ""
+
+#: frontend-user-admin.php:5668
+msgid "Role of this plugin"
+msgstr ""
+
+#: frontend-user-admin.php:5682
+msgid "User Level of this plugin"
+msgstr ""
+
+#: frontend-user-admin.php:5691 frontend-user-admin.php:6535
+#: frontend-user-admin.php:6593 frontend-user-admin.php:9832
+msgid "and above"
+msgstr ""
+
+#: frontend-user-admin.php:5697
+msgid ""
+"Please select the ability which the user role of this plugin can have. The "
+"admin user can manage everything."
+msgstr ""
+
+#: frontend-user-admin.php:5716 frontend-user-admin.php:5834
+#: frontend-user-admin.php:5885 frontend-user-admin.php:6021
+#: frontend-user-admin.php:6063 frontend-user-admin.php:6130
+#: frontend-user-admin.php:6186 frontend-user-admin.php:6230
+#: frontend-user-admin.php:6331 frontend-user-admin.php:6423
+#: frontend-user-admin.php:6626 frontend-user-admin.php:6672
+#: frontend-user-admin.php:6725 frontend-user-admin.php:6744
+#: frontend-user-admin.php:6763 frontend-user-admin.php:6782
+msgid "Update Options &raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:5734
+msgid "Add User Attribute"
+msgstr ""
+
+#: frontend-user-admin.php:5740 frontend-user-admin.php:7979
+#: frontend-user-admin.php:8062 frontend-user-admin.php:9581
+#: frontend-user-admin.php:9789 steps/step-profile.php:348
+#: steps/step-sp_profile.php:318
+msgid "Delete"
+msgstr ""
+
+#: frontend-user-admin.php:5741
+msgid "Field Label"
+msgstr ""
+
+#: frontend-user-admin.php:5742 frontend-user-admin.php:8062
+msgid "Field Name"
+msgstr ""
+
+#: frontend-user-admin.php:5743
+msgid "Field Type"
+msgstr ""
+
+#: frontend-user-admin.php:5744
+msgid "Field Type Admin"
+msgstr ""
+
+#: frontend-user-admin.php:5745
+msgid "Default Value"
+msgstr ""
+
+#: frontend-user-admin.php:5746
+msgid "Comment"
+msgstr ""
+
+#: frontend-user-admin.php:5749 frontend-user-admin.php:6479
+msgid "Condition"
+msgstr ""
+
+#: frontend-user-admin.php:5792
+msgid "Numeric"
+msgstr ""
+
+#: frontend-user-admin.php:5792
+msgid "Alphabet"
+msgstr ""
+
+#: frontend-user-admin.php:5792
+msgid "Alphanumeric"
+msgstr ""
+
+#: frontend-user-admin.php:5792
+msgid "Half width"
+msgstr ""
+
+#: frontend-user-admin.php:5792
+msgid "Email"
+msgstr ""
+
+#: frontend-user-admin.php:5794
+msgid "Hiragana"
+msgstr ""
+
+#: frontend-user-admin.php:5795
+msgid "Katakana"
+msgstr ""
+
+#: frontend-user-admin.php:5807
+msgid "Please input the placeholder."
+msgstr ""
+
+#: frontend-user-admin.php:5808
+msgid "Please input php codes overwritting the output."
+msgstr ""
+
+#: frontend-user-admin.php:5809
+msgid "CAST"
+msgstr ""
+
+#: frontend-user-admin.php:5819
+msgid "Publicity Settings"
+msgstr ""
+
+#: frontend-user-admin.php:5820
+msgid "Pass"
+msgstr ""
+
+#: frontend-user-admin.php:5821
+msgid "Unique"
+msgstr ""
+
+#: frontend-user-admin.php:5823
+msgid "readonly"
+msgstr ""
+
+#: frontend-user-admin.php:5824
+msgid "disabled"
+msgstr ""
+
+#: frontend-user-admin.php:5851
+msgid "Add Widget Menu"
+msgstr ""
+
+#: frontend-user-admin.php:5862
+msgid "Menu Label"
+msgstr ""
+
+#: frontend-user-admin.php:5863
+msgid "Menu URL"
+msgstr ""
+
+#: frontend-user-admin.php:5864
+msgid "Menu target=\"_blank\""
+msgstr ""
+
+#: frontend-user-admin.php:5864
+msgid "Open a new window."
+msgstr ""
+
+#: frontend-user-admin.php:5865
+msgid "User Level"
+msgstr ""
+
+#: frontend-user-admin.php:5876
+msgid "Show the widget menu for non-login users"
+msgstr ""
+
+#: frontend-user-admin.php:5902
+msgid "Mail Options"
+msgstr ""
+
+#: frontend-user-admin.php:5908 frontend-user-admin.php:8163
+#: frontend-user-admin.php:8377 frontend-user-admin.php:8445
+msgid "FROM"
+msgstr ""
+
+#: frontend-user-admin.php:5912
+msgid "Signature Template"
+msgstr ""
+
+#: frontend-user-admin.php:5913
+msgid "`%signature_template%` will be replaced by the following."
+msgstr ""
+
+#: frontend-user-admin.php:5917
+msgid "New User Notification Subject (For User)"
+msgstr ""
+
+#: frontend-user-admin.php:5921
+msgid "New User Notification Body (For User)"
+msgstr ""
+
+#: frontend-user-admin.php:5925
+msgid "New User Notification Subject (For Admin)"
+msgstr ""
+
+#: frontend-user-admin.php:5929
+msgid "New User Notification Body (For Admin)"
+msgstr ""
+
+#: frontend-user-admin.php:5933
+msgid "Profile Update Subject (For User)"
+msgstr ""
+
+#: frontend-user-admin.php:5937
+msgid "Profile Update Body (For User)"
+msgstr ""
+
+#: frontend-user-admin.php:5941
+msgid "Profile Update Subject (For Admin)"
+msgstr ""
+
+#: frontend-user-admin.php:5945
+msgid "Profile Update Body (For Admin)"
+msgstr ""
+
+#: frontend-user-admin.php:5949
+msgid "Retrieve Password Subject"
+msgstr ""
+
+#: frontend-user-admin.php:5953
+msgid "Retrieve Password Body"
+msgstr ""
+
+#: frontend-user-admin.php:5957
+msgid "Reset Password Subject (For User)"
+msgstr ""
+
+#: frontend-user-admin.php:5961
+msgid "Reset Password Body (For User)"
+msgstr ""
+
+#: frontend-user-admin.php:5965
+msgid "Reset Password Subject (For Admin)"
+msgstr ""
+
+#: frontend-user-admin.php:5969
+msgid "Reset Password Body (For Admin)"
+msgstr ""
+
+#: frontend-user-admin.php:5973
+msgid "Email Confirmation (before and parallel registration) Subject"
+msgstr ""
+
+#: frontend-user-admin.php:5977
+msgid "Email Confirmation (before and parallel registration) Body"
+msgstr ""
+
+#: frontend-user-admin.php:5981
+msgid "Email Confirmation (after registration) Subject"
+msgstr ""
+
+#: frontend-user-admin.php:5985
+msgid "Email Confirmation (after registration) Body"
+msgstr ""
+
+#: frontend-user-admin.php:5989
+msgid "Approval Process Subject (For User)"
+msgstr ""
+
+#: frontend-user-admin.php:5993
+msgid "Approval Process Body (For User)"
+msgstr ""
+
+#: frontend-user-admin.php:5997
+msgid "Approval Process Subject (For Admin)"
+msgstr ""
+
+#: frontend-user-admin.php:6001
+msgid "Approval Process Body (For Admin)"
+msgstr ""
+
+#: frontend-user-admin.php:6005
+msgid "Withdrawal Subject (For User)"
+msgstr ""
+
+#: frontend-user-admin.php:6009
+msgid "Withdrawal Body (For User)"
+msgstr ""
+
+#: frontend-user-admin.php:6013
+msgid "Withdrawal Subject (For Admin)"
+msgstr ""
+
+#: frontend-user-admin.php:6017
+msgid "Withdrawal Body (For Admin)"
+msgstr ""
+
+#: frontend-user-admin.php:6031
+msgid "Mail Template"
+msgstr ""
+
+#: frontend-user-admin.php:6034
+msgid ""
+"If you delete the template name and save it, the mail template will be "
+"deleted."
+msgstr ""
+
+#: frontend-user-admin.php:6044
+msgid "Template"
+msgstr ""
+
+#: frontend-user-admin.php:6046 frontend-user-admin.php:8167
+#: frontend-user-admin.php:8561
+msgid "Template Name"
+msgstr ""
+
+#: frontend-user-admin.php:6048 frontend-user-admin.php:8168
+#: frontend-user-admin.php:8409 frontend-user-admin.php:8465
+msgid "Mail Subject"
+msgstr ""
+
+#: frontend-user-admin.php:6050 frontend-user-admin.php:8169
+#: frontend-user-admin.php:8413 frontend-user-admin.php:8469
+msgid "Mail Body"
+msgstr ""
+
+#: frontend-user-admin.php:6080
+msgid "Title Options"
+msgstr ""
+
+#: frontend-user-admin.php:6086
+msgid "Login Title"
+msgstr ""
+
+#: frontend-user-admin.php:6090
+msgid "My Page Title"
+msgstr ""
+
+#: frontend-user-admin.php:6094
+msgid "Register Title"
+msgstr ""
+
+#: frontend-user-admin.php:6098
+msgid "Confirmation Title"
+msgstr ""
+
+#: frontend-user-admin.php:6102
+msgid "Profile Title"
+msgstr ""
+
+#: frontend-user-admin.php:6106
+msgid "Lost Password Title"
+msgstr ""
+
+#: frontend-user-admin.php:6110
+msgid "Withdrawal Title"
+msgstr ""
+
+#: frontend-user-admin.php:6114
+msgid "History Title"
+msgstr ""
+
+#: frontend-user-admin.php:6118
+msgid "Affiliate Title"
+msgstr ""
+
+#: frontend-user-admin.php:6122
+msgid "Wish List Title"
+msgstr ""
+
+#: frontend-user-admin.php:6126
+msgid "Default Title"
+msgstr ""
+
+#: frontend-user-admin.php:6140
+msgid "Excerpt Options"
+msgstr ""
+
+#: frontend-user-admin.php:6146
+msgid "Login Excerpt"
+msgstr ""
+
+#: frontend-user-admin.php:6150
+msgid "My Page Excerpt"
+msgstr ""
+
+#: frontend-user-admin.php:6154
+msgid "Register Excerpt"
+msgstr ""
+
+#: frontend-user-admin.php:6158
+msgid "Confirmation Excerpt"
+msgstr ""
+
+#: frontend-user-admin.php:6162
+msgid "Profile Excerpt"
+msgstr ""
+
+#: frontend-user-admin.php:6166
+msgid "Lost Password Excerpt"
+msgstr ""
+
+#: frontend-user-admin.php:6170
+msgid "Withdrawal Excerpt"
+msgstr ""
+
+#: frontend-user-admin.php:6174
+msgid "History Excerpt"
+msgstr ""
+
+#: frontend-user-admin.php:6178
+msgid "Affiliate Excerpt"
+msgstr ""
+
+#: frontend-user-admin.php:6182
+msgid "Wish List Excerpt"
+msgstr ""
+
+#: frontend-user-admin.php:6196
+msgid "Message Options"
+msgstr ""
+
+#: frontend-user-admin.php:6202
+msgid "Login Message"
+msgstr ""
+
+#: frontend-user-admin.php:6206
+msgid "Registration Message"
+msgstr ""
+
+#: frontend-user-admin.php:6210
+msgid "Confirmation Message"
+msgstr ""
+
+#: frontend-user-admin.php:6214
+msgid "Lost Password Message"
+msgstr ""
+
+#: frontend-user-admin.php:6218
+msgid "Profile Message"
+msgstr ""
+
+#: frontend-user-admin.php:6222
+msgid "Email Confirmation (before registration) Message"
+msgstr ""
+
+#: frontend-user-admin.php:6226 frontend-user-admin.php:6322
+msgid "Withdrawal Message"
+msgstr ""
+
+#: frontend-user-admin.php:6240
+msgid "Notice Options"
+msgstr ""
+
+#: frontend-user-admin.php:6246 steps/step-mobile_confirmation.php:12
+#: steps/step-mobile_register.php:56 steps/step-register.php:56
+#: steps/step-sp_confirmation.php:12 steps/step-sp_register.php:56
+msgid "Register For This Site"
+msgstr ""
+
+#: frontend-user-admin.php:6247
+msgid "Register Message"
+msgstr ""
+
+#: frontend-user-admin.php:6251 steps/step-login.php:15
+#: steps/step-mobile_login.php:15 steps/step-sp_login.php:15
+msgid "You are now logged out."
+msgstr ""
+
+#: frontend-user-admin.php:6252
+msgid "Logged Out Message"
+msgstr ""
+
+#: frontend-user-admin.php:6256 steps/step-login.php:17
+#: steps/step-mobile_login.php:17 steps/step-sp_login.php:17
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: frontend-user-admin.php:6257
+msgid "Register Disabled Message"
+msgstr ""
+
+#: frontend-user-admin.php:6261 steps/step-login.php:19
+#: steps/step-mobile_login.php:19 steps/step-sp_login.php:19
+msgid "Check your e-mail for the confirmation link."
+msgstr ""
+
+#: frontend-user-admin.php:6262
+msgid "Confirm Message"
+msgstr ""
+
+#: frontend-user-admin.php:6266 steps/step-lostpassword.php:13
+#: steps/step-mobile_lostpassword.php:13 steps/step-sp_lostpassword.php:13
+msgid ""
+"Please enter your username or e-mail address. You will receive a new "
+"password via e-mail."
+msgstr ""
+
+#: frontend-user-admin.php:6271 steps/step-login.php:21
+#: steps/step-mobile_login.php:21 steps/step-sp_login.php:21
+msgid "Check your e-mail for your new password."
+msgstr ""
+
+#: frontend-user-admin.php:6272
+msgid "New Pass Message"
+msgstr ""
+
+#: frontend-user-admin.php:6276 steps/step-login.php:23
+#: steps/step-mobile_login.php:23 steps/step-sp_login.php:23
+msgid "Registration complete. Please check your e-mail."
+msgstr ""
+
+#: frontend-user-admin.php:6277
+msgid "Registered Message"
+msgstr ""
+
+#: frontend-user-admin.php:6281 steps/step-login.php:25
+#: steps/step-mobile_login.php:25 steps/step-sp_login.php:25
+msgid "Registration complete. Please log in."
+msgstr ""
+
+#: frontend-user-admin.php:6282
+msgid "Registered Pass Message"
+msgstr ""
+
+#: frontend-user-admin.php:6286 steps/step-login.php:27
+#: steps/step-mobile_login.php:27 steps/step-mobile_register.php:16
+#: steps/step-register.php:16 steps/step-sp_login.php:27
+#: steps/step-sp_register.php:16
+msgid "Please check your e-mail and click the link."
+msgstr ""
+
+#: frontend-user-admin.php:6287
+msgid "Email Confirmation Message"
+msgstr ""
+
+#: frontend-user-admin.php:6292
+msgid "Approval Message"
+msgstr ""
+
+#: frontend-user-admin.php:6296 steps/step-login.php:31
+#: steps/step-lostpassword.php:6 steps/step-mobile_login.php:31
+#: steps/step-mobile_lostpassword.php:6 steps/step-mobile_register.php:9
+#: steps/step-register.php:9 steps/step-sp_login.php:31
+#: steps/step-sp_lostpassword.php:6 steps/step-sp_register.php:9
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: frontend-user-admin.php:6297
+msgid "Invalid Key Message"
+msgstr ""
+
+#: frontend-user-admin.php:6301 steps/step-login.php:33
+#: steps/step-mobile_login.php:33 steps/step-sp_login.php:33
+msgid "Please log in to use the member service."
+msgstr ""
+
+#: frontend-user-admin.php:6302
+msgid "Redirect To Message"
+msgstr ""
+
+#: frontend-user-admin.php:6306 frontend-user-admin.php:7583
+#: steps/step-mobile_profile.php:13 steps/step-profile.php:13
+#: steps/step-sp_profile.php:13
+msgid "User updated."
+msgstr ""
+
+#: frontend-user-admin.php:6307
+msgid "Updated Message"
+msgstr ""
+
+#: frontend-user-admin.php:6311 steps/step-mobile_profile.php:19
+#: steps/step-profile.php:19 steps/step-sp_profile.php:19
+msgid "There are required fields you need to input."
+msgstr ""
+
+#: frontend-user-admin.php:6312
+msgid "Required Message"
+msgstr ""
+
+#: frontend-user-admin.php:6316 steps/step-mobile_profile.php:25
+#: steps/step-profile.php:25 steps/step-sp_profile.php:25
+msgid "Your password is expired. You need to change your password."
+msgstr ""
+
+#: frontend-user-admin.php:6317
+msgid "Password Change Message"
+msgstr ""
+
+#: frontend-user-admin.php:6326 steps/step-login.php:37
+#: steps/step-mobile_login.php:37 steps/step-sp_login.php:37
+msgid "You are logged out because of the duplicate login."
+msgstr ""
+
+#: frontend-user-admin.php:6327
+msgid "Duplicate Login Message"
+msgstr ""
+
+#: frontend-user-admin.php:6340
+msgid "Output Options"
+msgstr ""
+
+#: frontend-user-admin.php:6343
+msgid "This option is experimental. Please do not set anything nomally."
+msgstr ""
+
+#: frontend-user-admin.php:6347
+msgid "Widget Code"
+msgstr ""
+
+#: frontend-user-admin.php:6347 frontend-user-admin.php:6351
+#: frontend-user-admin.php:6355 frontend-user-admin.php:6359
+#: frontend-user-admin.php:6363 frontend-user-admin.php:6367
+#: frontend-user-admin.php:6371 frontend-user-admin.php:6375
+#: frontend-user-admin.php:6379 frontend-user-admin.php:6383
+#: frontend-user-admin.php:6387 frontend-user-admin.php:6391
+#: frontend-user-admin.php:6395 frontend-user-admin.php:6399
+#: frontend-user-admin.php:6403 frontend-user-admin.php:6407
+#: frontend-user-admin.php:6411 frontend-user-admin.php:6415
+#: frontend-user-admin.php:6419
+msgid "Load the initial code"
+msgstr ""
+
+#: frontend-user-admin.php:6351 frontend-user-admin.php:6355
+#: frontend-user-admin.php:6359
+msgid "Lost Password Code"
+msgstr ""
+
+#: frontend-user-admin.php:6355 frontend-user-admin.php:6367
+#: frontend-user-admin.php:6379 frontend-user-admin.php:6391
+#: frontend-user-admin.php:6403 frontend-user-admin.php:6415
+msgid "For Mobile"
+msgstr ""
+
+#: frontend-user-admin.php:6359 frontend-user-admin.php:6371
+#: frontend-user-admin.php:6383 frontend-user-admin.php:6395
+#: frontend-user-admin.php:6407 frontend-user-admin.php:6419
+msgid "For Smartphone"
+msgstr ""
+
+#: frontend-user-admin.php:6363 frontend-user-admin.php:6367
+#: frontend-user-admin.php:6371
+msgid "Register Code"
+msgstr ""
+
+#: frontend-user-admin.php:6375 frontend-user-admin.php:6379
+#: frontend-user-admin.php:6383
+msgid "Confirmation Code"
+msgstr ""
+
+#: frontend-user-admin.php:6387 frontend-user-admin.php:6391
+#: frontend-user-admin.php:6395
+msgid "Profile Code"
+msgstr ""
+
+#: frontend-user-admin.php:6399 frontend-user-admin.php:6403
+#: frontend-user-admin.php:6407
+msgid "Withdrawal Code"
+msgstr ""
+
+#: frontend-user-admin.php:6411 frontend-user-admin.php:6415
+#: frontend-user-admin.php:6419
+msgid "Login Code"
+msgstr ""
+
+#: frontend-user-admin.php:6433
+msgid "Add Member Page Condition"
+msgstr ""
+
+#: frontend-user-admin.php:6442
+msgid "Member Condition Types"
+msgstr ""
+
+#: frontend-user-admin.php:6454
+msgid "Default Member Condition"
+msgstr ""
+
+#: frontend-user-admin.php:6484
+msgid "Condition Name"
+msgstr ""
+
+#: frontend-user-admin.php:6487
+msgid "Redirect URL"
+msgstr ""
+
+#: frontend-user-admin.php:6490
+msgid "Alternative Title in case of the condition mismatching"
+msgstr ""
+
+#: frontend-user-admin.php:6493
+msgid "Alternative Content in case of the condition mismatching"
+msgstr ""
+
+#: frontend-user-admin.php:6496
+msgid "No output (especially for pages)"
+msgstr ""
+
+#: frontend-user-admin.php:6499
+msgid "Except clawlers from the member condition."
+msgstr ""
+
+#: frontend-user-admin.php:6502
+msgid "Output until the More separation"
+msgstr ""
+
+#: frontend-user-admin.php:6505
+msgid "letters are automatically excerpted from the post content."
+msgstr ""
+
+#: frontend-user-admin.php:6510
+msgid "User Information"
+msgstr ""
+
+#: frontend-user-admin.php:6513 frontend-user-admin.php:6567
+msgid "Conditional conjunction"
+msgstr ""
+
+#: frontend-user-admin.php:6525
+msgid "User Attribute Key"
+msgstr ""
+
+#: frontend-user-admin.php:6526
+msgid "User Attribute Value"
+msgstr ""
+
+#: frontend-user-admin.php:6529
+msgid "CODE"
+msgstr ""
+
+#: frontend-user-admin.php:6532 frontend-user-admin.php:6590
+#: frontend-user-admin.php:8542 frontend-user-admin.php:8976
+#: frontend-user-admin.php:9830
+msgid "Match Partial"
+msgstr ""
+
+#: frontend-user-admin.php:6533 frontend-user-admin.php:6591
+#: frontend-user-admin.php:8543 frontend-user-admin.php:8977
+#: frontend-user-admin.php:9831
+msgid "Match Full"
+msgstr ""
+
+#: frontend-user-admin.php:6534 frontend-user-admin.php:6592
+msgid "No Match"
+msgstr ""
+
+#: frontend-user-admin.php:6536 frontend-user-admin.php:6594
+#: frontend-user-admin.php:9833
+msgid "and below"
+msgstr ""
+
+#: frontend-user-admin.php:6537 frontend-user-admin.php:6595
+#: frontend-user-admin.php:9834
+msgid "more than"
+msgstr ""
+
+#: frontend-user-admin.php:6538 frontend-user-admin.php:6596
+#: frontend-user-admin.php:9835
+msgid "less than"
+msgstr ""
+
+#: frontend-user-admin.php:6556
+msgid "Conditional conjunction between User Information and Order Information"
+msgstr ""
+
+#: frontend-user-admin.php:6564
+msgid "Order Information"
+msgstr ""
+
+#: frontend-user-admin.php:6578
+msgid "Order Key"
+msgstr ""
+
+#: frontend-user-admin.php:6588
+msgid "Order Value"
+msgstr ""
+
+#: frontend-user-admin.php:6610
+msgid "Term ID (comma-deliminated) (valid only within Redirect URL)"
+msgstr ""
+
+#: frontend-user-admin.php:6613
+msgid "Apply to subpages"
+msgstr ""
+
+#: frontend-user-admin.php:6636
+msgid "[fualist] Shortcode Format"
+msgstr ""
+
+#: frontend-user-admin.php:6648
+msgid "Format"
+msgstr ""
+
+#: frontend-user-admin.php:6653
+msgid "Prefix Text"
+msgstr ""
+
+#: frontend-user-admin.php:6656
+msgid "Main Text"
+msgstr ""
+
+#: frontend-user-admin.php:6659
+msgid "Suffix Text"
+msgstr ""
+
+#: frontend-user-admin.php:6682
+msgid "reCAPTCHA Options"
+msgstr ""
+
+#: frontend-user-admin.php:6688
+msgid "Site Key"
+msgstr ""
+
+#: frontend-user-admin.php:6692
+msgid "Secret Key"
+msgstr ""
+
+#: frontend-user-admin.php:6696
+msgid "Registration"
+msgstr ""
+
+#: frontend-user-admin.php:6697 frontend-user-admin.php:6701
+msgid "Use"
+msgstr ""
+
+#: frontend-user-admin.php:6704
+msgid "Theme"
+msgstr ""
+
+#: frontend-user-admin.php:6711
+msgid "Type"
+msgstr ""
+
+#: frontend-user-admin.php:6718
+msgid "Size"
+msgstr ""
+
+#: frontend-user-admin.php:6735
+msgid "PHP Code in the user registration"
+msgstr ""
+
+#: frontend-user-admin.php:6754
+msgid "PHP Code in the user update"
+msgstr ""
+
+#: frontend-user-admin.php:6773
+msgid "PHP Code in the login"
+msgstr ""
+
+#: frontend-user-admin.php:6794
+msgid "Option Converter"
+msgstr ""
+
+#: frontend-user-admin.php:6796
+msgid ""
+"Are you sure to execute? It is recommended to export options before "
+"execution."
+msgstr ""
+
+#: frontend-user-admin.php:6800
+msgid "Text before conversion"
+msgstr ""
+
+#: frontend-user-admin.php:6802
+msgid "Text after conversion"
+msgstr ""
+
+#: frontend-user-admin.php:6804
+msgid "Convert Options &raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:6814
+msgid "Export Options"
+msgstr ""
+
+#: frontend-user-admin.php:6820
+msgid "Export Options &raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:6830
+msgid "Import Options"
+msgstr ""
+
+#: frontend-user-admin.php:6832
+msgid "Are you sure to import options? Options you set will be overwritten."
+msgstr ""
+
+#: frontend-user-admin.php:6836
+msgid "Import Options &raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:6846
+msgid "Reset Options"
+msgstr ""
+
+#: frontend-user-admin.php:6848 frontend-user-admin.php:6867
+msgid "Are you sure to execute?"
+msgstr ""
+
+#: frontend-user-admin.php:6852
+msgid "Truncate the user log table."
+msgstr ""
+
+#: frontend-user-admin.php:6853
+msgid "Truncate the user mail table."
+msgstr ""
+
+#: frontend-user-admin.php:6854
+msgid "Reset Options."
+msgstr ""
+
+#: frontend-user-admin.php:6855 frontend-user-admin.php:6874
+#: frontend-user-admin.php:10099
+msgid "Execute &raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:6865
+msgid "Delete Options"
+msgstr ""
+
+#: frontend-user-admin.php:6871
+msgid "Drop the user log table."
+msgstr ""
+
+#: frontend-user-admin.php:6872
+msgid "Drop the user mail table."
+msgstr ""
+
+#: frontend-user-admin.php:6873
+msgid "Delete Options."
+msgstr ""
+
+#: frontend-user-admin.php:6911 frontend-user-admin.php:7336
+#: steps/step-confirmation.php:121 steps/step-login.php:66
+#: steps/step-mobile_confirmation.php:98 steps/step-mobile_login.php:66
+#: steps/step-mobile_register.php:150 steps/step-register.php:176
+#: steps/step-sp_confirmation.php:99 steps/step-sp_login.php:66
+#: steps/step-sp_register.php:152 steps/step-widget.php:45
+msgid "Password"
+msgstr ""
+
+#: frontend-user-admin.php:7189 frontend-user-admin.php:7205
+#: frontend-user-admin.php:7622 steps/step-mobile_register.php:73
+#: steps/step-mobile_register.php:85 steps/step-register.php:76
+#: steps/step-register.php:92 steps/step-sp_register.php:74
+#: steps/step-sp_register.php:86
+msgid "Half-width alphamerics"
+msgstr ""
+
+#: frontend-user-admin.php:7278 frontend-user-admin.php:7734
+#: steps/step-mobile_profile.php:130 steps/step-mobile_register.php:139
+#: steps/step-profile.php:154 steps/step-register.php:164
+#: steps/step-sp_profile.php:131 steps/step-sp_register.php:141
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr ""
+
+#: frontend-user-admin.php:7297 frontend-user-admin.php:7754
+msgid "Change the user status"
+msgstr ""
+
+#: frontend-user-admin.php:7299 frontend-user-admin.php:7756
+#: frontend-user-admin.php:9839
+msgid "Active"
+msgstr ""
+
+#: frontend-user-admin.php:7300 frontend-user-admin.php:7757
+#: frontend-user-admin.php:9787 frontend-user-admin.php:9840
+msgid "Pending"
+msgstr ""
+
+#: frontend-user-admin.php:7309 frontend-user-admin.php:7766
+msgid "This is for the setting when the user log start."
+msgstr ""
+
+#: frontend-user-admin.php:7311 frontend-user-admin.php:7768
+msgid "Do log"
+msgstr ""
+
+#: frontend-user-admin.php:7312 frontend-user-admin.php:7769
+msgid "Do not log"
+msgstr ""
+
+#: frontend-user-admin.php:7320 frontend-user-admin.php:7777
+msgid "Duplicate Login"
+msgstr ""
+
+#: frontend-user-admin.php:7321 frontend-user-admin.php:7778
+msgid ""
+"This is for the setting only applied when the duplicate login is disabled."
+msgstr ""
+
+#: frontend-user-admin.php:7323 frontend-user-admin.php:7780
+msgid "Apply duplicate login invalidity"
+msgstr ""
+
+#: frontend-user-admin.php:7324 frontend-user-admin.php:7781
+msgid "Enable duplicate login"
+msgstr ""
+
+#: frontend-user-admin.php:7338 frontend-user-admin.php:7795
+#: steps/step-mobile_profile.php:143 steps/step-mobile_register.php:151
+#: steps/step-profile.php:169 steps/step-register.php:178
+#: steps/step-sp_profile.php:144 steps/step-sp_register.php:153
+msgid "Type your new password again."
+msgstr ""
+
+#: frontend-user-admin.php:7344
+msgid "Password Strength:"
+msgstr ""
+
+#: frontend-user-admin.php:7347 frontend-user-admin.php:7801
+#: steps/step-mobile_profile.php:147 steps/step-mobile_register.php:157
+#: steps/step-profile.php:175 steps/step-register.php:186
+#: steps/step-sp_profile.php:148 steps/step-sp_register.php:159
+msgid ""
+"Hint: Use upper and lower case characters, numbers and symbols like !\"?$"
+"%^&amp;( in your password."
+msgstr ""
+
+#: frontend-user-admin.php:7380 frontend-user-admin.php:7834
+msgid "Clear"
+msgstr ""
+
+#: frontend-user-admin.php:7551
+#, php-format
+msgid "I agree to the <a href=\"%s\" target=\"_blank\">terms of use</a>."
+msgstr ""
+
+#: frontend-user-admin.php:7553 steps/step-mobile_register.php:356
+#: steps/step-register.php:389 steps/step-sp_register.php:358
+msgid "I agree to the terms of use."
+msgstr ""
+
+#: frontend-user-admin.php:7558 frontend-user-admin.php:8013
+#: frontend-user-admin.php:9676
+msgid "Send email to the new user?"
+msgstr ""
+
+#: frontend-user-admin.php:7563 steps/step-confirmation.php:237
+#: steps/step-mobile_confirmation.php:210 steps/step-mobile_register.php:369
+#: steps/step-register.php:404 steps/step-sp_confirmation.php:211
+#: steps/step-sp_register.php:372
+msgid "Register &raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:7637 steps/step-mobile_profile.php:50
+#: steps/step-profile.php:53 steps/step-sp_profile.php:51
+msgid "Your username cannot be changed"
+msgstr ""
+
+#: frontend-user-admin.php:7794 steps/step-mobile_profile.php:142
+#: steps/step-profile.php:168 steps/step-sp_profile.php:143
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr ""
+
+#: frontend-user-admin.php:7799 steps/step-mobile_profile.php:145
+#: steps/step-mobile_register.php:155 steps/step-profile.php:173
+#: steps/step-register.php:184 steps/step-sp_profile.php:146
+#: steps/step-sp_register.php:157
+msgid "Password Strength"
+msgstr ""
+
+#: frontend-user-admin.php:7987 steps/step-mobile_profile.php:313
+#: steps/step-profile.php:356 steps/step-sp_profile.php:326
+msgid "Public"
+msgstr ""
+
+#: frontend-user-admin.php:7988 steps/step-mobile_profile.php:314
+#: steps/step-profile.php:357 steps/step-sp_profile.php:327
+msgid "Private"
+msgstr ""
+
+#: frontend-user-admin.php:8040
+msgid "&laquo; Back"
+msgstr ""
+
+#: frontend-user-admin.php:8040 frontend-user-admin.php:8072
+msgid "Update User &raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:8057
+msgid "Instant Editor"
+msgstr ""
+
+#: frontend-user-admin.php:8062 frontend-user-admin.php:8064
+msgid "Load"
+msgstr ""
+
+#: frontend-user-admin.php:8062
+msgid "Value"
+msgstr ""
+
+#: frontend-user-admin.php:8062
+msgid "Array"
+msgstr ""
+
+#: frontend-user-admin.php:8070
+msgid "Add"
+msgstr ""
+
+#: frontend-user-admin.php:8086
+msgid "Delete User"
+msgstr ""
+
+#: frontend-user-admin.php:8095
+msgid "Delete User (soft) &raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:8105
+msgid "Delete User &raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:8162 frontend-user-admin.php:8372
+#: frontend-user-admin.php:8441 frontend-user-admin.php:9225
+msgid "User ID"
+msgstr ""
+
+#: frontend-user-admin.php:8164 frontend-user-admin.php:8381
+#: frontend-user-admin.php:8449 frontend-user-admin.php:8560
+msgid "TO"
+msgstr ""
+
+#: frontend-user-admin.php:8165 frontend-user-admin.php:8385
+#: frontend-user-admin.php:8453
+msgid "CC"
+msgstr ""
+
+#: frontend-user-admin.php:8166 frontend-user-admin.php:8389
+#: frontend-user-admin.php:8457
+msgid "BCC"
+msgstr ""
+
+#: frontend-user-admin.php:8170
+msgid "Mailed Datetime"
+msgstr ""
+
+#: frontend-user-admin.php:8260
+msgid "<strong>ERROR</strong>: Failed to delete the mail."
+msgstr ""
+
+#: frontend-user-admin.php:8393 frontend-user-admin.php:8461
+msgid "Mail Template Name"
+msgstr ""
+
+#: frontend-user-admin.php:8406
+msgid "Load &raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:8418
+msgid "Send &raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:8432
+msgid "Read Mail"
+msgstr ""
+
+#: frontend-user-admin.php:8491 frontend-user-admin.php:8880
+#: frontend-user-admin.php:9161 frontend-user-admin.php:9767
+msgid "&laquo;"
+msgstr ""
+
+#: frontend-user-admin.php:8492 frontend-user-admin.php:8881
+#: frontend-user-admin.php:9162 frontend-user-admin.php:9768
+msgid "&raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:8498 frontend-user-admin.php:8597
+#: frontend-user-admin.php:8887 frontend-user-admin.php:9026
+#: frontend-user-admin.php:9169 frontend-user-admin.php:9369
+#: frontend-user-admin.php:9774 frontend-user-admin.php:10036
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr ""
+
+#: frontend-user-admin.php:8507
+msgid "Search"
+msgstr ""
+
+#: frontend-user-admin.php:8545 frontend-user-admin.php:8979
+#: frontend-user-admin.php:9239 frontend-user-admin.php:9842
+msgid "Change and Display &raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:8562
+msgid "Subject"
+msgstr ""
+
+#: frontend-user-admin.php:8564 frontend-user-admin.php:8579
+#: frontend-user-admin.php:9285 frontend-user-admin.php:9344
+#: frontend-user-admin.php:9348
+msgid "Detail"
+msgstr ""
+
+#: frontend-user-admin.php:8586 frontend-user-admin.php:9016
+#: frontend-user-admin.php:9358 frontend-user-admin.php:10025
+msgid "Not Found"
+msgstr ""
+
+#: frontend-user-admin.php:8897 frontend-user-admin.php:9179
+msgid "From Date:"
+msgstr ""
+
+#: frontend-user-admin.php:8918 frontend-user-admin.php:9200
+msgid "-"
+msgstr ""
+
+#: frontend-user-admin.php:8920 frontend-user-admin.php:9202
+msgid "To Date:"
+msgstr ""
+
+#: frontend-user-admin.php:8941 frontend-user-admin.php:9793
+msgid "Search Keywords"
+msgstr ""
+
+#: frontend-user-admin.php:8995
+msgid "log"
+msgstr ""
+
+#: frontend-user-admin.php:9038
+msgid "Export User Log Data"
+msgstr ""
+
+#: frontend-user-admin.php:9041
+msgid "The user log data will be exported on the current condition."
+msgstr ""
+
+#: frontend-user-admin.php:9042 frontend-user-admin.php:9385
+#: frontend-user-admin.php:9670 frontend-user-admin.php:10077
+msgid "Encode"
+msgstr ""
+
+#: frontend-user-admin.php:9047 frontend-user-admin.php:9390
+#: frontend-user-admin.php:10082
+msgid "Include the item name"
+msgstr ""
+
+#: frontend-user-admin.php:9048 frontend-user-admin.php:9391
+#: frontend-user-admin.php:10084
+msgid "Export &raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:9223
+msgid "Summary Condition:"
+msgstr ""
+
+#: frontend-user-admin.php:9381
+msgid "Export User Log Summary Data"
+msgstr ""
+
+#: frontend-user-admin.php:9384
+msgid "The user log summary data will be exported on the current condition."
+msgstr ""
+
+#: frontend-user-admin.php:9496
+#, php-format
+msgid "ERROR: Minimum number of letters of Password is %s."
+msgstr ""
+
+#: frontend-user-admin.php:9498
+#, php-format
+msgid "ERROR: Maximum number of letters of Password is %s."
+msgstr ""
+
+#: frontend-user-admin.php:9513
+#, php-format
+msgid "ERROR: ID %d does not exist."
+msgstr ""
+
+#: frontend-user-admin.php:9562
+#, php-format
+msgid "%d users were registered."
+msgstr ""
+
+#: frontend-user-admin.php:9575
+msgid ""
+"You need to specify the user login and user password definitely in the user "
+"registration."
+msgstr ""
+
+#: frontend-user-admin.php:9612
+#, php-format
+msgid "%d users will be imported."
+msgstr ""
+
+#: frontend-user-admin.php:9614
+msgid "Import &raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:9636 frontend-user-admin.php:9642
+msgid "There is no user to import."
+msgstr ""
+
+#: frontend-user-admin.php:9648
+msgid "Please upload the csv file of user list."
+msgstr ""
+
+#: frontend-user-admin.php:9651
+msgid "Treat the first line as the item names."
+msgstr ""
+
+#: frontend-user-admin.php:9652
+msgid ""
+"Please specify the user attribute of columns. You need to specify the user "
+"login and user password definitely in user registration. If you specify ID, "
+"user data will be updated."
+msgstr ""
+
+#: frontend-user-admin.php:9675
+msgid "Omit the first line."
+msgstr ""
+
+#: frontend-user-admin.php:9677
+msgid "Upload &raquo;"
+msgstr ""
+
+#: frontend-user-admin.php:9697
+msgid "Status Changed."
+msgstr ""
+
+#: frontend-user-admin.php:9701
+msgid "Bulk User Update Code Executed."
+msgstr ""
+
+#: frontend-user-admin.php:9784
+msgid "Bulk Actions"
+msgstr ""
+
+#: frontend-user-admin.php:9786
+msgid "Approval"
+msgstr ""
+
+#: frontend-user-admin.php:9791
+msgid "Apply"
+msgstr ""
+
+#: frontend-user-admin.php:9843
+msgid "Display Options"
+msgstr ""
+
+#: frontend-user-admin.php:9903 frontend-user-admin.php:9991
+msgid "Address"
+msgstr ""
+
+#: frontend-user-admin.php:9909 frontend-user-admin.php:9996
+msgid "Order"
+msgstr ""
+
+#: frontend-user-admin.php:9916 frontend-user-admin.php:10002
+msgid "Mail"
+msgstr ""
+
+#: frontend-user-admin.php:9926 frontend-user-admin.php:10011
+msgid "Edit"
+msgstr ""
+
+#: frontend-user-admin.php:9962
+msgid "None"
+msgstr ""
+
+#: frontend-user-admin.php:9964
+msgid "E-mail Confirmation"
+msgstr ""
+
+#: frontend-user-admin.php:9965
+msgid "Approval Wait"
+msgstr ""
+
+#: frontend-user-admin.php:9968
+msgid "Valid"
+msgstr ""
+
+#: frontend-user-admin.php:10015
+msgid "Are you sure to log in as this user? Current user will be logged out."
+msgstr ""
+
+#: frontend-user-admin.php:10052
+msgid "Export User Data"
+msgstr ""
+
+#: frontend-user-admin.php:10055
+msgid "The user attribute list will be exported on the current condition."
+msgstr ""
+
+#: frontend-user-admin.php:10056
+msgid "Please specify the user attribute of columns you would like to output."
+msgstr ""
+
+#: frontend-user-admin.php:10083
+msgid "Output the item name with the field name"
+msgstr ""
+
+#: frontend-user-admin.php:10097
+msgid "The following code will be executed on the current condition."
+msgstr ""
+
+#: frontend-user-admin.php:10470 frontend-user-admin.php:10472
+msgid "Logged In"
+msgstr ""
+
+#: frontend-user-admin.php:10514
+msgid "Pre-text"
+msgstr ""
+
+#: frontend-user-admin.php:10515
+msgid "Post-text"
+msgstr ""
+
+#: steps/step-confirmation.php:235 steps/step-mobile_confirmation.php:208
+#: steps/step-mobile_register.php:364 steps/step-register.php:399
+#: steps/step-sp_confirmation.php:209 steps/step-sp_register.php:367
+msgid "A password will be e-mailed to you."
+msgstr ""
+
+#: steps/step-confirmation.php:237 steps/step-mobile_confirmation.php:210
+#: steps/step-sp_confirmation.php:211
+msgid "Back"
+msgstr ""
+
+#: steps/step-confirmation.php:252 steps/step-login.php:96
+#: steps/step-login.php:103 steps/step-mobile_confirmation.php:232
+#: steps/step-mobile_login.php:96 steps/step-mobile_login.php:103
+#: steps/step-mobile_register.php:37 steps/step-mobile_register.php:388
+#: steps/step-register.php:37 steps/step-register.php:421
+#: steps/step-sp_confirmation.php:226 steps/step-sp_login.php:96
+#: steps/step-sp_login.php:103 steps/step-sp_register.php:37
+#: steps/step-sp_register.php:389 steps/step-widget.php:87
+msgid "Lost your password?"
+msgstr ""
+
+#: steps/step-login.php:12 steps/step-mobile_login.php:12
+#: steps/step-sp_login.php:12
+msgid ""
+"<strong>ERROR</strong>: Cookies are blocked or not supported by your "
+"browser. You must <a href='http://www.google.com/cookies.html'>enable "
+"cookies</a> to use WordPress."
+msgstr ""
+
+#: steps/step-login.php:72 steps/step-mobile_login.php:72
+#: steps/step-sp_login.php:72 steps/step-widget.php:50
+msgid "Remember Me"
+msgstr ""
+
+#: steps/step-login.php:76 steps/step-mobile_login.php:76
+#: steps/step-sp_login.php:76 steps/step-widget.php:53
+msgid "Log In &raquo;"
+msgstr ""
+
+#: steps/step-lostpassword.php:23 steps/step-mobile_lostpassword.php:23
+#: steps/step-sp_lostpassword.php:23
+msgid "Username or E-mail"
+msgstr ""
+
+#: steps/step-lostpassword.php:176 steps/step-mobile_lostpassword.php:176
+#: steps/step-sp_lostpassword.php:176
+msgid "Get New Password &raquo;"
+msgstr ""
+
+#: steps/step-mobile_profile.php:98 steps/step-profile.php:112
+#: steps/step-sp_profile.php:99
+msgid "If you change the email, you will be automatically logged off."
+msgstr ""
+
+#: steps/step-mobile_profile.php:340 steps/step-profile.php:387
+#: steps/step-sp_profile.php:354
+msgid "Update Profile &raquo;"
+msgstr ""
+
+#: steps/step-mobile_register.php:17 steps/step-register.php:17
+#: steps/step-sp_register.php:17
+msgid ""
+"<strong>ERROR</strong>: The email address isn&#8217;t correct or already "
+"registered."
+msgstr ""
+
+#: steps/step-mobile_register.php:30 steps/step-register.php:30
+#: steps/step-sp_register.php:30
+msgid "Send Confirmation Email &raquo;"
+msgstr ""
+
+#: steps/step-mobile_register.php:328 steps/step-register.php:360
+#: steps/step-sp_register.php:330
+msgid "Upload a file in the next page."
+msgstr ""
+
+#: steps/step-mobile_register.php:354 steps/step-register.php:387
+#: steps/step-sp_register.php:356
+#, php-format
+msgid "I agree to the <a href=\"%s\" target=\"_blank\">%s</a>."
+msgstr ""
+
+#: steps/step-mobile_register.php:367 steps/step-register.php:402
+#: steps/step-sp_register.php:370
+msgid "Confirm &raquo;"
+msgstr ""
+
+#: steps/step-mobile_withdrawal.php:10 steps/step-sp_withdrawal.php:10
+#: steps/step-withdrawal.php:10
+msgid "Delete my account &raquo;"
+msgstr ""
+
+#: steps/step-withdrawal.php:8
+msgid "Are you sure to resign from the site? All your data will be deleted."
+msgstr ""
+
+#~ msgid "Too short"
+#~ msgstr "短すぎます"
+
+#~ msgid "Reverse first name and last name"
+#~ msgstr "性と名の逆転"
+
+#~ msgid "Reverse the edit order of first name and last name."
+#~ msgstr "性と名の編集順序を逆転させる（日本式にする）"
