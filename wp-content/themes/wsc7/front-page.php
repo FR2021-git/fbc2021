@@ -1,41 +1,47 @@
 <?php /* WordPress CMS Theme WSC Project. */ get_header(); ?>
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+<div id="content" class="container-fluid">
+  <div id="wrap">
     <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-        <div class="row">
-            <!----------------------------------左カラム------------------------------->
-            <section class="d-none d-sm-block col-md-3">
+      <div id="main" class="row" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+  
+          <!----------------------------右サイドバー---------------------------->
+          <section section id="cat_menu" class="col-md-3 d-none d-sm-block">
                 <!----------------------------------プロフィール------------------------------->
                 <article id="profile" class="shadow list_pic">
                     <a href="<?php echo home_url('/'); ?>/profil">
                         <div class="flex">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/profil.jpg" />
-                            <h1><?php bloginfo('name'); wp_title(); ?> GmbH</h1>
+                            <h1><?php bloginfo('name'); ?></h1>
                         </div>
-                        <p><?php bloginfo('description'); ?><br>4誌の週刊ニューズレターを発行、市場調査や貿易業務も行います。</p>
+                        <p><?php bloginfo('description'); ?></p>
                         <p class="more">会社概要を見る</p>
                     </a>
                 </article>
                 <script type='text/javascript' src='https://darksky.net/widget/default/50.1109221,8.6821267/uk12/en.js?width=100%&height=350&title=Frankfurt&textColor=002678&bgColor=f7f7f7&transparency=false&skyColor=002678&fontFamily=Default&customFont=&units=uk&htColor=002678&ltColor=002678&displaySum=yes&displayHeader=yes'></script>
-            </section>
-            <!------------------------------メインカラム------------------------------>
-            <section class="col-md-6 col">
+          </section>
+          
+          <!------------------------------メインカラム------------------------------>
+          <section class="col-md-6 col">
                 <!-------------------------------------速報----------------------------------->
                 <article id="prompt_news" class="list_news">
-                    <h2>速報記事</h2>
+                    <h2>速報ニュース</h2>
                     <?php $args = array(
                         'orderby'            => 'post_date',
                         'order'                => 'DESC',
                         'post_type'            => 'post',
                         'post_status'        => 'publish', 
-                        'posts_per_page'    => '10'
+                        'posts_per_page'    => '6'
                     );
                     $postlist = get_posts($args); ?>
                     <ul class="list_length shadow curve">
                         <?php foreach ($postlist as $post) : setup_postdata($post); ?>
+                        <?php $cats = get_the_category(); $cat = $cats[0]->slug; $catn = $cats[0]->name; $catnn =  mb_substr($catn, 0, mb_strlen($catn)- 2); ?>
                         <li>
                             <a href="<?php the_permalink(); ?>">
                                 <b><?php the_title(); ?></b>
-                                <div class="meta"><?php the_time('n/j'); ?></div>
+                                <div class="meta"><?php the_time('n/j'); ?>｜<?php echo $catnn; ?></div>
+                                
                             </a>
                         </li>
                         <?php endforeach; ?>
@@ -134,12 +140,17 @@
                         <a class="more" href="<?php echo home_url('/'); ?>archive-column">他のコラムも読む</a>
                     </ul>
                 </article>
-            </section>
-            <!----------------------------グローバルサイドメニュー---------------------------->
-            <?php wp_nav_menu(array('container_id' => 'globalSideMenu', 'theme_location' => 'globalMenu', 'depth' => 2, 'container_class' => 'col-md-3 d-none d-sm-block', 'menu_class' => 'shadow')); ?>
-        </div>
-    </div>
-<?php endwhile; ?>
-<?php endif; ?>
-<div id="toTop"><a href="#header">▲このページのトップへ</a></div>
+          </section>
+          <!----------------------------右サイドバー---------------------------->
+          <section class="col-md-3 d-none d-sm-block">
+                <!----------------------------------メニュー------------------------------->
+                <?php wp_nav_menu(array('container_id' => 'globalSideMenu', 'theme_location' => 'globalMenu', 'depth' => 2, 'menu_class' => 'shadow')); ?>
+          </section>
+        <?php endwhile; ?>
+        <?php endif; ?>
+      </div><!-- /main -->
+    </div><!-- /postid -->
+  </div><!-- /wrap -->
+</div><!-- /content -->
+
 <?php get_footer(); ?>

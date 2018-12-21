@@ -1,19 +1,43 @@
-<?php /* WordPress CMS Theme WSC Project.*/ ?>
+<?php
+/**
+ * WordPress CMS Theme WSC Project.
+ */
+?>
 <!DOCTYPE html>
-<html <?php language_attributes($doctype); ?>>
+<html lang="ja">
 
 <head>
-<meta charset="<?php bloginfo('charset'); ?>">
-<meta name="description" content= <?php bloginfo('description'); ?>>
-<meta name="keywords" content="欧州経済, ニューズレター, 市場調査, サンプル入手サービス, ロングリストショートリスト">
-<meta name="author" content="I/FBC GmbH" />
+<meta charset="UTF-8">
+<title><?php bloginfo('name'); ?></title>
+<?php wp_head(); ?>
+<meta name="author" content="Ishiguro/FBC GmbH" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
 <link rel="SHORTCUT ICON" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-<title><?php bloginfo('name'); wp_title(); ?></title>
+<link rel="alternate" href="<?php echo home_url(); ?>" hreflang="ja" />
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css">
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.org/article"
+  },
+  "publisher": {
+     "name": "FBC GmbH",
+     "@type": "Organization",
+     "logo": {
+        "@type": "ImageObject",
+        "url": "https://fbc.de/wp-content/themes/wsc7/img/logo.png"
+     }
+  }
+}
+</script>
 
 <!-- 最新号日付取得 -->
 <?php $args = array('post_type' => 'sc','posts_per_page' => 1); $postlist = get_posts($args); ?>
@@ -41,12 +65,15 @@ $accounttype1 = $current_user->account_type[1];
 $accounttype2 = $current_user->account_type[2];
 $accounttype3 = $current_user->account_type[3]; ?>
 
+
+
 </head>
 
 <body <?php body_class(); ?>>
 
-<header>
-    <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color:#fff;">
+<header role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+
+<nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color:#fff;">
         <a id="site-title" class="navbar-brand col-6 col-md-2" href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"  alt="<?php bloginfo('name'); ?>" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsGlobal" aria-controls="navbarsGlobal" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -106,5 +133,4 @@ $accounttype3 = $current_user->account_type[3]; ?>
             </div>
         </div>
     </nav>
-</header>   
-<main role="main" class="container-fluid">
+</header>

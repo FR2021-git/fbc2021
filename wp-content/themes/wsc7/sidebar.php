@@ -1,5 +1,4 @@
 <?php /* WordPress CMS Theme WSC Project. */ ?>
-<!------------------------------グローバルサイドメニュー------------------------------>
-<div id="home_right">
-	<nav class="shadow"><?php wp_nav_menu( array( 'container_id' => 'global_side_menu', 'theme_location' => 'globalMenu', 'depth' => 2 ) ); ?></nav>
-</div>
+<div id="side" class="col-md-3 d-none d-sm-block" role="complementary" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+<?php wp_nav_menu(array('container_id' => 'globalSideMenu', 'theme_location' => 'globalMenu', 'depth' => 2, 'container_class' => '', 'menu_class' => 'shadow')); ?>
+</div> 
